@@ -109,9 +109,9 @@ const Navbar = () => {
                 {item.label}
               </Link>
             ))}
-            <Link to="/contact" className="block pt-4">
+            <Link to="/buy-property" className="block pt-4">
               <button className="w-full text-black py-2 px-8 rounded-full bg-[#F2762E] hover:bg-opacity-90 transition-all duration-300 text-base font-medium">
-                Contact Us
+                Buy Property
               </button>
             </Link>
           </div>
