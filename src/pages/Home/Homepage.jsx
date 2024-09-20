@@ -3,7 +3,7 @@ import React from 'react'
 const Homepage = () => {
   return (
     <main>
-      Home
+      <h1 className="font-bebas">This heading will use Bebas Neue</h1>
     </main>
   )
 }
