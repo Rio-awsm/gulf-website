@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import Hero from './Hero'
+import AboutUsSection from './AboutUsSection'
 
 const Homepage = () => {
   return (
@@ -10,6 +11,10 @@ const Homepage = () => {
      
      <section>
       <Hero />
+     </section>
+
+     <section>
+      <AboutUsSection />
      </section>
     
     </main>
