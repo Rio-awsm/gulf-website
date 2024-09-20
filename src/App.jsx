@@ -20,19 +20,14 @@ function App() {
   };
   return (
     <>
-      <Navbar />
-      <>
-        <BrowserRouter>
-          <Wrapper>
-            <Routes>
-              <Route path="/" element={<Homepage />} />
-              <Route path="/about" element={<AboutPage />}/>
-            </Routes>
-          </Wrapper>
-        </BrowserRouter>
-      </>
-
-      <Footer />
+      <BrowserRouter>
+        <Wrapper>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/about" element={<AboutPage />} />
+          </Routes>
+        </Wrapper>
+      </BrowserRouter>
     </>
   );
 }

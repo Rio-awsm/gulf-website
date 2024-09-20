@@ -1,9 +1,17 @@
 import React from 'react'
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import Hero from './Hero'
 
 const Homepage = () => {
   return (
-    <main>
-      <h1 className="font-bebas">This heading will use Bebas Neue</h1>
+    <main className=''>
+    <Navbar/>
+     
+     <section>
+      <Hero />
+     </section>
+    
     </main>
   )
 }
