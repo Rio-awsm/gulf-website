@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Brandcard = ({ img, heading, subheading1, subheading2, link }) => {
+const BrandCard = ({ img, heading, subheading1, subheading2, link }) => {
   return (
     <Link to={link} className="block overflow-hidden group">
       <div className="relative">
@@ -31,4 +31,4 @@ const Brandcard = ({ img, heading, subheading1, subheading2, link }) => {
   );
 };
 
-export default Brandcard;
+export default BrandCard;
