@@ -8,11 +8,12 @@ import Looking from './Looking'
 import LookFooter from './LookFooter'
 import ContactUsIntegration from "../Home/ContactUsIntegration"
 import SetApart from './SetApart'
+import Logo from "/assets/logo.svg";
 
 const Homepage = () => {
   return (
     <main className=''>
-    <Navbar/>
+    <Navbar textcolor={"white"} justify={"left"} scrollbg={"black"} logo={Logo}/>
      
      <section>
       <Hero />

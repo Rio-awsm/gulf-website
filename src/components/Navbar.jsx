@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Logo from "/assets/logo.svg";
 import { FaBars } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({textcolor,font,justify,scrollbg,logo}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
@@ -29,22 +28,22 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black' : 'bg-transparent'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? `bg-${scrollbg}` : 'bg-transparent'}`}>
       <div className="max-w-8xl mx-auto px-4 pt-1 lg:px-20">
         <div className="flex items-center lg:space-x-36 justify-between lg:justify-normal h-20">
           <Link to="/" className="flex-shrink-0">
-            <img className="h-30 w-30 transition-all duration-300" src={Logo} alt="Logo" />
+            <img className="h-30 w-30 transition-all duration-300" src={logo} alt="Logo" />
           </Link>
 
-          <div className="hidden lg:flex items-center justify-left flex-1 space-x-6">
+          <div className={`hidden lg:flex items-center justify-${justify} flex-1 space-x-6`}>
             {navItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`font-medium transition-all duration-300 px-2 py-2 rounded-md ${
+                className={`font-${font} transition-all duration-300 px-2 py-2 rounded-md ${
                   location.pathname === item.path
                     ? 'text-[#F2762E] bg-opacity-20 bg-[#F2762E]'
-                    : 'text-white hover:text-[#F2762E]'
+                    : `text-${textcolor} hover:text-[#F2762E]`
                 }`}
               >
                 {item.label} 
