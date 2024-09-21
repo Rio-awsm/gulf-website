@@ -6,6 +6,7 @@ import AboutUsSection from './AboutUsSection'
 import aboutsection2 from "/assets/aboutsection2.webp"
 import Looking from './Looking'
 import LookFooter from './LookFooter'
+import ContactUsIntegration from "../Home/ContactUsIntegration"
 
 const Homepage = () => {
   return (
@@ -31,6 +32,10 @@ const Homepage = () => {
      
      <section>
       <LookFooter/>
+     </section>
+     
+     <section>
+      <ContactUsIntegration/>
      </section>
     
     </main>
