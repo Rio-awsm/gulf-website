@@ -92,7 +92,7 @@ const PropertySearchBar = () => {
           <input
             type="text"
             placeholder="Keywords"
-            className="lg:w-full w-[440px] p-3 m-2 rounded border"
+            className="lg:w-full p-3 m-2 rounded border"
             value={keywords}
             onChange={(e) => {
               setKeywords(e.target.value);
