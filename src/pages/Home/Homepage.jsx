@@ -7,6 +7,7 @@ import aboutsection2 from "/assets/aboutsection2.webp"
 import Looking from './Looking'
 import LookFooter from './LookFooter'
 import ContactUsIntegration from "../Home/ContactUsIntegration"
+import SetApart from './SetApart'
 
 const Homepage = () => {
   return (
@@ -29,13 +30,20 @@ const Homepage = () => {
       <Looking/>
      </section>
 
-     
      <section>
       <LookFooter/>
      </section>
-     
+
+     <section className='lg:pt-[25%] pt-[50%]'>
+      <SetApart />
+     </section> 
+
      <section>
       <ContactUsIntegration/>
+     </section>
+
+     <section>
+      <Footer />
      </section>
     
     </main>
