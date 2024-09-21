@@ -3,7 +3,7 @@ import bg from '/assets/bg.png';
 
 function LookFooter() {
   return (
-    <section className="relative flex flex-col lg:flex-row items-start justify-end py-10 px-5 mt-14 lg:px-20">
+    <section className="relative flex flex-col lg:flex-row items-start justify-end py-20 lg:py-10 px-5 mt-14 lg:px-20">
       <div className="relative w-full lg:w-[45%] lg:pl-10 text-right mt-8 lg:mt-0 z-10 flex flex-col items-center">
         <h1 className="text-5xl lg:text-7xl font-bebas tracking-wide text-[#024959] text-center">
           LOREM IPSUM DOLOR SIT
