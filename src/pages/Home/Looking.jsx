@@ -4,8 +4,8 @@ import looking from '/assets/looking.svg';
 
 function Looking() {
   return (
-    <section className='m-4'>
-      <div className='flex flex-col  lg:items-start lg:ml-[12%] '>
+    <section className='m-4 flex justify-center items-center'>
+      <div className='flex flex-col  lg:items-start justify-center items-center '>
         <h1 className='uppercase text-[#024959] lg:text-6xl text-6xl font-bebas'>
           i’m looking to ...
         </h1>
