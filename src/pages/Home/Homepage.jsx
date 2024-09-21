@@ -5,6 +5,7 @@ import Hero from './Hero'
 import AboutUsSection from './AboutUsSection'
 import aboutsection2 from "/assets/aboutsection2.webp"
 import Looking from './Looking'
+import LookFooter from './LookFooter'
 
 const Homepage = () => {
   return (
@@ -25,6 +26,11 @@ const Homepage = () => {
 
      <section>
       <Looking/>
+     </section>
+
+     
+     <section>
+      <LookFooter/>
      </section>
     
     </main>
