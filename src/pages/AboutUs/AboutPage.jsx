@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Logo from "/assets/LogoBlack.svg";
 import AboutHero from "./AboutHero";
+import Leadership from "./Leadership";
 
 const AboutPage = () => {
   return (
@@ -15,8 +16,12 @@ const AboutPage = () => {
         logo={Logo}
       />
 
-      <section className="py-20">
+      <section className="">
         <AboutHero />
+      </section>
+
+      <section className="py-20">
+        <Leadership />
       </section>
 
       <section>
