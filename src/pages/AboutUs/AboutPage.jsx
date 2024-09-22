@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import Logo from "/assets/LogoBlack.svg";
 import AboutHero from "./AboutHero";
 import Leadership from "./Leadership";
+import FaqSection from "./FaqSection";
 
 const AboutPage = () => {
   return (
@@ -16,12 +17,16 @@ const AboutPage = () => {
         logo={Logo}
       />
 
-      <section className="">
+      <section className="mt-14">
         <AboutHero />
       </section>
 
       <section className="py-20">
         <Leadership />
+      </section>
+
+      <section className="mb-10">
+        <FaqSection />
       </section>
 
       <section>
