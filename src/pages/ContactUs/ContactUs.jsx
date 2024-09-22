@@ -4,6 +4,7 @@ import Logo from "/assets/LogoBlack.svg";
 import Footer from '../../components/Footer';
 import ContactHero from './ContactForm';
 import ContactForm from './ContactForm';
+import ContactFooter from './ContactFooter';
 
 function ContactUs() {
   return (
@@ -18,8 +19,12 @@ function ContactUs() {
       />
         </section>
 
-        <section className='py-20'>
+        <section className='pt-20'>
             <ContactForm/>
+        </section>
+
+        <section>
+            <ContactFooter/>
         </section>
 
         <section>

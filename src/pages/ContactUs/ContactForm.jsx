@@ -3,8 +3,8 @@ import form from "/assets/form.webp";
 
 function ContactForm() {
   return (
-    <div className="flex flex-col lg:flex-row h-auto lg:h-screen px-6 lg:px-32 py-12">
-      {/* Image Section */}
+    <div className="flex flex-col lg:flex-row h-auto lg:h-screen px-6 lg:px-32 pt-12">
+
       <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
         <img 
           src={form} 
@@ -13,7 +13,6 @@ function ContactForm() {
         />
       </div>
 
-      {/* Form Section */}
       <div className="w-full lg:w-1/2 flex flex-col justify-center px-4 lg:px-10 space-y-6">
         <h1 className="text-5xl lg:text-9xl font-bebas text-[#024959]">GET IN TOUCH WITH US</h1>
         <form className="flex flex-col space-y-4">

@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "/assets/team.webp"; // replace with your image path
+import pic from "/assets/team.webp"; 
 
 const Leadership = () => {
   const teamMembers = [
