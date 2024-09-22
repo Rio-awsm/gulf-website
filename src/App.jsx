@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Homepage from "./pages/Home/Homepage";
 import AboutPage from "./pages/AboutUs/AboutPage";
+import ContactUs from "./pages/ContactUs/ContactUs";
 function App() {
   const Wrapper = ({ children }) => {
     const location = useLocation();
@@ -25,6 +26,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactUs />} />
           </Routes>
         </Wrapper>
       </BrowserRouter>
