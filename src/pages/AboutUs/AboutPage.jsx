@@ -5,6 +5,7 @@ import Logo from "/assets/LogoBlack.svg";
 import AboutHero from "./AboutHero";
 import Leadership from "./Leadership";
 import FaqSection from "./FaqSection";
+import AboutSection from "./AboutSection";
 
 const AboutPage = () => {
   return (
@@ -19,6 +20,10 @@ const AboutPage = () => {
 
       <section className="mt-14">
         <AboutHero />
+      </section>
+
+      <section>
+        <AboutSection/>
       </section>
 
       <section className="py-20">

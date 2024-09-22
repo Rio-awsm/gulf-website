@@ -16,7 +16,7 @@ const Leadership = () => {
 
   return (
     <div className="lg:px-40 px-8">
-      <div className=" font-bebas mb-8">
+      <div className=" font-bebas lg:mb-8 ">
         <h2 className="lg:text-8xl text-6xl tracking-wider text-[#024959] lg:ml-[10%]">LEADERSHIP</h2>
         <p className="lg:text-6xl text-4xl tracking-wider text-[#F2762E] mt-2 ml-[30%] lg:ml-[25%]">MEET OUR TEAM</p>
       </div>
