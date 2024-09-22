@@ -17,11 +17,11 @@ function ContactFooter() {
 
    
     <div className="relative z-10 p-8 md:p-16 lg:p-24 text-gray-800">
-      <h1 className="lg:text-6xl text-4xl font-semibold text-blue-900 mb-6">CONTACT US</h1>
+      <h1 className="lg:text-6xl text-4xl font-semibold text-[#024959] mb-6">CONTACT US</h1>
 
    
       <div className="mb-4">
-        <h2 className="text-3xl font-bebas text-orange-500 mb-2">ADDRESS</h2>
+        <h2 className="text-3xl font-bebas text-[#F2762E] mb-2">ADDRESS</h2>
         <p className="text-sm">
           602, Al Habtoor Business Tower, Dubai Marina, P.O. Box 74461, Dubai, United Arab Emirates
         </p>
@@ -29,7 +29,7 @@ function ContactFooter() {
 
 
       <div className="mb-4">
-        <h2 className="text-3xl font-bebas  text-orange-500 mb-2">WORKING HOURS</h2>
+        <h2 className="text-3xl font-bebas  text-[#F2762E] mb-2">WORKING HOURS</h2>
         <p className="text-sm">
           Monday - Saturday (09:00 AM - 06:00 PM GST)
         </p>
@@ -37,7 +37,7 @@ function ContactFooter() {
 <div className='flex items-center gap-16'>
     
       <div className="mt-3">
-        <h2 className="text-3xl font-bebas text-orange-500 mb-2 ">INFORMATION</h2>
+        <h2 className="text-3xl font-bebas text-[#F2762E] mb-2 ">INFORMATION</h2>
         <p className="text-sm">
           +971 4 873 5835<br />
           hello@gulfestates.ae
@@ -46,7 +46,7 @@ function ContactFooter() {
 
 
       <div className="">
-        <h2 className="text-3xl font-bebas text-orange-500 mb-2">FOLLOW US</h2>
+        <h2 className="text-3xl font-bebas text-[#F2762E] mb-2">FOLLOW US</h2>
         <div className="flex  space-x-4">
   
           <FaFacebook className='w-6 h-6' />

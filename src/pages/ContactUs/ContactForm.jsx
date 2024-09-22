@@ -33,7 +33,7 @@ function ContactForm() {
           ></textarea>
           <button 
             type="submit" 
-            className="bg-orange-500 text-white px-6 py-3 rounded-md hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
+            className="bg-[#F2762E] text-white px-6 py-3 rounded-md hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
           >
             Send Message
           </button>
