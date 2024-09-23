@@ -17,7 +17,7 @@ function ContactFooter() {
 
    
     <div className="relative z-10 p-8 md:p-16 lg:p-24 text-gray-800">
-      <h1 className="lg:text-6xl text-4xl font-semibold text-[#024959] mb-6">CONTACT US</h1>
+      <h1 className="lg:text-6xl text-4xl text-[#024959] mb-6 font-bebas">CONTACT US</h1>
 
    
       <div className="mb-4">

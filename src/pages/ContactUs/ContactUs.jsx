@@ -5,6 +5,7 @@ import Footer from '../../components/Footer';
 import ContactHero from './ContactForm';
 import ContactForm from './ContactForm';
 import ContactFooter from './ContactFooter';
+import ContactBottom from './ContactBottom';
 
 function ContactUs() {
   return (
@@ -25,6 +26,10 @@ function ContactUs() {
 
         <section>
             <ContactFooter/>
+        </section>
+
+        <section>
+          <ContactBottom />
         </section>
 
         <section>
