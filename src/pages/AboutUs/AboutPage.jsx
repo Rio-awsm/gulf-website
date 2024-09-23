@@ -26,7 +26,7 @@ const AboutPage = () => {
         <AboutSection/>
       </section>
 
-      <section className="py-20">
+      <section className="pt-6 pb-10">
         <Leadership />
       </section>
 

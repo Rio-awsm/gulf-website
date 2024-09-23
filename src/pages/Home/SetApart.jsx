@@ -10,7 +10,7 @@ const SetApart = () => {
         <img src={setapart} alt="about" className="mx-auto" />
 
         <div className="pt-4">
-          <div>
+          <div className="lg:block hidden">
             <HeadingCapsule text={"Our Benefits"} />
           </div>
           <h1 className="text-[#024959] font-bebas text-7xl pt-12 lg:pt-0 lg:text-8xl mb-2">
