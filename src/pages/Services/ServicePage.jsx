@@ -5,6 +5,7 @@ import Footer from "../../components/Footer";
 import ServiceHero from "./ServiceHero";
 import FaqSection from "../AboutUs/FaqSection";
 import BecomeOwners from "./BecomeOwners";
+import ServicesSection from "./ServicesSection";
 
 const ServicePage = () => {
   return (
@@ -17,6 +18,10 @@ const ServicePage = () => {
       />
       <section>
         <ServiceHero />
+      </section>
+
+      <section>
+        <ServicesSection />
       </section>
 
       <section className="py-6">
