@@ -11,7 +11,9 @@ import Footer from "./components/Footer";
 import Homepage from "./pages/Home/Homepage";
 import AboutPage from "./pages/AboutUs/AboutPage";
 import ContactUs from "./pages/ContactUs/ContactUs";
+import ServicePage from "./pages/Services/ServicePage";
 function App() {
+  const [screenLoading, setScreenLoading] = useState(false);
   const Wrapper = ({ children }) => {
     const location = useLocation();
     useLayoutEffect(() => {
@@ -27,6 +29,7 @@ function App() {
             <Route path="/" element={<Homepage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactUs />} />
+            <Route path="/services" element={<ServicePage />} />
           </Routes>
         </Wrapper>
       </BrowserRouter>
