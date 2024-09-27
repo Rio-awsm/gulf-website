@@ -29,7 +29,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-white pt-8 px-4 sm:px-6 lg:px-8">
+    <footer className="bg-white py-10 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
           {sections.map((section, index) => (
@@ -46,11 +46,6 @@ const Footer = () => {
               </ul>
             </div>
           ))}
-        </div>
-        <div className="mt-12 pt-8 border-t border-gray-200">
-          <p className="lg:text-[320px] text-7xl tracking-tight font-bebas">
-            GULF ESTATES
-          </p>
         </div>
       </div>
     </footer>
