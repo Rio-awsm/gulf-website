@@ -5,11 +5,12 @@ import PropertiesHero from './PropertiesHero'
 import PropertyShow from './PropertyShow'
 import PropertyArea from './PropertyArea'
 import PropertyFooter from './PropertyFooter'
+import Logo from "/assets/logo.svg";
 
 function PropertiesPage() {
   return (
     <main>
-      <Navbar/>
+      <Navbar textcolor={"white"} justify={"left"} scrollbg={"black"} logo={Logo}/>
 
       <section>
         <PropertiesHero/>
