@@ -12,6 +12,7 @@ import Homepage from "./pages/Home/Homepage";
 import AboutPage from "./pages/AboutUs/AboutPage";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import ServicePage from "./pages/Services/ServicePage";
+import PropertiesPage from "./pages/Properties/PropertiesPage";
 function App() {
   const [screenLoading, setScreenLoading] = useState(false);
   const Wrapper = ({ children }) => {
@@ -30,6 +31,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/services" element={<ServicePage />} />
+            <Route path="/properties" element={<PropertiesPage />} />
           </Routes>
         </Wrapper>
       </BrowserRouter>
