@@ -1,8 +1,17 @@
 import React from 'react'
+import propfooter from "/assets/propfooter.svg"
 
 function PropertyFooter() {
   return (
-    <div>biswa</div>
+    <div className="lg:px-32 px-4">
+      <div className="">
+        <img
+          src={propfooter}
+          alt="Background"
+          className="object-contain w-full h-full"
+        />
+      </div>
+    </div>
   )
 }
 
