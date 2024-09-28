@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropertyCard from '../../components/PropertyCard';
-import propimg from "/assets/propimg.svg"
+import propimg from "/assets/propimg.svg";
 
 function PropertyShow() {
   const properties = [
@@ -48,25 +48,45 @@ function PropertyShow() {
     },
   ];
 
+
+  const [visibleProperties, setVisibleProperties] = useState(6);
+
+  const loadMoreProperties = () => {
+    setVisibleProperties((prevCount) => prevCount + 6);
+  };
+
   return (
-    <main className="min-h-screen p-8 ">
+    <main className="min-h-screen p-8">
       <section className="text-center uppercase lg:mb-20 mb-8">
-        <h1 className="lg:text-6xl text-4xl text-[#024959] font-bebas ">all best property</h1>
+        <h1 className="lg:text-6xl text-4xl text-[#024959] font-bebas">All Best Property</h1>
         <p className='text-xs lg:text-xl lg:my-3 my-2'>Explore a diverse range of homes, from cozy apartments to spacious estates.</p>
       </section>
 
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-32">
-        {properties.map((property, index) => (
-          <PropertyCard
-            key={index} 
-            image={property.image}
-            title={property.title}
-            location={property.location}
-            details={property.details}
-            price={property.price}
-          />
-        ))}
+      <section className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:px-28">
+        {Array(Math.ceil(visibleProperties / properties.length))
+          .fill(properties)
+          .flat()
+          .slice(0, visibleProperties)
+          .map((property, index) => (
+            <PropertyCard
+              key={index}
+              image={property.image}
+              title={property.title}
+              location={property.location}
+              details={property.details}
+              price={property.price}
+            />
+          ))}
       </section>
+
+      <div className="flex justify-center mt-10">
+        <button
+          className="bg-[#F2762E] text-white px-6 py-3 uppercase hover:bg-orange-700 transition"
+          onClick={loadMoreProperties}
+        >
+          Load More
+        </button>
+      </div>
     </main>
   );
 }
