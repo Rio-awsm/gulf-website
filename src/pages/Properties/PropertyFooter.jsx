@@ -3,7 +3,7 @@ import propfooter from "/assets/propfooter.svg"
 
 function PropertyFooter() {
   return (
-    <div className="lg:px-36 px-4">
+    <div className="lg:px-32 px-4">
       <div className="">
         <img
           src={propfooter}
