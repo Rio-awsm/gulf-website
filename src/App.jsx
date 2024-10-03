@@ -6,8 +6,7 @@ import {
   Link,
   useLocation,
 } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Loader from "./components/Loader";
 import Homepage from "./pages/Home/Homepage";
 import AboutPage from "./pages/AboutUs/AboutPage";
 import ContactUs from "./pages/ContactUs/ContactUs";
@@ -15,6 +14,14 @@ import ServicePage from "./pages/Services/ServicePage";
 import PropertiesPage from "./pages/Properties/PropertiesPage";
 function App() {
   const [screenLoading, setScreenLoading] = useState(false);
+
+  useEffect(() => {
+    setScreenLoading(true);
+    setTimeout(() => {
+      setScreenLoading(false);
+    }, 2500);
+  }, []);
+
   const Wrapper = ({ children }) => {
     const location = useLocation();
     useLayoutEffect(() => {
@@ -24,7 +31,8 @@ function App() {
   };
   return (
     <>
-      <BrowserRouter>
+      {screenLoading ? (<Loader />) : (<>
+        <BrowserRouter>
         <Wrapper>
           <Routes>
             <Route path="/" element={<Homepage />} />
@@ -35,6 +43,7 @@ function App() {
           </Routes>
         </Wrapper>
       </BrowserRouter>
+      </>)}
     </>
   );
 }
