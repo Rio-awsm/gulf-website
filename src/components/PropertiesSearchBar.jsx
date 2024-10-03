@@ -13,7 +13,7 @@ const properties = [
   { id: 8, type: 'House', neighborhood: 'Lakefront', keywords: ['waterfront', 'dock'], price: 3500, bedrooms: 5 },
 ];
 
-const PropertySearch = () => {
+const PropertySearchBar = () => {
   const [forRent, setForRent] = useState(true);
   const [propertyType, setPropertyType] = useState('');
   const [neighborhood, setNeighborhood] = useState('');
@@ -48,7 +48,7 @@ const PropertySearch = () => {
 
   return (
     <div className="w-full max-w-5xl mx-auto py-8 pr-2 lg:pr-0">
-      <div className="flex flex-wrap items-center bg-white rounded-lg shadow-md text-black md:flex-nowrap">
+      <div className="flex flex-wrap items-center bg-black/50 rounded-lg shadow-md text-black md:flex-nowrap backdrop-blur-sm">
         <select
           className="p-3 m-2 rounded border w-full md:w-auto"
           value={forRent ? 'For Rent' : 'For Sale'}
@@ -101,11 +101,11 @@ const PropertySearch = () => {
             onFocus={handleInteraction}
           />
           {showDropdown && results.length > 0 && (
-            <div className="absolute z-20 w-full bg-white border rounded-b shadow-lg max-h-60 overflow-y-auto">
+            <div className="absolute z-20 w-full bg-black/50 border rounded-b shadow-lg max-h-60 overflow-y-auto">
               {results.map(result => (
                 <div
                   key={result.id}
-                  className="p-2 hover:bg-gray-100 cursor-pointer"
+                  className="p-2 bg-gray-100 cursor-pointer"
                   onClick={() => handleResultClick(result)}
                 >
                   <div className="font-semibold">{result.type} in {result.neighborhood}</div>
@@ -119,7 +119,7 @@ const PropertySearch = () => {
           )}
         </div>
         <button
-          className="bg-orange-500 text-white p-3 m-2 rounded w-full md:w-auto flex items-center z-30"
+          className="bg-orange-500 text-white p-3 m-2 rounded w-full md:w-auto flex items-center z-30 ml-4"
           onClick={handleSearch}
         >
           <Search className="mr-2" />
@@ -130,4 +130,4 @@ const PropertySearch = () => {
   );
 };
 
-export default PropertySearch;
+export default PropertySearchBar;
