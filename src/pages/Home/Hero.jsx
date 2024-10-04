@@ -1,6 +1,7 @@
 import React from "react";
 import heroimg from "/assets/hero.webp";
 import PropertySearch from "../../components/PropertySearch";
+import PropertySearchBar from "../../components/PropertiesSearchBar";
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
           you dream of, let’s discuss for your dream house?
         </div>
         <div className="">
-          <PropertySearch />
+          <PropertySearchBar />
         </div>
       </div>
 
