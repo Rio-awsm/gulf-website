@@ -7,7 +7,7 @@ function Questions({ question, answer }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex flex-col items-stretch max-w-6xl mx-auto bg-[#024959]/15 rounded-md shadow-md p-4">
+    <div className="flex flex-col items-stretch lg:max-w-5xl mx-auto bg-[#024959]/15 rounded-md shadow-md p-4">
       <div className="flex items-center justify-between">
         <h1 className="flex-1 font-regular text-lg lg:text-2xl p-4">
           {question}
