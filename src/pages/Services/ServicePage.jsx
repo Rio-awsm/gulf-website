@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
-import Logo from "/assets/LogoBlack.svg";
+import Logo from "/assets/logo.svg";
 import Footer from "../../components/Footer";
 import ServiceHero from "./ServiceHero";
 import FaqSection from "../AboutUs/FaqSection";

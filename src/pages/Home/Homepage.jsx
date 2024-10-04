@@ -13,7 +13,7 @@ import Logo from "/assets/logo.svg";
 const Homepage = () => {
   return (
     <main className=''>
-    <Navbar textcolor={"white"} justify={"left"} scrollbg={"black"} logo={Logo}/>
+    <Navbar textcolor={"white"} justify={"center"} scrollbg={"black"} logo={Logo}/>
      
      <section>
       <Hero />

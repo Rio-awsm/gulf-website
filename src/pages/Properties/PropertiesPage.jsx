@@ -10,7 +10,9 @@ import Logo from "/assets/logo.svg";
 function PropertiesPage() {
   return (
     <main>
-      <Navbar textcolor={"white"} justify={"left"} scrollbg={"black"} logo={Logo}/>
+      <Navbar textcolor={"white"}
+        justify={"center"}
+        scrollbg={"black"} logo={Logo}/>
 
       <section>
         <PropertiesHero/>
