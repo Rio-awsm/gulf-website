@@ -27,7 +27,7 @@ const AboutUsSection = () => {
 
           <div className="pt-10">
           <Link to="/about">
-            <button className={`py-2 px-8  transition-all duration-300 text-lg font-medium border-2 border-[#F2762E] text-white hover:bg-black bg-[#F2762E] hover:text-white'
+            <button className={`py-2 px-8  transition-all duration-300 text-lg font-medium border-2 border-[#F2762E] text-white hover:bg-[#024959] bg-[#F2762E] hover:text-white'
             }`}>
               Read More
             </button>

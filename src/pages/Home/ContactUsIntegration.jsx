@@ -13,7 +13,7 @@ function ContactUsIntegration() {
           investment, our team is <br /> here to help you every step of the way.
           Reach out today and let's turn that vision into reality!
         </p>
-        <button className="mt-6 lg:mt-8 bg-white text-black px-6 py-3 hover:bg-orange-500 duration-150 font-bold">
+        <button className="mt-6 lg:mt-8 bg-white text-black px-6 py-3 hover:bg-orange-500 hover:text-white duration-150 font-bold">
           Contact Us
         </button>
       </div>
