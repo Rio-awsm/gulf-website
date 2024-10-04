@@ -4,8 +4,8 @@ import React from "react";
 const Leadership = () => {
   const teamMembers = [
     {
-      name: "LOREM IPSUM",
-      designation: "designation",
+      name: "Sangeeth Kumar",
+      designation: "Property Advisor",
       image: "/assets/team1.png",
     },
     {
@@ -19,18 +19,18 @@ const Leadership = () => {
       image: "/assets/team3.png",
     },
     {
-      name: "LOREM IPSUM",
-      designation: "designation",
+      name: "Kaveesha Fernando",
+      designation: "Cinematographer",
       image: "/assets/team4.png",
     },
     {
-      name: "LOREM IPSUM",
-      designation: "designation",
+      name: "Eldar Mamedov",
+      designation: "Property Advisor",
       image: "/assets/team5.png",
     },
     {
       name: "Anna Zhurlova",
-      designation: "designation",
+      designation: "Property Advisor",
       image: "/assets/team6.png",
     },
     {
@@ -39,13 +39,13 @@ const Leadership = () => {
       image: "/assets/team7.png",
     },
     {
-      name: "LOREM IPSUM",
-      designation: "designation",
+      name: "Olga Ghostyukhina",
+      designation: "Property Advisor",
       image: "/assets/team8.png",
     },
     {
-      name: "LOREM IPSUM",
-      designation: "designation",
+      name: "Louisa Oumatouk",
+      designation: "Property Advisor",
       image: "/assets/team9.png",
     },
     {
@@ -54,23 +54,23 @@ const Leadership = () => {
       image: "/assets/team10.png",
     },
     {
-      name: "LOREM IPSUM",
-      designation: "designation",
+      name: "Emad Sadek",
+      designation: "Customer Service Executive",
       image: "/assets/team11.png",
     },
     {
-      name: "LOREM IPSUM",
-      designation: "designation",
+      name: "Bijal Paleja",
+      designation: "Admin Coordinator",
       image: "/assets/team12.png",
     },
     {
-      name: "LOREM IPSUM",
-      designation: "designation",
+      name: "Aigul Minibaeva",
+      designation: "Property Advisor",
       image: "/assets/team13.png",
     },
     {
-      name: "LOREM IPSUM",
-      designation: "designation",
+      name: "Omar Inamdar",
+      designation: "Property Advisor",
       image: "/assets/team14.png",
     },
     {
@@ -84,13 +84,13 @@ const Leadership = () => {
       image: "/assets/team16.png",
     },
     {
-      name: "LOREM IPSUM",
-      designation: "designation",
+      name: "Jasmina Obradov",
+      designation: "Property Advisor",
       image: "/assets/team17.png",
     },
     {
-      name: "LOREM IPSUM",
-      designation: "designation",
+      name: "Chandrika Repaka",
+      designation: "Admin Coordinator",
       image: "/assets/team18.png",
     },
     {
