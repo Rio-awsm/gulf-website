@@ -164,7 +164,7 @@ const PropertySearchBar = () => {
         <div className="relative flex-grow  z-10 w-full md:w-auto">
           <input
             type="text"
-            placeholder="Keywords"
+            placeholder="City or Building"
             className="lg:w-full p-3 m-2 mx-2 rounded border"
             value={keywords}
             onChange={(e) => {
