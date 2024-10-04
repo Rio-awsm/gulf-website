@@ -18,7 +18,7 @@ const ServiceHero = () => {
       </div>
 
       <div
-        className="absolute w-full h-[50vh] lg:h-screen bg-cover -z-10"
+        className="absolute w-full h-[50vh] lg:h-screen bg-cover bg-center -z-10"
         style={{
           backgroundImage: `url(${servicehero})`,
         }}
