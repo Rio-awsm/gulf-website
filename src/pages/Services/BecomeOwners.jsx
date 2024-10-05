@@ -6,10 +6,10 @@ const BecomeOwners = () => {
     <section className="lg:py-12 py-8 relative flex lg:flex-col items-center justify-center lg:min-h-screen w-full mt-[20%] lg:mt-0">
       <div className="relative items-center justify-center flex flex-col px-4 lg:px-0 text-center">
         <h1 className="uppercase font-bebas text-3xl md:text-5xl lg:text-9xl text-white mt-12 lg:mt-20">
-          BECOME AN OWNER
+        BECOME AN INVESTOR
         </h1>
         <p className="text-base md:text-lg lg:text-2xl text-white mt-4 lg:mt-6 lg:px-40 px-4">
-          Buy properties on Gulf Real Estates
+        Contact Gulf Estates for the finest properties.
         </p>
 
         <button className="mt-4 lg:mt-8 bg-orange-500 text-white hover:text-black px-6 py-2 lg:px-8 lg:py-3 hover:bg-white duration-150 font-bold rounded-md lg:rounded-none">

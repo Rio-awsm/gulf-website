@@ -34,8 +34,8 @@ const ContactBottom = () => {
       <div>
         <Fade>
           <div className="text-[#024959] lg:text-8xl md:text-6xl text-5xl font-bebas lg:mb-10 lg:mt-8 uppercase text-center">
-            lorem ipsum dolo
-            <p className="pt-2">amet consecture</p>
+          MAKE INFORMED INVESTMENTS
+            <p className="pt-2">WITH GULF ESTATES.</p>
           </div>
         </Fade>
 

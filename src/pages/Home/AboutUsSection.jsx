@@ -12,10 +12,10 @@ const AboutUsSection = () => {
         <div className="pt-12">
         <div><HeadingCapsule text={"About Us"} /></div>
           <h1 className="text-[#024959] font-bebas text-7xl mb-2">
-            Your dreams our reality,
+          YOUR TRUSTED REAL ESTATE,
           </h1>
           <h1 className="text-[#024959] font-bebas text-7xl mb-2">
-            From houses to homes.
+          PARTNER IN DUBAI.
           </h1>
 
           <div className="text-xl text-black/60 pt-5 pr-20">

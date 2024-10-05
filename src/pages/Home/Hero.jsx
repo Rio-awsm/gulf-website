@@ -7,9 +7,9 @@ const Hero = () => {
   return (
     <section className="lg:flex justify-between bg-[#024959] overflow-hidden">
       <div className="lg:pt-36 pt-28 lg:pl-20 text-white pl-5">
-        <h1 className="font-bebas lg:text-9xl text-8xl">FIND YOUR</h1>
+        <h1 className="font-bebas lg:text-9xl text-8xl">TURNING DREAMS </h1>
         <p className="font-bebas lg:text-9xl text-8xl">
-          DREAM HOME<span className="text-[#F2762E]">.</span>
+        INTO ADDRESSES<span className="text-[#F2762E]">.</span>
         </p>
         <div className="text-white/60 lg:w-[700px] lg:text-2xl py-4 text-lg pr-5 lg:pr-0">
           We are a real estate agency that will help you find the best residence

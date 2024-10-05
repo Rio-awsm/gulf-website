@@ -63,8 +63,8 @@ function FaqSection({view}) {
     <div>
       <div className={`relative ${view}`}>
         <img src={part} alt="" className="object-cover w-full" />
-        <h1 className="absolute inset-0 flex font-bebas items-center text-center bottom-[20%] justify-center lg:text-9xl text-4xl text-white z-10">
-          lorem ipsum <br /> dolor sit{" "}
+        <h1 className="absolute inset-0 flex font-bebas items-center text-center bottom-[20%] justify-center lg:text-8xl text-4xl text-white z-10">
+        YOUR TRUSTED <br />REAL ESTATE  <br /> PARTNER IN DUBAI.{" "}
         </h1>
       </div>
 
