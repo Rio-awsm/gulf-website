@@ -5,7 +5,7 @@ import PropertySearchBar from "../../components/PropertiesSearchBar";
 
 const Hero = () => {
   return (
-    <section className="lg:flex justify-between bg-[#024959]">
+    <section className="lg:flex justify-between bg-[#024959] overflow-hidden">
       <div className="lg:pt-36 pt-28 lg:pl-20 text-white pl-5">
         <h1 className="font-bebas lg:text-9xl text-8xl">FIND YOUR</h1>
         <p className="font-bebas lg:text-9xl text-8xl">
@@ -15,7 +15,7 @@ const Hero = () => {
           We are a real estate agency that will help you find the best residence
           you dream of, let’s discuss for your dream house?
         </div>
-        <div className="">
+        <div className=" ">
           <PropertySearchBar />
         </div>
       </div>
