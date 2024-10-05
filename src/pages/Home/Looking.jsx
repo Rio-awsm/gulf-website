@@ -15,19 +15,19 @@ function Looking() {
             img={looking}
             link={"/"}
             heading={"buy a home"}
-            subheading1={"With thousands of homes, Gulf Estates can match you with a house you want to call home."}
+            subheading1={"Explore the finest homes in Dubai with us that align and suit your budget and style. "}
           />
           <Bcard
             img={looking}
             link={"/"}
             heading={"sell a home"}
-            subheading1={"With quick support, Gulf Estates can help you easily sell your home or apartment quickly."}
+            subheading1={"Ready to sell your home with confidence? Let our expert advice and market insights give you a seamless selling experience! "}
           />
           <Bcard
             img={looking}
             link={"/"}
             heading={"rent a home"}
-            subheading1={"With filters and custom searches, Gulf Estates helps you easily find a house you'll love."}
+            subheading1={"Find your ideal rental that satisfies all your needs. Contact us for hassle-free home renting. "}
           />
         </div>
       </div>

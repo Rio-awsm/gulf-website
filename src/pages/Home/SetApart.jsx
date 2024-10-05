@@ -24,7 +24,7 @@ const SetApart = () => {
                 PROVEN EXPERTISE
               </h1>
               <p>
-              Our seasoned team excels in real estate with years of successful market navigation, offering informed decisions and optimal results.
+              The expertise that our professionals bring to the table will help you to make decisions that are not only confident but also provide a high return on investment.
               </p>
             </div>
 
@@ -34,7 +34,7 @@ const SetApart = () => {
                 CUSTOMIZED SOLUTIONS
               </h1>
               <p>
-              We pride ourselves on crafting personalized strategies to match your unique goals, ensuring a seamless real estate journey.
+              At Gulf Estates, we will take time to understand your unique taste so that we can find the perfect property that aligns with your needs.
               </p>
             </div>
 
@@ -44,7 +44,7 @@ const SetApart = () => {
                 TRANSPARENT PARTNERSHIPS
               </h1>
               <p>
-              Transparency is key in our client relationships. We prioritize clear communication and ethical practices, fostering trust and reliability throughout.
+              Transparency is what we believe in Gulf Estates. We believe in having open and honest communication at every stage of your buying journey.
               </p>
             </div>
           </div>

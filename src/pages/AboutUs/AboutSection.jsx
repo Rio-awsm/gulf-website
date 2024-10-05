@@ -15,16 +15,13 @@ const AboutSection = () => {
             ABOUT GULF ESTATES
           </p>
 
-          <div className="lg:text-right lg:px-24 lg:text-lg pr-12 pt-6 text-black/60">
-            Welcome to Gulf Estates, where we turn houses into homes and dreams
-            into reality. At Gulf Estates, we understand that a home is more
-            than just a physical space; it’s a place where memories are created,
-            families grow, and life unfolds. At Gulf Estates, our unwavering
-            commitment lies in crafting unparalleled real estate journeys. Our
-            seasoned professionals, armed with extensive market knowledge, walk
-            alongside you through every phase of your property endeavor. We
-            prioritize understanding your unique aspirations, tailoring our
-            expertise to match your vision.
+          <div className="lg:text-left lg:px-24 lg:text-lg pr-12 pt-6 text-black/60">
+         <p className="mb-4"> Welcome to the Gulf Estates, where your dream of finding a home in Dubai becomes a reality. Our services ensure connecting the perfect buyer to the finest of properties available in the market.</p>
+          
+          <p className="mb-4">Our mission is to provide seamless and professional real estate services to the people who are seeking luxury, comfort, and a sound investment. We believe in transparency with our clients with a sincere commitment.</p>
+         
+          <p className="mb-4">Our vision not only includes finding the right property for our client, but to leave a lasting impression. We guide them through every step of their property buying journey. We help our clients to make informed and confident decisions in the market.</p> 
+          Our seasoned professionals possess a deep understanding of Dubai's real estate market. Our expert knowledge combined with personalised service gives a unique buying experience. Let us be your trusted partner in finding the property you can call home! 
           </div>
         </div>
       </div>

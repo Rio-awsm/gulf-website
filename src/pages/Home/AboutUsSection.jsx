@@ -12,17 +12,14 @@ const AboutUsSection = () => {
         <div className="pt-12">
         <div><HeadingCapsule text={"About Us"} /></div>
           <h1 className="text-[#024959] font-bebas text-7xl mb-2">
-          YOUR TRUSTED REAL ESTATE,
+          YOUR TRUSTED REAL ESTATE
           </h1>
           <h1 className="text-[#024959] font-bebas text-7xl mb-2">
           PARTNER IN DUBAI.
           </h1>
 
           <div className="text-xl text-black/60 pt-5 pr-20">
-            Welcome to Gulf Estates, where we turn houses into homes and dreams
-            into reality. At Gulf Estates, we understand that a home is more
-            than just a physical space; it’s a place where memories are created,
-            families grow, and life unfolds.
+          Welcome to the Gulf Estates, where your dream of finding a home in Dubai becomes a reality. Our services ensure connecting the perfect buyer to the finest of properties available in the market.
           </div>
 
           <div className="pt-10">

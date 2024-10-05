@@ -9,10 +9,7 @@ const ServiceHero = () => {
           YOUR PATHWAY TO <br /> INVESTMENT SUCCESS
         </h1>
         <p className="lg:text-2xl text-white text-center mt-4 lg:mt-0 lg:px-40 px-12 pb-10">
-          We navigate every step of your real estate journey, ensuring a
-          seamless experience in buying, selling, or investing. With our
-          expertise and personalized approach, we turn your property aspirations
-          into reality and pave the way for your success.
+        We assist you with every step of your real estate journey, making the process of buying, selling, or investing hassle-free. Our personalised approach and expertise will help you turn your property ambitions into reality and set the foundation for your success.
         </p>
         
       </div>
