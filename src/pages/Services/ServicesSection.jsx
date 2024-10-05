@@ -6,7 +6,7 @@ import service3 from "/assets/service3.webp"
 
 const ServicesSection = () => {
   return (
-    <section className="py-6">
+    <section className="py-6 mt-10">
       <h1 className="text-[#024959] font-bebas text-7xl pt-12 lg:pt-0 lg:text-8xl mb-2 text-center">
         WHAT WE DO?
       </h1>
