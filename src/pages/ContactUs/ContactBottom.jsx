@@ -7,7 +7,7 @@ import abtImg1 from "/assets/productend1.webp";
 import abtImg2 from "/assets/productend2.webp";
 import abtImg3 from "/assets/productend3.webp";
 import abtImg4 from "/assets/productend4.webp";
-import abtImg5 from "/assets/productend5.webp";
+import abtImg5 from "/assets/hero.webp";
 
 const ContactBottom = () => {
   const sliderSettings = {
