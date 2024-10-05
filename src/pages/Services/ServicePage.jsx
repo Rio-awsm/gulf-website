@@ -16,7 +16,7 @@ const ServicePage = () => {
         scrollbg={"black"}
         logo={Logo}
       />
-      <section>
+      <section className="">
         <ServiceHero />
       </section>
 
@@ -24,7 +24,7 @@ const ServicePage = () => {
         <ServicesSection />
       </section>
 
-      <section className="py-6">
+      <section className="lg:pb-4">
         <FaqSection view={"hidden"} />
       </section>
 

@@ -72,7 +72,7 @@ function FaqSection({view}) {
         <h1 className="font-bebas lg:text-8xl text-center text-5xl text-[#024959] mt-6">
           Frequently Asked Questions
         </h1>
-        <div className="mt-16 space-y-8 lg:grid lg:grid-cols-1 px-2 lg:px-0 ">
+        <div className="mt-12 space-y-8 lg:grid lg:grid-cols-1 px-2 lg:px-0 ">
           {questions.map((question, index) => (
             <Questions
               key={index}
