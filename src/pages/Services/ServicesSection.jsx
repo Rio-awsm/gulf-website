@@ -29,11 +29,11 @@ const ServicesSection = () => {
         <Slide direction="up">
           <ServiceCard
             img={service2}
-            heading={"RENT A HOME"}
+            heading={"Lease A HOME"}
             text={
               "With filters and custom searches, Gulf Estates helps you easily find a house you'll love."
             }
-            button={"Find A Rental"}
+            button={"Find A Lease"}
           />
         </Slide>
 

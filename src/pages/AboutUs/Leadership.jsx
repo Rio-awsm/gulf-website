@@ -5,6 +5,16 @@ import { Slide } from "react-awesome-reveal";
 const Leadership = () => {
   const teamMembers = [
     {
+      name: "Nikhil suvarna",
+      designation: "Sales Manager",
+      image: "/assets/team3.png",
+    },
+    {
+      name: "Neha Sharma",
+      designation: "Business Development",
+      image: "/assets/team16.png",
+    },
+    {
       name: "Sangeeth Kumar",
       designation: "Property Advisor",
       image: "/assets/team1.png",
@@ -14,16 +24,7 @@ const Leadership = () => {
       designation: "Property Advisor",
       image: "/assets/team2.png",
     },
-    {
-      name: "Nikhil suvarna",
-      designation: "Sales Manager",
-      image: "/assets/team3.png",
-    },
-    {
-      name: "Kaveesha Fernando",
-      designation: "Cinematographer",
-      image: "/assets/team4.png",
-    },
+
     {
       name: "Eldar Mamedov",
       designation: "Property Advisor",
@@ -54,16 +55,7 @@ const Leadership = () => {
       designation: "Property Advisor",
       image: "/assets/team10.png",
     },
-    {
-      name: "Emad Sadek",
-      designation: "Customer Service Executive",
-      image: "/assets/team11.png",
-    },
-    {
-      name: "Bijal Paleja",
-      designation: "Admin Coordinator",
-      image: "/assets/team12.png",
-    },
+
     {
       name: "Aigul Minibaeva",
       designation: "Property Advisor",
@@ -80,9 +72,9 @@ const Leadership = () => {
       image: "/assets/team15.png",
     },
     {
-      name: "Neha Sharma",
-      designation: "Business Development",
-      image: "/assets/team16.png",
+      name: "Ariana Versace",
+      designation: "Property Advisor",
+      image: "/assets/team19.png",
     },
     {
       name: "Jasmina Obradov",
@@ -90,14 +82,24 @@ const Leadership = () => {
       image: "/assets/team17.png",
     },
     {
+      name: "Bijal Paleja",
+      designation: "Admin Coordinator",
+      image: "/assets/team12.png",
+    },
+    {
       name: "Chandrika Repaka",
       designation: "Admin Coordinator",
       image: "/assets/team18.png",
     },
     {
-      name: "Ariana Versace",
-      designation: "Property Advisor",
-      image: "/assets/team19.png",
+      name: "Emad Sadek",
+      designation: "Customer Service Executive",
+      image: "/assets/team11.png",
+    },
+    {
+      name: "Kaveesha Fernando",
+      designation: "Cinematographer",
+      image: "/assets/team4.png",
     },
   ];
 

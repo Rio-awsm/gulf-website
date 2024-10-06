@@ -11,8 +11,8 @@ const Footer = () => {
       links: ['List your property', 'Seller guide'],
     },
     {
-      title: 'Rent Property',
-      links: ['Properties for rent', "Tenant's guide"],
+      title: 'Lease Property',
+      links: ['Properties for lease', "Tenant's guide"],
     },
     {
       title: 'Blog',

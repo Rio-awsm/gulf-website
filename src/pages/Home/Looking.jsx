@@ -42,11 +42,11 @@ function Looking() {
             <Bcard
               img={looking}
               link={"/"}
-              heading={"rent a home"}
+              heading={"Lease a home"}
               subheading1={
-                "Find your ideal rental that satisfies all your needs. Contact us for hassle-free home renting. "
+                "Find your ideal lease that satisfies all your needs. Contact us for hassle-free home leasing. "
               }
-              subheading2={"rent a home"}
+              subheading2={"Lease a home"}
             />
           </Fade>
         </div>
