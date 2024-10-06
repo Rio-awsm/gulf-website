@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import aboutHero from "/assets/aboutHero.webp";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const AboutHero = () => {
   const parallaxRef = useRef(null);
@@ -22,14 +23,14 @@ const AboutHero = () => {
   return (
     <section className="lg:pt-16 pt-10 relative overflow-hidden" style={{ height: '100vh' }}>
       <div className="text-center relative z-10">
-        <h1 className="font-bebas lg:text-8xl text-5xl text-[#024959]">
+        <Slide><h1 className="font-bebas lg:text-8xl text-5xl text-[#024959]">
           A Legacy of Trust in Real Estate
-        </h1>
-        <p className="text-xl z-10 relative pt-6 text-black/60 px-6 lg:px-36">
+        </h1></Slide>
+        <Fade><p className="text-xl z-10 relative pt-6 text-black/60 px-6 lg:px-36">
           With a deep understanding of the local market and a commitment to
           client satisfaction, we have earned the trust of countless homeowners
           and investors.
-        </p>
+        </p></Fade>
       </div>
       <div 
         ref={parallaxRef}

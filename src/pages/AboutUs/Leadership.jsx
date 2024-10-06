@@ -1,4 +1,5 @@
 import React from "react";
+import { Slide } from "react-awesome-reveal";
 // import pic from "/assets/team.webp";
 
 const Leadership = () => {
@@ -103,26 +104,30 @@ const Leadership = () => {
   return (
     <div className="lg:px-40 px-8 overflow-hidden">
       <div className=" font-bebas lg:mb-8 ">
-        <h2 className="lg:text-8xl text-7xl tracking-wider text-[#024959] text-center lg:text-left lg:ml-[10%]">
-          LEADERSHIP
-        </h2>
-        <p className="lg:text-6xl text-4xl tracking-wider text-[#F2762E] mt-2 text-center lg:text-left lg:ml-[25%]">
-          MEET OUR TEAM
-        </p>
+        <Slide>
+          <h2 className="lg:text-8xl text-7xl tracking-wider text-[#024959] text-center lg:text-left lg:ml-[10%]">
+            LEADERSHIP
+          </h2>
+        </Slide>
+        <Slide direction="right">
+          <p className="lg:text-6xl text-4xl tracking-wider text-[#F2762E] mt-2 text-center lg:text-left lg:ml-[25%]">
+            MEET OUR TEAM
+          </p>
+        </Slide>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className="rounded-lg p-6 flex flex-col items-center justify-between"
+            className="rounded-lg p-6 flex flex-col items-center justify-between transform transition-transform duration-500 hover:scale-105 hover:shadow-lg"
           >
             <img
               src={member.image}
               alt={member.name}
               className="w-[90%] h-auto object-cover mb-4"
             />
-            <div className="flex flex-col self-start  ml-[5%] ">
+            <div className="flex flex-col self-start ml-[5%]">
               <h3 className="text-4xl font-bebas mb-2">{member.name}</h3>
               <p className="text-gray-600 text-xl">{member.designation}</p>
             </div>
