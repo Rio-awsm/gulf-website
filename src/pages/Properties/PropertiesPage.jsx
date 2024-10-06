@@ -1,42 +1,41 @@
-import React from 'react'
-import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
-import PropertiesHero from './PropertiesHero'
-import PropertyShow from './PropertyShow'
-import PropertyArea from './PropertyArea'
-import PropertyFooter from './PropertyFooter'
+import React from "react";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import PropertiesHero from "./PropertiesHero";
+import PropertyShow from "./PropertyShow";
+import PropertyArea from "./PropertyArea";
+import PropertyFooter from "./PropertyFooter";
 import Logo from "/assets/logo.svg";
 
 function PropertiesPage() {
   return (
     <main>
-      <section className=''>
-      <Navbar textcolor={"white"}
+      <Navbar
+        textcolor={"white"}
         justify={"center"}
-        scrollbg={"black"} logo={Logo}/>
-        </section>
+        scrollbg={"black"}
+        logo={Logo}
+      />
 
       <section>
-        <PropertiesHero/>
+        <PropertiesHero />
       </section>
 
       <section>
-        <PropertyShow/>
+        <PropertyShow />
       </section>
 
       <section>
-        <PropertyArea/>
+        <PropertyArea />
       </section>
 
       <section>
-        <PropertyFooter/>
+        <PropertyFooter />
       </section>
 
-
-
-      <Footer/>
+      <Footer />
     </main>
-  )
+  );
 }
 
-export default PropertiesPage
+export default PropertiesPage;
