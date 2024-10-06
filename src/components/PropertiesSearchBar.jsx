@@ -146,8 +146,8 @@ const PropertySearchBar = () => {
   };
 
   return (
-    <div className="w-full max-w-5xl mx-auto py-8 pr-2 lg:pr-0">
-      <div className="flex justify-center mb-4 space-x-2 text-xs lg:text-lg">
+    <div className="w-full max-w-5xl mx-auto py-8 pr-2 lg:pr-12">
+      <div className="flex mb-4 space-x-2 text-xs lg:text-lg">
         {['Rent', 'Buy', 'New projects', 'Commercial'].map((item) => (
           <button
             key={item}

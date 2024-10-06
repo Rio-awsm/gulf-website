@@ -12,7 +12,7 @@ import Logo from "/assets/logo.svg";
 
 const Homepage = () => {
   return (
-    <main className=''>
+    <main className='overflow-hidden'>
     <Navbar textcolor={"white"} justify={"center"} scrollbg={"black"} logo={Logo}/>
      
      <section>
@@ -31,11 +31,11 @@ const Homepage = () => {
       <Looking/>
      </section>
 
-     <section>
+     <section className='lg:block hidden'>
       <LookFooter/>
      </section>
 
-     <section className='lg:pt-[30%] pt-[80%]'>
+     <section className='lg:pt-[20%]'>
       <SetApart />
      </section> 
 

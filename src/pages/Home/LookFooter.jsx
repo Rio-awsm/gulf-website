@@ -1,6 +1,7 @@
 import React from 'react';
 import bg from '/assets/bg.webp'; 
 import { Link } from 'react-router-dom';
+import { Fade } from 'react-awesome-reveal';
 
 function LookFooter() {
   return (
