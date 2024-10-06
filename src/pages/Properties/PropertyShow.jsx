@@ -58,7 +58,7 @@ function PropertyShow() {
   return (
     <main className="min-h-screen p-8">
       <section className="text-center uppercase lg:mb-20 mb-8">
-        <h1 className="lg:text-6xl text-4xl text-[#024959] font-bebas">All Best Property</h1>
+        <h1 className="lg:text-6xl text-4xl text-[#024959] font-bebas">ALL THE BEST PROPERTIES</h1>
         <p className='text-xs lg:text-xl lg:my-3 my-2'>Explore a diverse range of homes, from cozy apartments to spacious estates.</p>
       </section>
 

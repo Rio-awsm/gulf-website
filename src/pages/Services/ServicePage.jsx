@@ -20,7 +20,7 @@ const ServicePage = () => {
         <ServiceHero />
       </section>
 
-      <section>
+      <section className="pt-[8%]">
         <ServicesSection />
       </section>
 

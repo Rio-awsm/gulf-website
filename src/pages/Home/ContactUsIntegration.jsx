@@ -1,5 +1,6 @@
 import React from "react";
 import ContactUsforhome from "/assets/ContactUsforhome.webp";
+import { Link } from "react-router-dom";
 
 function ContactUsIntegration() {
   return (
@@ -13,9 +14,11 @@ function ContactUsIntegration() {
 Our team is here to help you every step of the way. 
  <br /> Reach out today and let's bring your plan to life!
         </p>
+        <Link to="/contact" >
         <button className="mt-6 lg:mt-8 bg-white text-black px-6 py-3 hover:bg-orange-500 hover:text-white duration-150 font-bold">
           Contact Us
         </button>
+        </Link>
       </div>
 
       <div

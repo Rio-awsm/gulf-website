@@ -31,7 +31,7 @@ const SetApart = () => {
              <div className="py-6">
               <h1 className="text-black font-bebas lg:text-5xl text-3xl mb-3 flex items-center">
                 <PenLine className="text-[#F2762E] w-10 h-10 mr-2" />
-                CUSTOMIZED SOLUTIONS
+                CUSTOMIsED SOLUTIONS
               </h1>
               <p>
               At Gulf Estates, we will take time to understand your unique taste so that we can find the perfect property that aligns with your needs.

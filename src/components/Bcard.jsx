@@ -21,7 +21,7 @@ const Bcard = ({ img, heading, subheading1, subheading2, link }) => {
           
           <div className="relative inline-block lg:mt-4 mt-4">
             <p className="text-lg font-sans font-semibold transition-all duration-300 ease-in-out group-hover:text-yellow-300">
-              Find a Home <span className="ml-1 transition-all duration-300 ease-in-out group-hover:ml-2">→</span>
+              {subheading2} <span className="ml-1 transition-all duration-300 ease-in-out group-hover:ml-2">→</span>
             </p>
             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yellow-300 transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </div>

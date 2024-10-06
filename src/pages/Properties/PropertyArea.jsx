@@ -6,8 +6,8 @@ function PropertyArea() {
   return (
     <>
     <div className = "min-h-screen flex flex-col w-full px-6 lg:px-32">
-      <div className= " text-center uppercase lg:text-6xl font-extrabold md:text-4xl text-2xl font-bebas text-[#024959]" > 
-      all popular area
+      <div className= " text-center uppercase text-7xl my-4 lg:text-9xl font-bebas text-[#024959]" > 
+       popular areas
       </div>
       <div className= " text-center lg:text-lg md:text-4xl text-2xl text-black mb-6" > 
       Discover the best neighborhoods and communities in our region.
