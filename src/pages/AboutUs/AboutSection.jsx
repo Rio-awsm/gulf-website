@@ -10,17 +10,17 @@ const AboutSection = () => {
 
         <div className=" lg:my-8 mx-6 lg:mx-0 ">
           <Slide>
-            <h2 className="font-bebas lg:text-8xl text-6xl tracking-wider text-[#024959]">
+            <h2 className="font-bebas lg:text-8xl text-center text-6xl lg:text-left tracking-wider text-[#024959]">
               OUR STORY
             </h2>
           </Slide>
           <Slide direction="right">
-            <p className="lg:text-6xl text-4xl tracking-wider text-[#F2762E] mt-2 lg:ml-20 font-bebas">
+            <p className="lg:text-6xl text-5xl tracking-wider lg:text-left text-center text-[#F2762E] mt-2 lg:ml-20 font-bebas">
               ABOUT GULF ESTATES
             </p>
           </Slide>
 
-          <div className="lg:text-left lg:px-24 lg:text-lg pr-12 pt-6 text-black/60">
+          <div className="text-justify lg:px-24  lg:text-lg lg:pr-12 px-6 pt-6 text-black/60">
             <Slide>
               <p className="mb-4">
                 {" "}
