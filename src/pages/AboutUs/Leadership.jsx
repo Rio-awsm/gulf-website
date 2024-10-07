@@ -7,13 +7,13 @@ const Leadership = () => {
       id: 1,
       name: "Nikhil Suvarna",
       designation: "Sales Manager",
-      image: "/assets/team3.png",
+      image: "/assets/Nikhil Suvarna.png",
     },
     {
       id: 2,
       name: "Neha Sharma",
       designation: "Business Development Manager",
-      image: "/assets/team16.webp",
+      image: "/assets/team16.png",
     },
     {
       id: 3,
@@ -121,7 +121,7 @@ const Leadership = () => {
       id: 20,
       name: "Roemelle Santos",
       designation: "Captain",
-      image: "/assets/team20.webp",
+      image: "/assets/team20.png",
     },
   ];
 
