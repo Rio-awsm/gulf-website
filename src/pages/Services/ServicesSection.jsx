@@ -26,18 +26,8 @@ const ServicesSection = () => {
           />
         </Slide>
 
-        <Slide direction="up">
-          <ServiceCard
-            img={service2}
-            heading={"Lease A HOME"}
-            text={
-              "With filters and custom searches, Gulf Estates helps you easily find a house you'll love."
-            }
-            button={"Find A Lease"}
-          />
-        </Slide>
 
-        <Slide direction="right">
+        <Slide direction="up">
           <ServiceCard
             img={service3}
             heading={"SELL A HOME"}
@@ -45,6 +35,16 @@ const ServicesSection = () => {
               "With quick support, Gulf Estates can help you easily sell your home or apartment quickly."
             }
             button={"Submit Property"}
+          />
+        </Slide>
+        <Slide direction="right">
+          <ServiceCard
+            img={service2}
+            heading={"Lease A HOME"}
+            text={
+              "With filters and custom searches, Gulf Estates helps you easily find a house you'll love."
+            }
+            button={"Find A Lease"}
           />
         </Slide>
       </div>
