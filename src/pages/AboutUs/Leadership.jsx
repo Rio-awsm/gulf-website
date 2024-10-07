@@ -11,8 +11,8 @@ const Leadership = () => {
     },
     {
       name: "Neha Sharma",
-      designation: "Business Development",
-      image: "/assets/team16.png",
+      designation: "Business Development Manager",
+      image: "/assets/team16.webp",
     },
     {
       name: "Sangeeth Kumar",
@@ -100,6 +100,11 @@ const Leadership = () => {
       name: "Kaveesha Fernando",
       designation: "Cinematographer",
       image: "/assets/team4.png",
+    },
+    {
+      name: "Roemelle Santos	",
+      designation: "Captain",
+      image: "/assets/team20.webp",
     },
   ];
 

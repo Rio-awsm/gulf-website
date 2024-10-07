@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import heroimg from "/assets/hero.webp";
+import heroimg from "/assets/hero.svg";
 import PropertySearchBar from "../../components/PropertiesSearchBar";
 
 const Hero = () => {
