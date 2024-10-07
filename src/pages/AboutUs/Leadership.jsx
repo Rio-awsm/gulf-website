@@ -125,7 +125,7 @@ const Leadership = () => {
     },
   ];
 
-  // Sorting is already done by id, but you can sort again if needed.
+  
   const sortedTeamMembers = teamMembers.sort((a, b) => a.id - b.id);
 
   return (
