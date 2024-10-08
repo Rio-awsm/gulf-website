@@ -1,5 +1,5 @@
 import React from "react";
-import aboutimg from "/assets/aboutsection.webp";
+import aboutimg from "/assets/aboutsection.svg";
 import { Link } from "react-router-dom";
 import HeadingCapsule from "../../components/HeadingCapsule";
 import { Fade, Slide } from "react-awesome-reveal";

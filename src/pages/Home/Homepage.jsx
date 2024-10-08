@@ -35,7 +35,7 @@ const Homepage = () => {
       <LookFooter/>
      </section>
 
-     <section className='lg:pt-[20%]'>
+     <section className='lg:pt-[28%]'>
       <SetApart />
      </section> 
 
