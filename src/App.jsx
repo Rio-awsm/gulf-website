@@ -12,6 +12,7 @@ import AboutPage from "./pages/AboutUs/AboutPage";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import ServicePage from "./pages/Services/ServicePage";
 import PropertiesPage from "./pages/Properties/PropertiesPage";
+import PropertyDetails from "./pages/PropertyDetails";
 function App() {
   const [screenLoading, setScreenLoading] = useState(false);
 
@@ -40,6 +41,7 @@ function App() {
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/services" element={<ServicePage />} />
             <Route path="/properties" element={<PropertiesPage />} />
+            <Route path="/property/:id" element={<PropertyDetails />} />
           </Routes>
         </Wrapper>
       </BrowserRouter>
