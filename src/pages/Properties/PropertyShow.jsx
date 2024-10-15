@@ -16,7 +16,9 @@ function PropertyShow() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("https://gulf-backend.onrender.com/api/xmlfeed");
+        const response = await axios.get(
+          "https://gulf-backend.onrender.com/api/xmlfeed"
+        );
 
         parseString(response.data, (err, result) => {
           if (err) {
@@ -39,7 +41,7 @@ function PropertyShow() {
   if (loading) {
     return (
       <div className="flex justify-center items-center h-screen">
-        <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-blue-500"></div>
+        <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-[#F2762E]"></div>
       </div>
     );
   }
@@ -55,7 +57,6 @@ function PropertyShow() {
       </div>
     );
   }
-
   return (
     <main className="min-h-screen p-8">
       <section className="text-center uppercase lg:mb-20 mb-8">
