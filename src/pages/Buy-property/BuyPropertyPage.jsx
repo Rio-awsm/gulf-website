@@ -15,7 +15,7 @@ const BuyPropertyPage = () => {
         logo={Logo}
       />
 
-      <section className="my-14">
+      <section className="my-20">
         <ShowProperty />
       </section>
 
