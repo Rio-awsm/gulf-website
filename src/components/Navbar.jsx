@@ -52,9 +52,9 @@ const Navbar = ({textcolor,font,justify,scrollbg,logo}) => {
           </div>
 
           <Link to="/buy-property" className="hidden lg:block">
-            <button className={`py-2 px-8  transition-all duration-300 text-lg font-medium border-2 border-[#F2762E] text-white hover:bg-black bg-[#F2762E] hover:text-white'
+            <button className={`py-2 px-8  transition-all duration-300 font-medium border-2 border-white text-black bg-white '
             }`}>
-              Buy Property
+              Find Properties
             </button>
           </Link>
 

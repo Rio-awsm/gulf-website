@@ -1,32 +1,45 @@
-import React from 'react';
-import bg from '/assets/bg.webp'; 
-import { Link } from 'react-router-dom';
-import { Fade } from 'react-awesome-reveal';
+import React from "react";
+import aboutimg from "/assets/lookfooter.webp";
+import { Link } from "react-router-dom";
+import HeadingCapsule from "../../components/HeadingCapsule";
+import { Fade, Slide } from "react-awesome-reveal";
 
-function LookFooter() {
+const LookFooter = () => {
   return (
-    <section className="relative flex flex-col lg:flex-row items-start justify-end py-10 px-5 lg:mt-14 lg:px-20">
-      <div className="relative w-full lg:w-[50%] lg:pl-10 text-right mt-8 lg:mt-0 z-10 flex flex-col items-center">
-        <h1 className="text-5xl lg:text-7xl font-bebas tracking-wide text-[#024959] text-center">
-        OWN PROPERTY IN A TAX HAVEN
-        </h1>
-        <p className="text-gray-500 mt-4 text-base lg:text-lg lg:mt-8 text-center">
-        Gulf Estates is your partner in finding the perfect home in Dubai. We specialise in helping you buy, sell, and lease properties. Our services are tailored to your unique needs. Let us help you because your property dreams - our reality. Schedule a call today!
-        </p>
-        <Link to="/contact" >
-        <button className="mt-6 lg:mt-8 bg-orange-500 text-white px-6 py-3 font-bold">
-          Read More
-        </button>
-        </Link>
+    <section className="max-w-8xl mx-auto px-5 lg:py-5 lg:px-20">
+      <div className="flex lg:flex-row flex-col-reverse lg:gap-16 gap-5">
+        <img src={aboutimg} alt="about" className="mx-auto" />
+
+        <div className="pt-24">
+          <Slide direction="right">
+            <h1 className="text-[#024959] font-bebas text-7xl mb-2">
+              OWN PROPERTY IN A TAX HAVEN
+            </h1>
+          </Slide>
+
+          <Slide direction="up">
+            <div className="text-xl text-black/60 pt-5 pr-14">
+              Gulf Estates is your partner in finding the perfect home in Dubai.
+              We specialise in helping you buy, sell, and lease properties. Our
+              services are tailored to your unique needs. Let us help you
+              because your property dreams - our reality. Schedule a call today!
+            </div>
+          </Slide>
+
+          <Slide direction="up" className="pt-10">
+            <Link to="/about">
+              <button
+                className={`py-2 px-8  transition-all duration-300 text-lg font-medium border-2 border-[#F2762E] text-white hover:bg-[#024959] bg-[#F2762E] hover:text-white'
+            }`}
+              >
+                Read More
+              </button>
+            </Link>
+          </Slide>
+        </div>
       </div>
-      <div
-        className="absolute w-full h-[50vh] lg:h-screen pt-4 inset-0 bg-cover z-0 top-[100%] lg:top-0" 
-        style={{
-          backgroundImage: `url(${bg})`,
-        }}
-      />
     </section>
   );
-}
+};
 
 export default LookFooter;

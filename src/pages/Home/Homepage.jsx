@@ -24,7 +24,7 @@ const Homepage = () => {
      </section>
 
      <section>
-      <img src={aboutsection2} alt='img' className='mx-auto my-6 w-screen' />
+      <img src={aboutsection2} alt='img' className='mx-auto my-6' />
      </section>
 
      <section>
@@ -35,7 +35,8 @@ const Homepage = () => {
       <LookFooter/>
      </section>
 
-     <section className='lg:pt-[28%]'>
+
+     <section className='py-16'>
       <SetApart />
      </section> 
 

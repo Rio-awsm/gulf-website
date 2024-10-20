@@ -11,9 +11,9 @@ const SetApart = () => {
         <img src={setapart} alt="about" className="mx-auto" />
 
         <div className="pt-4">
-          <Slide direction="up">
+          {/* <Slide direction="up">
             <HeadingCapsule text={"Our Benefits"} />
-          </Slide>
+          </Slide> */}
           <Slide direction="up">
             <h1 className="text-[#024959] font-bebas text-7xl lg:text-8xl mb-2 ">
               what sets us apart

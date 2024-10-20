@@ -22,7 +22,7 @@ function Looking() {
               subheading1={
                 "Explore the finest homes in Dubai with us that align and suit your budget and style. "
               }
-              subheading2={"buy a home"}
+              subheading2={""}
             />
           </Fade>
 
@@ -34,7 +34,7 @@ function Looking() {
               subheading1={
                 "Ready to sell your home with confidence? Let our expert advice and market insights give you a seamless selling experience! "
               }
-              subheading2={"Sell a home"}
+              subheading2={""}
             />
           </Fade>
 
@@ -46,7 +46,7 @@ function Looking() {
               subheading1={
                 "Find your ideal lease that satisfies all your needs. Contact us for hassle-free home leasing. "
               }
-              subheading2={"Lease a home"}
+              subheading2={""}
             />
           </Fade>
         </div>

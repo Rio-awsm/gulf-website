@@ -5,7 +5,7 @@ import { Slide } from "react-awesome-reveal";
 
 function ContactUsIntegration() {
   return (
-    <section className="lg:py-12 py-20 relative flex lg:flex-col items-center justify-center lg:min-h-screen w-full">
+    <section className="py-10 relative flex lg:flex-col items-center justify-center lg:min-h-screen w-full">
       <div className="relative items-center justify-center flex flex-col">
         <Slide>
           <h1 className=" uppercase font-bebas text-5xl lg:text-9xl text-white text-center">

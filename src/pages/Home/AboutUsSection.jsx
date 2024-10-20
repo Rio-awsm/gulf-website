@@ -23,11 +23,14 @@ const AboutUsSection = () => {
             </h1>
           </Slide>
 
-          <Slide direction="up"><div className="text-xl text-black/60 pt-5 pr-14">
-            Welcome to the Gulf Estates, where your dream of finding a home in
-            Dubai becomes a reality. Our services ensure connecting the perfect
-            buyer to the finest of properties available in the market.
-          </div></Slide>
+          <Slide direction="up">
+            <div className="text-xl text-black/60 pt-5 pr-14">
+              Welcome to Gulf Estates, where your dream of finding a home in
+              Dubai becomes a reality. Our services ensure connecting the
+              investors and end users to the finest of properties available in
+              the market.
+            </div>
+          </Slide>
 
           <Slide direction="up" className="pt-10">
             <Link to="/about">
