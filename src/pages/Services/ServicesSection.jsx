@@ -30,7 +30,7 @@ const ServicesSection = () => {
         <Slide direction="up">
           <ServiceCard
             img={service3}
-            heading={"SELL A HOME"}
+            heading={"Rent A HOME"}
             text={
               "With quick support, Gulf Estates can help you easily sell your home or apartment quickly."
             }

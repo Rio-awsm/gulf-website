@@ -30,9 +30,9 @@ function Looking() {
             <Bcard
               img={looking}
               link={"/"}
-              heading={"sell a home"}
+              heading={"Rent a home"}
               subheading1={
-                "Ready to sell your home with confidence? Let our expert advice and market insights give you a seamless selling experience! "
+                "Ready to rent your home with confidence? Let our expert advice and market insights give you a seamless selling experience! "
               }
               subheading2={""}
             />
