@@ -1,48 +1,37 @@
 import React, { useEffect, useRef } from "react";
-import aboutHero from "/assets/aboutHero.webp";
+import aboutHero from "/assets/aboutHero.svg";
 import { Fade, Slide } from "react-awesome-reveal";
 
 const AboutHero = () => {
-  const parallaxRef = useRef(null);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (parallaxRef.current) {
-        const scrollPosition = window.pageYOffset;
-        parallaxRef.current.style.transform = `translateY(${scrollPosition * 0.5}px)`;
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
+ 
   return (
-    <section className="lg:pt-16 pt-10 relative overflow-hidden" style={{ height: '100vh' }}>
-      <div className="text-center relative z-10">
-        <Slide><h1 className="font-bebas lg:text-8xl text-5xl text-[#024959]">
+    <section className="lg:py-12 relative flex lg:flex-col items-center justify-center lg:min-h-screen w-full">
+      <div className="relative items-center justify-center flex flex-col z-10"> 
+        <Slide>
+          <h1 className="uppercase font-bebas text-5xl lg:text-8xl text-white text-center mt-24 mb-4">
           A Legacy of Trust in Real Estate
-        </h1></Slide>
-        <Fade><p className="text-xl z-10 relative pt-6 text-black/60 px-6 lg:px-36">
-          With a deep understanding of the local market and a commitment to
-          client satisfaction, we have earned the trust of countless homeowners
-          and investors.
-        </p></Fade>
+          </h1>
+        </Slide>
+        <Slide direction="up">
+          <p className="lg:text-2xl text-white text-center mt-4 lg:mt-0 lg:px-40 px-12 pb-10">
+            We assist you with every step of your real estate journey, making the
+            process of buying, selling, or investing hassle-free. Our personalised
+            approach and expertise will help you turn your property ambitions into
+            reality and set the foundation for your success.
+          </p>
+        </Slide>
       </div>
-      <div 
-        ref={parallaxRef}
-        className="absolute top-48 left-0 w-full h-full"
+
+
+      <div
+        className="absolute w-full h-[60vh] lg:h-screen bg-cover bg-center -z-10"
         style={{
           backgroundImage: `url(${aboutHero})`,
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
-          transform: 'translateY(0)',
-          willChange: 'transform'
         }}
-      />
+      >
+    
+        <div className="absolute inset-0 bg-black opacity-35"></div> 
+      </div>
     </section>
   );
 };

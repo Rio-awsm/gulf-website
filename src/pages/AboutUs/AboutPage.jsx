@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import Logo from "/assets/LogoBlack.svg";
+import Logo from "/assets/logo.svg";
 import AboutHero from "./AboutHero";
 import Leadership from "./Leadership";
 import FaqSection from "./FaqSection";
@@ -11,14 +11,13 @@ const AboutPage = () => {
   return (
     <main>
       <Navbar
-        textcolor={"black"}
-        font={"bold"}
+        textcolor={"white"}
         justify={"center"}
-        scrollbg={"[#024959]"}
+        scrollbg={"black"}
         logo={Logo}
       />
 
-      <section className="mt-14">
+      <section className="">
         <AboutHero />
       </section>
 

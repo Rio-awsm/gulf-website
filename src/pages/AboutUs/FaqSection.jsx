@@ -16,12 +16,7 @@ function FaqSection({view}) {
       answer:
         "At the beginning you don’t need to choose, but let us explain why. When approaching a bank directly they will not necessarily have the best mortgage offer for your situation and they will be focused on showing you the benefits of their product. If you consult a mortgage broker, like Mortgage Finder, our team are able to look at mortgage products across the UAE from different banks to offer you the best one for your situation and also share the pros and cons of them with you, so you can make an informed decision. ",
     },
-    {
-      question:
-        "Which mortgage options can Mortgage Finder help with?",
-      answer:
-        "In the UAE there are many types of mortgage products available. Below are mortgage types Mortgage Finder can help with: Residential and commercial mortgages; Mortgages for residents and non-residents; Mortgage products across all available mortgage providers (e.g. fixed and floating rates, interest only mortgages etc)",
-    },
+    
     {
       question:
         "Should I get life and building insurances?",
