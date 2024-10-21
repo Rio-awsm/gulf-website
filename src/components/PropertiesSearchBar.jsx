@@ -209,7 +209,7 @@ const PropertySearchBar = () => {
                     {result.property_type[0]} in {result.community[0]}
                   </div>
                   <div className="text-sm text-gray-600">
-                    ${result.price[0]}/month • {result.bedroom[0]} BR •
+                    {result.price[0]}/month • {result.bedroom[0]} BR •
                     {result.title_en[0]}
                   </div>
                 </div>
