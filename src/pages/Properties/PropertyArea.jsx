@@ -17,39 +17,39 @@ function PropertyArea() {
       <Cardforproperties
       img={Framesvg}
       link = {"/"}
-      heading = "neighbourhood"
+      heading = "Downtown"
       />
       <Cardforproperties
       img={Framesvg}
       link = {"/"}
-      heading = "business bay"
+      heading = "Dubai Marina"
       />
       <Cardforproperties
       img={Framesvg}
       link = {"/"}
-      heading = "district one"
+      heading = "Emaar beachfront"
       />
       </div>
       <div className = "flex lg:flex-row flex-col gap-8 lg:gap-1 justify-center mt-5 ">
       <Cardforproperties
       img={Framesvg}
       link = {"/"}
-      heading = "downtown"
+      heading = "District one"
       />
       <Cardforproperties
       img={Framesvg}
       link = {"/"}
-      heading = "dubai marina"
+      heading = "Sobha Hartland"
       />
       <Cardforproperties
       img={Framesvg}
       link = {"/"}
-      heading = "jvc"
+      heading = "Meydan"
       />
       <Cardforproperties
       img={Framesvg}
       link = {"/"}
-      heading = "world islands"
+      heading = "Dubai Creek Harbour"
       />
       </div>
 
@@ -57,17 +57,17 @@ function PropertyArea() {
       <Cardforproperties
       img={Framesvg}
       link = {"/"}
-      heading = "emaar beachfront"
+      heading = "Dubai Heels Estate"
       />
       <Cardforproperties
       img={Framesvg}
       link = {"/"}
-      heading = "mbr al-merkad"
+      heading = "Business Bay"
       />
       <Cardforproperties
       img={Framesvg}
       link = {"/"}
-      heading = "sobha hartland"
+      heading = "Dubai South"
       />
       </div>
       </div>
