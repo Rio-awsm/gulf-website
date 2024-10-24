@@ -8,7 +8,7 @@ const LookFooter = () => {
   return (
     <section className="max-w-8xl mx-auto px-5 lg:py-5 lg:px-20">
       <div className="flex lg:flex-row flex-col-reverse lg:gap-16 gap-5">
-        <img src={aboutimg} alt="about" className="mx-auto" />
+        <img src={aboutimg} alt="about" className="mx-auto w-[520px] h-[650px]" />
 
         <div className="pt-24">
           <Slide direction="right">

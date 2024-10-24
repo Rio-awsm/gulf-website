@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar'
 import Footer from '../../components/Footer'
 import Hero from './Hero'
 import AboutUsSection from './AboutUsSection'
-import aboutsection2 from "/assets/aboutsection2.svg"
+import aboutsection2 from "/assets/aboutsection2.webp"
 import Looking from './Looking'
 import LookFooter from './LookFooter'
 import ContactUsIntegration from "../Home/ContactUsIntegration"
@@ -31,7 +31,7 @@ const Homepage = () => {
       <Looking/>
      </section>
 
-     <section className='lg:block hidden'>
+     <section className=''>
       <LookFooter/>
      </section>
 

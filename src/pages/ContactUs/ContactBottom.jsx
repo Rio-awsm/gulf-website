@@ -61,7 +61,7 @@ const ContactBottom = () => {
           </Slide>
           <Zoom>
             <div>
-              <img src={abtImg2} alt="img" className="mx-auto" />
+              <img src={abtImg2} alt="img" className="mx-auto h-[450px]" />
             </div>
           </Zoom>
           <Slide>

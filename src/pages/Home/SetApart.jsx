@@ -1,5 +1,5 @@
 import React from "react";
-import setapart from "/assets/setapart.svg";
+import setapart from "/assets/setapart.png";
 import HeadingCapsule from "../../components/HeadingCapsule";
 import { CircleCheck, Medal, PenLine } from "lucide-react";
 import { Slide } from "react-awesome-reveal";
