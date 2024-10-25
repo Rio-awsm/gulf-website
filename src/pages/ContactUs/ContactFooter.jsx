@@ -38,9 +38,24 @@ function ContactFooter() {
             <div>
               <h2 className="text-3xl font-bebas text-[#F2762E] mb-2">FOLLOW US</h2>
               <div className="flex space-x-4">
-                <FaFacebook className="w-6 h-6" />
-                <AiFillInstagram className="w-6 h-6" />
-                <FaLinkedin className="w-6 h-6" />
+              <a
+                href="https://www.instagram.com/gulfestates.ae?igsh=bjZ3MGt2NjdpcGtt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-gray-700 transition-colors duration-200"
+                aria-label="Instagram"
+              >
+                <AiFillInstagram size={30} />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/gulfestatesae/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-gray-700 transition-colors duration-200"
+                aria-label="LinkedIn"
+              >
+                <FaLinkedin size={30} />
+              </a>
               </div>
             </div>
           </div>
