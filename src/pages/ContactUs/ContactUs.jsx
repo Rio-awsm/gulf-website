@@ -1,42 +1,42 @@
-import React from 'react'
-import Navbar from '../../components/Navbar'
+import React from "react";
+import Navbar from "../../components/Navbar";
 import Logo from "/assets/LogoBlack.svg";
-import Footer from '../../components/Footer';
-import ContactHero from './ContactForm';
-import ContactForm from './ContactForm';
-import ContactFooter from './ContactFooter';
-import ContactBottom from './ContactBottom';
+import Footer from "../../components/Footer";
+import ContactHero from "./ContactForm";
+import ContactForm from "./ContactForm";
+import ContactFooter from "./ContactFooter";
+import ContactBottom from "./ContactBottom";
 
 function ContactUs() {
   return (
     <main>
-        <section>
+      <section>
         <Navbar
-        textcolor={"black"}
-        font={"bold"}
-        justify={"center"}
-        scrollbg={"[#024959]"}
-        logo={Logo}
-      />
-        </section>
+          textcolor={"black"}
+          font={"bold"}
+          justify={"center"}
+          scrollbg={"[#024959]"}
+          logo={Logo}
+        />
+      </section>
 
-        <section className='pt-20'>
-            <ContactForm/>
-        </section>
+      <section className="pt-20">
+        <ContactForm />
+      </section>
 
-        <section>
-            <ContactFooter/>
-        </section>
+      <section>
+        <ContactFooter />
+      </section>
 
-        <section>
-          <ContactBottom />
-        </section>
+      <section>
+        <ContactBottom />
+      </section>
 
-        <section>
-            <Footer/>
-        </section>
+      <section>
+        <Footer />
+      </section>
     </main>
-  )
+  );
 }
 
-export default ContactUs
+export default ContactUs;

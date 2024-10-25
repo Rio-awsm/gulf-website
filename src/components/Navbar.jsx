@@ -25,6 +25,7 @@ const Navbar = ({textcolor,font,justify,scrollbg,logo}) => {
     { path: "/about", label: "About Us" },
     { path: "/services", label: "Services" },
     { path: "/contact", label: "Contact Us" },
+    { path: "/blogs", label: "Blogs" },
   ];
 
   return (

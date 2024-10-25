@@ -56,6 +56,15 @@ function ContactFooter() {
               >
                 <FaLinkedin size={30} />
               </a>
+              <a
+                href="https://www.facebook.com/gulfestatesuae"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-gray-700 transition-colors duration-200"
+                aria-label="LinkedIn"
+              >
+                <FaFacebook size={30} />
+              </a>
               </div>
             </div>
           </div>
