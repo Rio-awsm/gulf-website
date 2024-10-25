@@ -2,6 +2,7 @@ import React from 'react';
 import { FaFacebook } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
 import { FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const sections = [
@@ -54,13 +55,13 @@ const Footer = () => {
               <ul className="space-y-3">
                 {section.links.map((link, linkIndex) => (
                   <li key={linkIndex}>
-                    <a 
-                      href={link.url}
+                    <Link 
+                      to={link.url}
                       className="text-gray-600 hover:text-gray-900 transition-colors duration-200 text-sm inline-block relative group"
                     >
                       {link.name}
                       <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gray-300 transition-all duration-200 group-hover:w-full" />
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
