@@ -79,15 +79,15 @@ const Footer = () => {
 
             {/* Social links */}
             <div className="flex space-x-6">
-              {/* <a
-                href="https://facebook.com"
+              <a
+                href="https://www.facebook.com/gulfestatesuae"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-700 transition-colors duration-200"
                 aria-label="Facebook"
               >
-                <Facebook size={20} />
-              </a> */}
+                <FaFacebook size={20} />
+              </a>
               <a
                 href="https://www.instagram.com/gulfestates.ae?igsh=bjZ3MGt2NjdpcGtt"
                 target="_blank"
