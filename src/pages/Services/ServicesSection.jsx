@@ -20,7 +20,7 @@ const ServicesSection = () => {
             img={service1}
             heading={"BUY A NEW HOME"}
             text={
-              "Thousands of homes, Gulf Estates can match you with a house you want to call home."
+              "Thousands of properties, Gulf Estates can match you with a house you want to call home."
             }
             button={"Find A Home"}
           />
@@ -30,7 +30,7 @@ const ServicesSection = () => {
         <Slide direction="up">
           <ServiceCard
             img={service3}
-            heading={"Rent A HOME"}
+            heading={"SELL A HOME"}
             text={
               "With quick support, Gulf Estates can help you easily sell your home or apartment quickly."
             }
@@ -40,9 +40,9 @@ const ServicesSection = () => {
         <Slide direction="right">
           <ServiceCard
             img={service2}
-            heading={"Lease A HOME"}
+            heading={"RENT A HOME"}
             text={
-              "With filters and custom searches, Gulf Estates helps you easily find a house you'll love."
+              "With filters and custom searches, Gulf Estates helps you easily find a property you'll love."
             }
             button={"Find A Lease"}
           />

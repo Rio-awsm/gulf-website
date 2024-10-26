@@ -2,6 +2,7 @@ import React from "react";
 import img from "/assets/serviceSection.webp";
 import { Slice } from "lucide-react";
 import { Slide } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 
 const BecomeOwners = () => {
   return (
@@ -19,9 +20,11 @@ const BecomeOwners = () => {
         </Slide>
 
         <Slide direction="up">
-          <button className="mt-4 lg:mt-8 bg-orange-500 text-white hover:text-black px-6 py-2 lg:px-8 lg:py-3 hover:bg-white duration-150 font-bold rounded-md lg:rounded-none">
-            Contact Us
-          </button>
+          <Link to="/contact">
+            <button className="mt-4 lg:mt-8 bg-orange-500 text-white hover:text-black px-6 py-2 lg:px-8 lg:py-3 hover:bg-white duration-150 font-bold rounded-md lg:rounded-none">
+              Contact Us
+            </button>
+          </Link>
         </Slide>
       </div>
 

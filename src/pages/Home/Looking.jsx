@@ -20,7 +20,19 @@ function Looking() {
               link={"/"}
               heading={"buy a home"}
               subheading1={
-                "Explore the finest homes in Dubai with us that align and suit your budget and style. "
+                "Explore the finest properties in Dubai with us that align and suit your budget and style. "
+              }
+              subheading2={""}
+            />
+          </Fade>
+
+          <Fade>
+            <Bcard
+              img={looking}
+              link={"/"}
+              heading={"Sell a home"}
+              subheading1={
+                "Ready to sell your property with confidence? Let our expert advice and market insights give you a seamless selling experience! "
               }
               subheading2={""}
             />
@@ -32,19 +44,7 @@ function Looking() {
               link={"/"}
               heading={"Rent a home"}
               subheading1={
-                "Ready to rent your home with confidence? Let our expert advice and market insights give you a seamless selling experience! "
-              }
-              subheading2={""}
-            />
-          </Fade>
-
-          <Fade>
-            <Bcard
-              img={looking}
-              link={"/"}
-              heading={"Lease a home"}
-              subheading1={
-                "Find your ideal lease that satisfies all your needs. Contact us for hassle-free home leasing. "
+                "Find your ideal rent that satisfies all your needs. Contact us for hassle-free home renting. "
               }
               subheading2={""}
             />
