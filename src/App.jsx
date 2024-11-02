@@ -6,6 +6,8 @@ import {
   Link,
   useLocation,
 } from "react-router-dom";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
 import Loader from "./components/Loader";
 import Homepage from "./pages/Home/Homepage";
 import AboutPage from "./pages/AboutUs/AboutPage";
@@ -35,23 +37,29 @@ function App() {
   };
   return (
     <>
-      {screenLoading ? (<Loader />) : (<>
-        <BrowserRouter>
-        <Wrapper>
-          <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/contact" element={<ContactUs />} />
-            <Route path="/services" element={<ServicePage />} />
-            <Route path="/properties" element={<PropertiesPage />} />
-            <Route path="/property/:id" element={<PropertyDetails />} />
-            <Route path="/buy-property" element={<BuyPropertyPage />}/>
-            <Route path="/blogs" element={<BlogsPage />}/>
-            <Route path="/blog/:id" element={<BlogDetails />} />
-          </Routes>
-        </Wrapper>
-      </BrowserRouter>
-      </>)}
+      {screenLoading ? (
+        <Loader />
+      ) : (
+        <>
+          <I18nextProvider i18n={i18n}>
+            <BrowserRouter>
+              <Wrapper>
+                <Routes>
+                  <Route path="/" element={<Homepage />} />
+                  <Route path="/about" element={<AboutPage />} />
+                  <Route path="/contact" element={<ContactUs />} />
+                  <Route path="/services" element={<ServicePage />} />
+                  <Route path="/properties" element={<PropertiesPage />} />
+                  <Route path="/property/:id" element={<PropertyDetails />} />
+                  <Route path="/buy-property" element={<BuyPropertyPage />} />
+                  <Route path="/blogs" element={<BlogsPage />} />
+                  <Route path="/blog/:id" element={<BlogDetails />} />
+                </Routes>
+              </Wrapper>
+            </BrowserRouter>
+          </I18nextProvider>
+        </>
+      )}
     </>
   );
 }

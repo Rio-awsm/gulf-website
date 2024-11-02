@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
+import LanguageSwitcher from "./LanguageSwitcher"
 
 const Navbar = ({textcolor,font,justify,scrollbg,logo}) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +36,6 @@ const Navbar = ({textcolor,font,justify,scrollbg,logo}) => {
           <Link to="/" className="flex-shrink-0">
             <img className="h-30 w-30 transition-all duration-300" src={logo} alt="Logo" />
           </Link>
-
           <div className={`hidden lg:flex items-center justify-${justify} flex-1 space-x-6`}>
             {navItems.map((item) => (
               <Link
@@ -58,6 +58,7 @@ const Navbar = ({textcolor,font,justify,scrollbg,logo}) => {
               Find Properties
             </button>
           </Link>
+          <LanguageSwitcher />
 
           <div className="lg:hidden">
             <button
@@ -109,11 +110,12 @@ const Navbar = ({textcolor,font,justify,scrollbg,logo}) => {
                 {item.label}
               </Link>
             ))}
-            <Link to="/buy-property" className="block pt-4">
+            <Link to="/buy-property" className="block py-4">
               <button className="w-full text-black py-2 px-8 rounded-full bg-[#F2762E] hover:bg-opacity-90 transition-all duration-300 text-base font-medium">
-                Buy Property
+                Find Properties
               </button>
             </Link>
+            <LanguageSwitcher />
           </div>
         </div>
       </div>
