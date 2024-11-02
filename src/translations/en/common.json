@@ -43,5 +43,9 @@
         "headingTwo" : "THINK DUBAI.",
         "text" : "Dreaming of a new home or seeking the perfect investment? Our team is here to help you every step of the way. Reach out today and let's bring your plan to life!"
     }
+  },
+  "Properties": {
+    "heroOne" : "Browse Our Extensive",
+    "herotwo" : "Property Listings"
   }
 }

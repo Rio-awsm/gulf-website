@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
-import LanguageSwitcher from "./LanguageSwitcher"
+import LanguageSwitcher from "./LanguageSwitcher";
 
-const Navbar = ({textcolor,font,justify,scrollbg,logo}) => {
+const Navbar = ({ textcolor, font, justify, scrollbg, logo }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
@@ -17,8 +17,8 @@ const Navbar = ({textcolor,font,justify,scrollbg,logo}) => {
       setIsScrolled(window.scrollY > 10);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const navItems = [
@@ -30,35 +30,48 @@ const Navbar = ({textcolor,font,justify,scrollbg,logo}) => {
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? `bg-${scrollbg}` : 'bg-transparent'}`}>
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isScrolled ? `bg-${scrollbg}` : "bg-transparent"
+      }`}
+    >
       <div className="max-w-8xl mx-auto px-4 pt-1 lg:px-20">
         <div className="flex items-center lg:space-x-36 justify-between lg:justify-normal h-20">
           <Link to="/" className="flex-shrink-0">
-            <img className="h-30 w-30 transition-all duration-300" src={logo} alt="Logo" />
+            <img
+              className="h-30 w-30 transition-all duration-300"
+              src={logo}
+              alt="Logo"
+            />
           </Link>
-          <div className={`hidden lg:flex items-center justify-${justify} flex-1 space-x-6`}>
+          <div
+            className={`hidden lg:flex items-center justify-${justify} flex-1 space-x-6`}
+          >
             {navItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
                 className={`font-${font} transition-all duration-300 px-2 py-2 rounded-md ${
                   location.pathname === item.path
-                    ? 'text-[#F2762E] bg-opacity-20 bg-[#F2762E]'
+                    ? "text-[#F2762E] bg-opacity-20 bg-[#F2762E]"
                     : `text-${textcolor} hover:text-[#F2762E]`
                 }`}
               >
-                {item.label} 
+                {item.label}
               </Link>
             ))}
           </div>
 
+          <LanguageSwitcher />
+
           <Link to="/buy-property" className="hidden lg:block">
-            <button className={`py-2 px-8  transition-all duration-300 font-medium border-2 border-white text-black bg-white '
-            }`}>
+            <button
+              className={`py-2 px-8  transition-all duration-300 font-medium border-2 border-white text-black bg-white '
+            }`}
+            >
               Find Properties
             </button>
           </Link>
-          <LanguageSwitcher />
 
           <div className="lg:hidden">
             <button
@@ -73,7 +86,7 @@ const Navbar = ({textcolor,font,justify,scrollbg,logo}) => {
 
       <div
         className={`fixed inset-y-0 left-0 transform ${
-          isOpen ? 'translate-x-0' : '-translate-x-full'
+          isOpen ? "translate-x-0" : "-translate-x-full"
         } lg:hidden bg-black w-64 overflow-y-auto ease-in-out transition-all duration-300 z-50`}
       >
         <div className="p-5">
@@ -102,8 +115,8 @@ const Navbar = ({textcolor,font,justify,scrollbg,logo}) => {
                 to={item.path}
                 className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
                   location.pathname === item.path
-                    ? 'bg-[#F2762E] text-white'
-                    : 'text-white hover:bg-[#F2762E] hover:text-white'
+                    ? "bg-[#F2762E] text-white"
+                    : "text-white hover:bg-[#F2762E] hover:text-white"
                 }`}
                 onClick={toggleMenu}
               >
