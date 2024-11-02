@@ -1,0 +1,48 @@
+{
+    "HomePage": {
+      "heroOne": "RÉALISER LES RÊVES",
+      "herotwo": "EN ADRESSES",
+      "heroSub": "Trouvez la propriété de vos rêves avec Gulf Estates, où nos conseils d'experts vous connecteront à la propriété de vos rêves. Partons ensemble à la recherche de votre maison idéale !",
+      "aboutHeroOne": "VOTRE PARTENAIRE IMMOBILIER",
+      "aboutHeroTwo": "DE CONFIANCE À DUBAÏ.",
+      "aboutHeroText": "Bienvenue chez Gulf Estates, où votre rêve de trouver une maison à Dubaï devient réalité. Nos services assurent la connexion entre les investisseurs et les utilisateurs finaux avec les meilleures propriétés disponibles sur le marché.",
+      "lookingHero": "Je cherche à ...",
+      "lookingCardOne": {
+        "heading": "acheter une maison",
+        "text": "Explorez avec nous les plus belles propriétés de Dubaï qui correspondent à votre budget et à votre style."
+      },
+      "lookingCardTwo": {
+        "heading": "vendre une maison",
+        "text": "Prêt à vendre votre propriété en toute confiance ? Bénéficiez de nos conseils d'experts et de nos connaissances du marché pour une expérience de vente sans souci !"
+      },
+      "lookingCardThree": {
+        "heading": "louer une maison",
+        "text": "Trouvez le loyer idéal qui répond à tous vos besoins. Contactez-nous pour une location de maison sans tracas."
+      },
+      "lookFooter": {
+        "heading": "POSSEDEZ UNE PROPRIÉTÉ DANS UN PARADIS FISCAL",
+        "text": "Gulf Estates est votre partenaire pour trouver la maison parfaite à Dubaï. Nous sommes spécialisés dans l'achat, la vente et la location de biens immobiliers. Nos services sont adaptés à vos besoins uniques. Laissez-nous vous aider car vos rêves immobiliers - notre réalité. Prenez rendez-vous dès aujourd'hui !"
+      },
+      "setApart": {
+        "heading": "ce qui nous distingue",
+        "pointOne": {
+          "heading": "EXPERTISE PROUVÉE",
+          "text": "L'expertise que nos professionnels apportent vous aidera à prendre des décisions non seulement confiantes mais aussi offrant un retour sur investissement élevé."
+        },
+        "pointTwo": {
+          "heading": "SOLUTIONS PERSONNALISÉES",
+          "text": "Chez Gulf Estates, nous prenons le temps de comprendre vos goûts uniques afin de trouver la propriété parfaite qui correspond à vos besoins."
+        },
+        "pointThree": {
+          "heading": "PARTENARIATS TRANSPARENTS",
+          "text": "La transparence est ce en quoi nous croyons chez Gulf Estates. Nous croyons en une communication ouverte et honnête à chaque étape de votre parcours d'achat."
+        }
+      },
+      "ContactPart": {
+        "headingOne": "PENSEZ ZÉRO IMPÔT IMMOBILIER.",
+        "headingTwo": "PENSEZ DUBAÏ.",
+        "text": "Vous rêvez d'une nouvelle maison ou cherchez le parfait investissement ? Notre équipe est là pour vous aider à chaque étape. Contactez-nous dès aujourd'hui et concrétisons votre projet !"
+      }
+    }
+  }
+  

@@ -3,8 +3,10 @@ import aboutimg from "/assets/lookfooter.webp";
 import { Link } from "react-router-dom";
 import HeadingCapsule from "../../components/HeadingCapsule";
 import { Fade, Slide } from "react-awesome-reveal";
+import { useTranslation } from 'react-i18next';
 
 const LookFooter = () => {
+  const { t } = useTranslation('common');
   return (
     <section className="max-w-8xl mx-auto px-5 lg:py-5 lg:px-20">
       <div className="flex lg:flex-row flex-col-reverse lg:gap-16 gap-5">
@@ -13,16 +15,13 @@ const LookFooter = () => {
         <div className="pt-24">
           <Slide direction="right">
             <h1 className="text-[#024959] font-bebas text-7xl mb-2">
-              OWN PROPERTY IN A TAX HAVEN
+            {t('HomePage.lookFooter.heading')}
             </h1>
           </Slide>
 
           <Slide direction="up">
             <div className="text-xl text-black/60 pt-5 pr-14">
-              Gulf Estates is your partner in finding the perfect home in Dubai.
-              We specialise in helping you buy, sell, and lease properties. Our
-              services are tailored to your unique needs. Let us help you
-              because your property dreams - our reality. Schedule a call today!
+            {t('HomePage.lookFooter.text')}
             </div>
           </Slide>
 

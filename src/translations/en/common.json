@@ -1,0 +1,47 @@
+{
+  "HomePage": {
+    "heroOne": "TURNING DREAMS",
+    "herotwo": "INTO ADDRESSES",
+    "heroSub": "Find your dream property with Gulf Estates, where our expert guidance will connect you with the property of your dreams. Let's embark on the journey to find your ideal home!",
+    "aboutHeroOne": "YOUR TRUSTED REAL ESTATE",
+    "aboutHeroTwo": "PARTNER IN DUBAI.",
+    "aboutHeroText": "Welcome to Gulf Estates, where your dream of finding a home in Dubai becomes a reality. Our services ensure connecting the investors and end users to the finest of properties available in the market.",
+    "lookingHero": "i’m looking to ...",
+    "lookingCardOne": {
+      "heading": "buy a home",
+      "text": "Explore the finest properties in Dubai with us that align and suit your budget and style. "
+    },
+    "lookingCardTwo": {
+      "heading": "Sell a home",
+      "text": "Ready to sell your property with confidence? Let our expert advice and market insights give you a seamless selling experience! "
+    },
+    "lookingCardThree": {
+      "heading": "Rent a home",
+      "text": "Find your ideal rent that satisfies all your needs. Contact us for hassle-free home renting."
+    },
+    "lookFooter": {
+      "heading": "OWN PROPERTY IN A TAX HAVEN",
+      "text": "Gulf Estates is your partner in finding the perfect home in Dubai. We specialise in helping you buy, sell, and lease properties. Our services are tailored to your unique needs. Let us help you because your property dreams - our reality. Schedule a call today!"
+    },
+    "setApart": {
+      "heading": "what sets us apart",
+      "pointOne": {
+        "heading": "PROVEN EXPERTISE",
+        "text": "The expertise that our professionals bring to the table will help you to make decisions that are not only confident but also provide a high return on investment."
+      },
+      "pointTwo": {
+        "heading": "CUSTOMISED SOLUTIONS",
+        "text": "At Gulf Estates, we will take time to understand your unique taste so that we can find the perfect property that aligns with your needs."
+      },
+      "pointThree": {
+        "heading": "TRANSPARENT PARTNERSHIPS",
+        "text": "Transparency is what we believe in Gulf Estates. We believe in having open and honest communication at every stage of your buying journey."
+      }
+    },
+    "ContactPart" : {
+        "headingOne" : "THINK ZERO PROPERTY TAX.",
+        "headingTwo" : "THINK DUBAI.",
+        "text" : "Dreaming of a new home or seeking the perfect investment? Our team is here to help you every step of the way. Reach out today and let's bring your plan to life!"
+    }
+  }
+}

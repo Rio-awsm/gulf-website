@@ -2,14 +2,16 @@ import React from "react";
 import Bcard from "../../components/Bcard";
 import looking from "/assets/looking.svg";
 import { Fade, Slide } from "react-awesome-reveal";
+import { useTranslation } from 'react-i18next';
 
 function Looking() {
+  const { t } = useTranslation('common');
   return (
     <section className="m-4 flex justify-center items-center">
       <div className="flex flex-col  lg:items-start justify-center items-center ">
         <Slide>
           <h1 className="uppercase text-[#024959] lg:text-6xl text-6xl font-bebas">
-            i’m looking to ...
+          {t('HomePage.lookingHero')}
           </h1>
         </Slide>
 
@@ -18,10 +20,8 @@ function Looking() {
             <Bcard
               img={looking}
               link={"/"}
-              heading={"buy a home"}
-              subheading1={
-                "Explore the finest properties in Dubai with us that align and suit your budget and style. "
-              }
+              heading={t('HomePage.lookingCardOne.heading')}
+              subheading1={t('HomePage.lookingCardOne.text')}
               subheading2={""}
             />
           </Fade>
@@ -30,10 +30,8 @@ function Looking() {
             <Bcard
               img={looking}
               link={"/"}
-              heading={"Sell a home"}
-              subheading1={
-                "Ready to sell your property with confidence? Let our expert advice and market insights give you a seamless selling experience! "
-              }
+              heading={t('HomePage.lookingCardTwo.heading')}
+              subheading1={t('HomePage.lookingCardTwo.text')}
               subheading2={""}
             />
           </Fade>
@@ -42,10 +40,8 @@ function Looking() {
             <Bcard
               img={looking}
               link={"/"}
-              heading={"Rent a home"}
-              subheading1={
-                "Find your ideal rent that satisfies all your needs. Contact us for hassle-free home renting. "
-              }
+              heading={t('HomePage.lookingCardThree.heading')}
+              subheading1={t('HomePage.lookingCardThree.text')}
               subheading2={""}
             />
           </Fade>

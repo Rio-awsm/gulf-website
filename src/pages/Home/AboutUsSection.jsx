@@ -3,8 +3,11 @@ import aboutimg from "/assets/aboutsection.svg";
 import { Link } from "react-router-dom";
 import HeadingCapsule from "../../components/HeadingCapsule";
 import { Fade, Slide } from "react-awesome-reveal";
+import { useTranslation } from 'react-i18next';
+
 
 const AboutUsSection = () => {
+  const { t } = useTranslation('common');
   return (
     <section className="max-w-8xl mx-auto px-5 lg:py-5 lg:px-20">
       <div className="flex lg:flex-row flex-col-reverse lg:gap-16 gap-5">
@@ -16,19 +19,16 @@ const AboutUsSection = () => {
           </Slide>
           <Slide direction="right">
             <h1 className="text-[#024959] font-bebas text-7xl mb-2">
-              YOUR TRUSTED REAL ESTATE
+              {t('HomePage.aboutHeroOne')}
             </h1>
             <h1 className="text-[#024959] font-bebas text-7xl mb-2">
-              PARTNER IN DUBAI.
+            {t('HomePage.aboutHeroTwo')}
             </h1>
           </Slide>
 
           <Slide direction="up">
             <div className="text-xl text-black/60 pt-5 pr-14">
-              Welcome to Gulf Estates, where your dream of finding a home in
-              Dubai becomes a reality. Our services ensure connecting the
-              investors and end users to the finest of properties available in
-              the market.
+            {t('HomePage.aboutHeroText')}
             </div>
           </Slide>
 

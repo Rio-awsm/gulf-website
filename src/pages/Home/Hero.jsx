@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import heroimg from "/assets/hero.svg";
 import PropertySearchBar from "../../components/PropertiesSearchBar";
+import { useTranslation } from 'react-i18next';
+
 
 const Hero = () => {
+  const { t } = useTranslation('common');
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -17,15 +20,13 @@ const Hero = () => {
         }`}
       >
         <h1 className="font-bebas lg:text-9xl text-left text-7xl">
-          TURNING DREAMS
+          {t('HomePage.heroOne')}
         </h1>
         <p className="font-bebas lg:text-9xl text-left text-7xl">
-          INTO ADDRESSES<span className="text-[#F2762E]">.</span>
+          {t('HomePage.herotwo')}<span className="text-[#F2762E]">.</span>
         </p>
         <div className="text-white/60 lg:w-[900px] lg:text-2xl py-4 text-lg lg:pr-36">
-          Find your dream property with Gulf Estates, where our expert guidance
-          will connect you with the property of your dreams. Let's embark on the
-          journey to find your ideal home!
+          {t('HomePage.heroSub')}
         </div>
         <div>
           <PropertySearchBar />
