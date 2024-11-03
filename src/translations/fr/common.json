@@ -47,5 +47,52 @@
   "Properties": {
     "heroOne": "Parcourez notre vaste",
     "herotwo": "liste de propriétés"
+  },
+  "AboutPage": {
+  "AboutHero": {
+    "heading": "Un Héritage de Confiance en Immobilier",
+    "text": "Nous vous accompagnons à chaque étape de votre parcours immobilier, rendant le processus d'achat, de vente ou d'investissement sans tracas. Notre approche personnalisée et notre expertise vous aideront à concrétiser vos ambitions immobilières et à poser les bases de votre succès."
+  },
+  "AboutSection": {
+    "headingOne": "NOTRE HISTOIRE",
+    "headingTwo": "À PROPOS DE GULF ESTATES",
+    "textOne": "Bienvenue chez Gulf Estates, où votre rêve de trouver une maison à Dubaï devient réalité. Nos services assurent la connexion entre l'acheteur idéal et les meilleures propriétés disponibles sur le marché.",
+    "textTwo": "Notre mission est de fournir des services immobiliers professionnels et sans faille aux personnes recherchant le luxe, le confort et un investissement sûr. Nous croyons en la transparence avec nos clients, avec un engagement sincère.",
+    "textThree": "Notre vision ne se limite pas à trouver la bonne propriété pour notre client, mais à laisser une impression durable. Nous les guidons à chaque étape de leur parcours d'achat immobilier. Nous aidons nos clients à prendre des décisions éclairées et confiantes sur le marché.",
+    "textFour": "Nos professionnels expérimentés possèdent une compréhension approfondie du marché immobilier de Dubaï. Notre connaissance experte combinée à un service personnalisé offre une expérience d'achat unique. Laissez-nous être votre partenaire de confiance pour trouver la propriété que vous pourrez appeler chez vous !"
   }
+},
+"Services": {
+  "Hero": {
+    "headingOne": "VOTRE CHEMIN VERS",
+    "headingTwo": "LE SUCCÈS DE L'INVESTISSEMENT",
+    "text": "Nous vous accompagnons à chaque étape de votre parcours immobilier, rendant le processus d'achat, de vente ou d'investissement sans tracas. Notre approche personnalisée et notre expertise vous aideront à concrétiser vos ambitions immobilières et à poser les bases de votre succès."
+  },
+  "section": {
+    "Herotext": "CE QUE NOUS FAISONS",
+    "Cards": {
+      "CardOne": {
+        "heading": "ACHETER UNE NOUVELLE MAISON",
+        "text": "Des milliers de propriétés, Gulf Estates peut vous aider à trouver la maison que vous voudrez appeler chez vous.",
+        "button": "Trouver une Maison"
+      },
+      "CardTwo": {
+        "heading": "VENDRE UNE MAISON",
+        "text": "Avec un soutien rapide, Gulf Estates peut vous aider à vendre votre maison ou appartement facilement et rapidement.",
+        "button": "Soumettre une Propriété"
+      },
+      "CardThree": {
+        "heading": "LOUER UNE MAISON",
+        "text": "Avec des filtres et des recherches personnalisées, Gulf Estates vous aide à trouver facilement une propriété que vous allez adorer.",
+        "button": "Trouver une Location"
+      }
+    }
+  },
+  "Owner": {
+    "heading": "DEVENEZ INVESTISSEUR",
+    "text": "Contactez Gulf Estates pour les meilleures propriétés."
+  }
+}
+
+
 }

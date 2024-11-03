@@ -3,19 +3,21 @@ import img from "/assets/serviceSection.webp";
 import { Slice } from "lucide-react";
 import { Slide } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 const BecomeOwners = () => {
+  const { t } = useTranslation('common');
   return (
     <section className="lg:py-12 py-8 relative flex lg:flex-col items-center justify-center lg:min-h-screen w-full mt-[20%] lg:mt-0">
       <div className="relative items-center justify-center flex flex-col px-4 lg:px-0 text-center">
         <Slide direction="down">
           <h1 className="uppercase font-bebas text-6xl  lg:text-9xl text-white mt-12 lg:mt-20">
-            BECOME AN INVESTOR
+          {t('Services.Owner.heading')}
           </h1>
         </Slide>
         <Slide direction="up">
           <p className="text-lg lg:text-2xl text-white mt-4 lg:mt-6 lg:px-40 px-4">
-            Contact Gulf Estates for the finest properties.
+          {t('Services.Owner.text')}
           </p>
         </Slide>
 

@@ -4,13 +4,15 @@ import service1 from "/assets/service1.webp";
 import service2 from "/assets/service2.webp";
 import service3 from "/assets/service3.webp";
 import { Slide } from "react-awesome-reveal";
+import { useTranslation } from 'react-i18next';
 
 const ServicesSection = () => {
+  const { t } = useTranslation('common');
   return (
     <section className="pb-6 overflow-hidden">
       <Slide direction="down">
         <h1 className="text-[#024959] font-bebas text-7xl pt-12 lg:pt-0 lg:text-8xl mb-2 text-center">
-          WHAT WE DO?
+        {t('Services.section.Herotext')}
         </h1>
       </Slide>
 
@@ -18,11 +20,9 @@ const ServicesSection = () => {
         <Slide>
           <ServiceCard
             img={service1}
-            heading={"BUY A NEW HOME"}
-            text={
-              "Thousands of properties, Gulf Estates can match you with a house you want to call home."
-            }
-            button={"Find A Home"}
+            heading={t('Services.section.Cards.CardOne.heading')}
+            text={t('Services.section.Cards.CardOne.text')}
+            button={t('Services.section.Cards.CardOne.button')}
           />
         </Slide>
 
@@ -30,21 +30,17 @@ const ServicesSection = () => {
         <Slide direction="up">
           <ServiceCard
             img={service3}
-            heading={"SELL A HOME"}
-            text={
-              "With quick support, Gulf Estates can help you easily sell your home or apartment quickly."
-            }
-            button={"Submit Property"}
+            heading={t('Services.section.Cards.CardTwo.heading')}
+            text={t('Services.section.Cards.CardTwo.text')}
+            button={t('Services.section.Cards.CardTwo.button')}
           />
         </Slide>
         <Slide direction="right">
           <ServiceCard
             img={service2}
-            heading={"RENT A HOME"}
-            text={
-              "With filters and custom searches, Gulf Estates helps you easily find a property you'll love."
-            }
-            button={"Find A Lease"}
+            heading={t('Services.section.Cards.CardThree.heading')}
+            text={t('Services.section.Cards.CardThree.text')}
+            button={t('Services.section.Cards.CardThree.button')}
           />
         </Slide>
       </div>

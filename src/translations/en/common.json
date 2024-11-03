@@ -38,14 +38,59 @@
         "text": "Transparency is what we believe in Gulf Estates. We believe in having open and honest communication at every stage of your buying journey."
       }
     },
-    "ContactPart" : {
-        "headingOne" : "THINK ZERO PROPERTY TAX.",
-        "headingTwo" : "THINK DUBAI.",
-        "text" : "Dreaming of a new home or seeking the perfect investment? Our team is here to help you every step of the way. Reach out today and let's bring your plan to life!"
+    "ContactPart": {
+      "headingOne": "THINK ZERO PROPERTY TAX.",
+      "headingTwo": "THINK DUBAI.",
+      "text": "Dreaming of a new home or seeking the perfect investment? Our team is here to help you every step of the way. Reach out today and let's bring your plan to life!"
     }
   },
   "Properties": {
-    "heroOne" : "Browse Our Extensive",
-    "herotwo" : "Property Listings"
+    "heroOne": "Browse Our Extensive",
+    "herotwo": "Property Listings"
+  },
+  "AboutPage": {
+    "AboutHero": {
+      "heading": "A Legacy of Trust in Real Estate",
+      "text": "We assist you with every step of your real estate journey, making the process of buying, selling, or investing hassle-free. Our personalised approach and expertise will help you turn your property ambitions into reality and set the foundation for your success."
+    },
+    "AboutSection": {
+      "headingOne": "OUR STORY",
+      "headingTwo": "ABOUT GULF ESTATES",
+      "textOne": "Welcome to the Gulf Estates, where your dream of finding a home in Dubai becomes a reality. Our services ensure connecting the perfect buyer to the finest of properties available in the market.",
+      "textTwo": "Our mission is to provide seamless and professional real estate services to the people who are seeking luxury, comfort, and a sound investment. We believe in transparency with our clients with a sincere commitment.",
+      "textThree": "Our vision not only includes finding the right property for our client, but to leave a lasting impression. We guide them through every step of their property buying journey. We help our clients to make informed and confident decisions in the market.",
+      "textFour": "Our seasoned professionals possess a deep understanding of Dubai's real estate market. Our expert knowledge combined with personalised service gives a unique buying experience. Let us be your trusted partner in finding the property you can call home!"
+    }
+  },
+  "Services": {
+    "Hero": {
+      "headingOne": "YOUR PATHWAY TO",
+      "headingTwo": "INVESTMENT SUCCESS",
+      "text": "We assist you with every step of your real estate journey, making the process of buying, selling, or investing hassle-free. Our personalised approach and expertise will help you turn your property ambitions into reality and set the foundation for your success."
+    },
+    "section": {
+      "Herotext": "WHAT WE DO?",
+      "Cards": {
+        "CardOne": {
+          "heading": "BUY A NEW HOME",
+          "text": "Thousands of properties, Gulf Estates can match you with a house you want to call home.",
+          "button": "Find A Home"
+        },
+        "CardTwo": {
+          "heading": "SELL A HOME",
+          "text": "With quick support, Gulf Estates can help you easily sell your home or apartment quickly.",
+          "button": "Submit Property"
+        },
+        "CardThree": {
+          "heading": "RENT A HOME",
+          "text": "With filters and custom searches, Gulf Estates helps you easily find a property you'll love.",
+          "button": "Find A Rental"
+        }
+      }
+    },
+    "Owner" : {
+        "heading" : "BECOME AN INVESTOR",
+        "text" : "Contact Gulf Estates for the finest properties."
+      }
   }
 }
