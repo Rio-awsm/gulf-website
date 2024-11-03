@@ -74,7 +74,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
             <p className="text-gray-500 text-sm">
-              © {currentYear} Your Brand. All rights reserved.
+              © {currentYear} Gulf Estates. All rights reserved.
             </p>
 
             {/* Social links */}
