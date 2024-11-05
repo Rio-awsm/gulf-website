@@ -88,9 +88,92 @@
         }
       }
     },
-    "Owner" : {
-        "heading" : "BECOME AN INVESTOR",
-        "text" : "Contact Gulf Estates for the finest properties."
+    "Owner": {
+      "heading": "BECOME AN INVESTOR",
+      "text": "Contact Gulf Estates for the finest properties."
+    }
+  },
+  "faqsection": {
+    "hero": {
+      "image_alt": "Hero image",
+      "title_line1": "YOUR TRUSTED",
+      "title_line2": "REAL ESTATE",
+      "title_line3": "PARTNER IN DUBAI"
+    },
+    "faq": {
+      "section_title": "Frequently Asked Questions",
+      "docs_required": {
+        "question": "What documents are required to get pre-approved?",
+        "answer": "Documents required can differ depending on your circumstances, but our mortgage advisors will be able to discuss this with you. In general we will require the following documents for your mortgage: Copy of your passport, visa and Emirates ID; Salary certificate addressed to 'Mortgage Finder'; Last six months payslips and bank statements; Latest credit card statements; Proof of your current address – copy of DEWA bill or tenancy agreement."
+      },
+      "bank_choice": {
+        "question": "Which bank should I choose?",
+        "answer": "At the beginning you don't need to choose, but let us explain why. When approaching a bank directly they will not necessarily have the best mortgage offer for your situation and they will be focused on showing you the benefits of their product. If you consult a mortgage broker, like Mortgage Finder, our team are able to look at mortgage products across the UAE from different banks to offer you the best one for your situation and also share the pros and cons of them with you, so you can make an informed decision."
+      },
+      "insurance": {
+        "question": "Should I get life and building insurances?",
+        "answer": "Life and building insurances are necessary under any circumstances. Without it, you won't be granted a mortgage."
+      },
+      "non_resident": {
+        "question": "Can I get a mortgage if I live outside UAE?",
+        "answer": "Yes, it is possible to get a mortgage in the UAE even if you live outside of the country. Non-residents might be required to provide a 50% down payment."
+      },
+      "pre_approval": {
+        "question": "How long will it take to get my pre-approval?",
+        "answer": "The mortgage pre-approval process is the first step in getting a mortgage and can take up to 5 working days. However, it is worth noting that securing pre-approval may take longer depending on the bank used and the complexity of your case. Once pre-approval has been secured and you have settled on a property that you want to purchase, we manage the rest of the process on your behalf until completion."
+      },
+      "missed_payment": {
+        "question": "What happens if I miss a mortgage payment?",
+        "answer": "If you do not repay the debt within the specified period, the bank will additionally require you to pay a penalty. It is calculated from the day following the payment due date. Filing a lawsuit and property seizure are extreme measures. The bank will resort to them if the borrower does not repay the debt for an extended period of time."
+      },
+      "payment_struggle": {
+        "question": "What should i do if I begin to struggle to repay my mortgage?",
+        "answer": "Banks will often do what they can to support the borrower and there 'may' be plans/arrangements that you can negotiate to help manage the situation. However in all circumstances it is important to get in touch with them as early as possible to avoid penalties and missed payments. The following circumstances are genuinely considered valid reasons for banks to consider offering help: Reduction or termination of employment due to health reasons or company closure. Salary reduction. Forced medical expenses for the borrower or their family. Emergency situations causing significant financial damage."
+      },
+      "early_closure": {
+        "question": "Can I close the mortgage ahead of schedule?",
+        "answer": "In general most banks will charge a penalty for settling the mortgage early, but this will vary from one bank to another. In most cases the penalty will range from 0% – 3% of the outstanding mortgage balance but this will depend on whether the mortgage is being repaid by your own funds, being sold or being refinanced by another bank."
       }
+    }
+  },
+
+  "navbar": {
+    "properties": "Properties",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact Us",
+    "blogs": "Blogs",
+    "find_properties": "Find Properties",
+    "logo_alt": "Logo"
+  },
+  "footer": {
+    "buy_property": {
+      "title": "Buy Property",
+      "links": {
+        "properties_for_sale": "Properties for sale"
+      }
+    },
+    "company": {
+      "title": "Company",
+      "links": {
+        "about_us": "About us",
+        "services": "Services"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "links": {
+        "general_enquiry": "General enquiry",
+        "privacy_policy": "Privacy policy"
+      }
+    },
+    "brand_name": "Gulf Estates",
+    "brand_description": "Discover your dream property with our expert guidance and comprehensive property listings.",
+    "copyright": "All rights reserved.",
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
   }
 }

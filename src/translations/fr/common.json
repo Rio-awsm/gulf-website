@@ -49,50 +49,131 @@
     "herotwo": "liste de propriétés"
   },
   "AboutPage": {
-  "AboutHero": {
-    "heading": "Un Héritage de Confiance en Immobilier",
-    "text": "Nous vous accompagnons à chaque étape de votre parcours immobilier, rendant le processus d'achat, de vente ou d'investissement sans tracas. Notre approche personnalisée et notre expertise vous aideront à concrétiser vos ambitions immobilières et à poser les bases de votre succès."
+    "AboutHero": {
+      "heading": "Un Héritage de Confiance en Immobilier",
+      "text": "Nous vous accompagnons à chaque étape de votre parcours immobilier, rendant le processus d'achat, de vente ou d'investissement sans tracas. Notre approche personnalisée et notre expertise vous aideront à concrétiser vos ambitions immobilières et à poser les bases de votre succès."
+    },
+    "AboutSection": {
+      "headingOne": "NOTRE HISTOIRE",
+      "headingTwo": "À PROPOS DE GULF ESTATES",
+      "textOne": "Bienvenue chez Gulf Estates, où votre rêve de trouver une maison à Dubaï devient réalité. Nos services assurent la connexion entre l'acheteur idéal et les meilleures propriétés disponibles sur le marché.",
+      "textTwo": "Notre mission est de fournir des services immobiliers professionnels et sans faille aux personnes recherchant le luxe, le confort et un investissement sûr. Nous croyons en la transparence avec nos clients, avec un engagement sincère.",
+      "textThree": "Notre vision ne se limite pas à trouver la bonne propriété pour notre client, mais à laisser une impression durable. Nous les guidons à chaque étape de leur parcours d'achat immobilier. Nous aidons nos clients à prendre des décisions éclairées et confiantes sur le marché.",
+      "textFour": "Nos professionnels expérimentés possèdent une compréhension approfondie du marché immobilier de Dubaï. Notre connaissance experte combinée à un service personnalisé offre une expérience d'achat unique. Laissez-nous être votre partenaire de confiance pour trouver la propriété que vous pourrez appeler chez vous !"
+    }
   },
-  "AboutSection": {
-    "headingOne": "NOTRE HISTOIRE",
-    "headingTwo": "À PROPOS DE GULF ESTATES",
-    "textOne": "Bienvenue chez Gulf Estates, où votre rêve de trouver une maison à Dubaï devient réalité. Nos services assurent la connexion entre l'acheteur idéal et les meilleures propriétés disponibles sur le marché.",
-    "textTwo": "Notre mission est de fournir des services immobiliers professionnels et sans faille aux personnes recherchant le luxe, le confort et un investissement sûr. Nous croyons en la transparence avec nos clients, avec un engagement sincère.",
-    "textThree": "Notre vision ne se limite pas à trouver la bonne propriété pour notre client, mais à laisser une impression durable. Nous les guidons à chaque étape de leur parcours d'achat immobilier. Nous aidons nos clients à prendre des décisions éclairées et confiantes sur le marché.",
-    "textFour": "Nos professionnels expérimentés possèdent une compréhension approfondie du marché immobilier de Dubaï. Notre connaissance experte combinée à un service personnalisé offre une expérience d'achat unique. Laissez-nous être votre partenaire de confiance pour trouver la propriété que vous pourrez appeler chez vous !"
-  }
-},
-"Services": {
-  "Hero": {
-    "headingOne": "VOTRE CHEMIN VERS",
-    "headingTwo": "LE SUCCÈS DE L'INVESTISSEMENT",
-    "text": "Nous vous accompagnons à chaque étape de votre parcours immobilier, rendant le processus d'achat, de vente ou d'investissement sans tracas. Notre approche personnalisée et notre expertise vous aideront à concrétiser vos ambitions immobilières et à poser les bases de votre succès."
+  "Services": {
+    "Hero": {
+      "headingOne": "VOTRE CHEMIN VERS",
+      "headingTwo": "LE SUCCÈS DE L'INVESTISSEMENT",
+      "text": "Nous vous accompagnons à chaque étape de votre parcours immobilier, rendant le processus d'achat, de vente ou d'investissement sans tracas. Notre approche personnalisée et notre expertise vous aideront à concrétiser vos ambitions immobilières et à poser les bases de votre succès."
+    },
+    "section": {
+      "Herotext": "CE QUE NOUS FAISONS",
+      "Cards": {
+        "CardOne": {
+          "heading": "ACHETER UNE NOUVELLE MAISON",
+          "text": "Des milliers de propriétés, Gulf Estates peut vous aider à trouver la maison que vous voudrez appeler chez vous.",
+          "button": "Trouver une Maison"
+        },
+        "CardTwo": {
+          "heading": "VENDRE UNE MAISON",
+          "text": "Avec un soutien rapide, Gulf Estates peut vous aider à vendre votre maison ou appartement facilement et rapidement.",
+          "button": "Soumettre une Propriété"
+        },
+        "CardThree": {
+          "heading": "LOUER UNE MAISON",
+          "text": "Avec des filtres et des recherches personnalisées, Gulf Estates vous aide à trouver facilement une propriété que vous allez adorer.",
+          "button": "Trouver une Location"
+        }
+      }
+    },
+    "Owner": {
+      "heading": "DEVENEZ INVESTISSEUR",
+      "text": "Contactez Gulf Estates pour les meilleures propriétés."
+    }
   },
-  "section": {
-    "Herotext": "CE QUE NOUS FAISONS",
-    "Cards": {
-      "CardOne": {
-        "heading": "ACHETER UNE NOUVELLE MAISON",
-        "text": "Des milliers de propriétés, Gulf Estates peut vous aider à trouver la maison que vous voudrez appeler chez vous.",
-        "button": "Trouver une Maison"
+  "faqsection": {
+    "hero": {
+      "image_alt": "Image principale",
+      "title_line1": "VOTRE PARTENAIRE",
+      "title_line2": "IMMOBILIER",
+      "title_line3": "DE CONFIANCE À DUBAI"
+    },
+    "faq": {
+      "section_title": "Questions Fréquemment Posées",
+      "docs_required": {
+        "question": "Quels documents sont nécessaires pour obtenir une pré-approbation?",
+        "answer": "Les documents requis peuvent varier selon votre situation, mais nos conseillers en prêts hypothécaires pourront en discuter avec vous. En général, nous aurons besoin des documents suivants pour votre prêt hypothécaire : Copie de votre passeport, visa et carte d'identité Emirates; Certificat de salaire adressé à 'Mortgage Finder'; Fiches de paie et relevés bancaires des six derniers mois; Derniers relevés de carte de crédit; Justificatif de domicile actuel – copie de la facture DEWA ou du contrat de location."
       },
-      "CardTwo": {
-        "heading": "VENDRE UNE MAISON",
-        "text": "Avec un soutien rapide, Gulf Estates peut vous aider à vendre votre maison ou appartement facilement et rapidement.",
-        "button": "Soumettre une Propriété"
+      "bank_choice": {
+        "question": "Quelle banque devrais-je choisir ?",
+        "answer": "Au début, vous n'avez pas besoin de choisir, mais laissez-nous vous expliquer pourquoi. En vous adressant directement à une banque, ils n'auront pas nécessairement la meilleure offre de prêt hypothécaire pour votre situation et ils se concentreront sur vous montrer les avantages de leur produit. Si vous consultez un courtier en prêts hypothécaires, comme Mortgage Finder, notre équipe est en mesure d'examiner les produits de prêts hypothécaires dans tout l'Émirats arabes unis de différentes banques pour vous offrir le meilleur pour votre situation et également de vous en partager les avantages et les inconvénients, afin que vous puissiez prendre une décision éclairée."
       },
-      "CardThree": {
-        "heading": "LOUER UNE MAISON",
-        "text": "Avec des filtres et des recherches personnalisées, Gulf Estates vous aide à trouver facilement une propriété que vous allez adorer.",
-        "button": "Trouver une Location"
+      "insurance": {
+        "question": "Dois-je souscrire à une assurance vie et une assurance bâtiment ?",
+        "answer": "Les assurances vie et bâtiment sont nécessaires dans tous les cas. Sans cela, vous n'obtiendrez pas de prêt hypothécaire."
+      },
+      "non_resident": {
+        "question": "Puis-je obtenir un prêt hypothécaire si je vis en dehors des Émirats ?",
+        "answer": "Oui, il est possible d'obtenir un prêt hypothécaire aux Émirats même si vous vivez en dehors du pays. Les non-résidents peuvent être tenus de fournir un acompte de 50%."
+      },
+      "pre_approval": {
+        "question": "Combien de temps faudra-t-il pour obtenir ma pré-approbation ?",
+        "answer": "Le processus de pré-approbation du prêt hypothécaire est la première étape pour obtenir un prêt et peut prendre jusqu'à 5 jours ouvrables. Cependant, il est important de noter que l'obtention de la pré-approbation peut prendre plus de temps selon la banque utilisée et la complexité de votre dossier. Une fois la pré-approbation obtenue et que vous vous êtes décidé sur le bien que vous souhaitez acheter, nous gérons le reste du processus en votre nom jusqu'à la finalisation."
+      },
+      "missed_payment": {
+        "question": "Que se passe-t-il si je manque un paiement de mon prêt hypothécaire ?",
+        "answer": "Si vous ne remboursez pas la dette dans le délai imparti, la banque vous demandera également de payer une pénalité. Elle est calculée à compter du jour suivant la date d'échéance du paiement. Le dépôt d'une action en justice et la saisie du bien sont des mesures extrêmes. La banque y aura recours si l'emprunteur ne rembourse pas la dette pendant une période prolongée."
+      },
+      "payment_struggle": {
+        "question": "Que dois-je faire si je commence à avoir des difficultés pour rembourser mon prêt hypothécaire ?",
+        "answer": "Les banques font souvent de leur mieux pour soutenir l'emprunteur et il peut y avoir des plans/arrangements que vous pouvez négocier pour gérer la situation. Cependant, dans tous les cas, il est important de les contacter le plus tôt possible pour éviter les pénalités et les retards de paiement. Les circonstances suivantes sont considérées comme des motifs valables pour que les banques envisagent d'offrir de l'aide : Réduction ou cessation d'emploi pour raisons de santé ou fermeture de l'entreprise. Baisse de salaire. Dépenses médicales forcées pour l'emprunteur ou sa famille. Situations d'urgence provoquant des dommages financiers importants."
+      },
+      "early_closure": {
+        "question": "Puis-je clôturer le prêt hypothécaire avant l'échéance ?",
+        "answer": "En général, la plupart des banques factureront une pénalité pour le remboursement anticipé du prêt hypothécaire, mais cela variera d'une banque à l'autre. Dans la plupart des cas, la pénalité se situera entre 0% et 3% du solde restant du prêt, mais cela dépendra si le prêt est remboursé avec vos propres fonds, s'il est vendu ou s'il est refinancé par une autre banque."
       }
     }
   },
-  "Owner": {
-    "heading": "DEVENEZ INVESTISSEUR",
-    "text": "Contactez Gulf Estates pour les meilleures propriétés."
+
+  "navbar": {
+    "properties": "Propriétés",
+    "about": "À propos de nous",
+    "services": "Services",
+    "contact": "Contactez-nous",
+    "blogs": "Blogs",
+    "find_properties": "Trouver des propriétés",
+    "logo_alt": "Logo"
+  },
+  "footer": {
+    "buy_property": {
+      "title": "Acheter une propriété",
+      "links": {
+        "properties_for_sale": "Propriétés à vendre"
+      }
+    },
+    "company": {
+      "title": "Entreprise",
+      "links": {
+        "about_us": "À propos de nous",
+        "services": "Services"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "links": {
+        "general_enquiry": "Renseignement général",
+        "privacy_policy": "Politique de confidentialité"
+      }
+    },
+    "brand_name": "Gulf Estates",
+    "brand_description": "Découvrez votre propriété de rêve avec notre accompagnement d'experts et nos listings complets de propriétés.",
+    "copyright": "Tous droits réservés.",
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
   }
-}
-
-
 }

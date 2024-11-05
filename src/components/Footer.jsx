@@ -3,25 +3,28 @@ import { FaFacebook } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
 import { FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const { t } = useTranslation('common');
+
   const sections = [
     {
-      title: 'Buy Property',
-      links: [{ name: 'Properties for sale', url: '/buy-property' }],
+      title: t('footer.buy_property.title'),
+      links: [{ name: t('footer.buy_property.links.properties_for_sale'), url: '/buy-property' }],
     },
     {
-      title: 'Company',
+      title: t('footer.company.title'),
       links: [
-        { name: 'About us', url: '/about' },
-        { name: 'Services', url: '/services' },
+        { name: t('footer.company.links.about_us'), url: '/about' },
+        { name: t('footer.company.links.services'), url: '/services' },
       ],
     },
     {
-      title: 'Contact',
+      title: t('footer.contact.title'),
       links: [
-        { name: 'General enquiry', url: '/contact' },
-        { name: 'Privacy policy', url: '/privacy-policy' },
+        { name: t('footer.contact.links.general_enquiry'), url: '/contact' },
+        { name: t('footer.contact.links.privacy_policy'), url: '/privacy-policy' },
       ],
     },
   ];
@@ -39,10 +42,10 @@ const Footer = () => {
           {/* Brand section */}
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-gray-800">
-             Gulf Estates
+             {t('footer.brand_name')}
             </h2>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Discover your dream property with our expert guidance and comprehensive property listings.
+              {t('footer.brand_description')}
             </p>
           </div>
 
@@ -74,7 +77,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
             <p className="text-gray-500 text-sm">
-              © {currentYear} Gulf Estates. All rights reserved.
+              © {currentYear} {t('footer.brand_name')}. {t('footer.copyright')}
             </p>
 
             {/* Social links */}
@@ -84,7 +87,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-700 transition-colors duration-200"
-                aria-label="Facebook"
+                aria-label={t('footer.social.facebook')}
               >
                 <FaFacebook size={20} />
               </a>
@@ -93,7 +96,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-700 transition-colors duration-200"
-                aria-label="Instagram"
+                aria-label={t('footer.social.instagram')}
               >
                 <AiFillInstagram size={20} />
               </a>
@@ -102,7 +105,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-700 transition-colors duration-200"
-                aria-label="LinkedIn"
+                aria-label={t('footer.social.linkedin')}
               >
                 <FaLinkedin size={20} />
               </a>
