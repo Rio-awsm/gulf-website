@@ -2,26 +2,26 @@
   "HomePage": {
     "heroOne": "RÉALISER LES RÊVES",
     "herotwo": "EN ADRESSES",
-    "heroSub": "Trouvez la propriété de vos rêves avec Gulf Estates, où nos conseils d'experts vous connecteront à la propriété de vos rêves. Partons ensemble à la recherche de votre maison idéale !",
+    "heroSub": "Trouvez la propriété de vos rêves avec Gulf Estates, où nos conseils d'experts vous connecteront à la propriété de vos rêves. Partons ensemble à la recherche de votre propriété idéale !",
     "aboutHeroOne": "VOTRE PARTENAIRE IMMOBILIER",
     "aboutHeroTwo": "DE CONFIANCE À DUBAÏ.",
-    "aboutHeroText": "Bienvenue chez Gulf Estates, où votre rêve de trouver une maison à Dubaï devient réalité. Nos services assurent la connexion entre les investisseurs et les utilisateurs finaux avec les meilleures propriétés disponibles sur le marché.",
+    "aboutHeroText": "Bienvenue chez Gulf Estates, où votre rêve de trouver une propriété à Dubaï devient réalité. Nos services assurent la connexion entre les investisseurs et les utilisateurs finaux avec les meilleures propriétés disponibles sur le marché.",
     "lookingHero": "Je cherche à ...",
     "lookingCardOne": {
-      "heading": "acheter une maison",
+      "heading": "acheter une propriété",
       "text": "Explorez avec nous les plus belles propriétés de Dubaï qui correspondent à votre budget et à votre style."
     },
     "lookingCardTwo": {
-      "heading": "vendre une maison",
+      "heading": "vendre une propriété",
       "text": "Prêt à vendre votre propriété en toute confiance ? Bénéficiez de nos conseils d'experts et de nos connaissances du marché pour une expérience de vente sans souci !"
     },
     "lookingCardThree": {
-      "heading": "louer une maison",
-      "text": "Trouvez le loyer idéal qui répond à tous vos besoins. Contactez-nous pour une location de maison sans tracas."
+      "heading": "louer une propriété",
+      "text": "Trouvez le loyer idéal qui répond à tous vos besoins. Contactez-nous pour une location de propriété sans tracas."
     },
     "lookFooter": {
       "heading": "POSSEDEZ UNE PROPRIÉTÉ DANS UN PARADIS FISCAL",
-      "text": "Gulf Estates est votre partenaire pour trouver la maison parfaite à Dubaï. Nous sommes spécialisés dans l'achat, la vente et la location de biens immobiliers. Nos services sont adaptés à vos besoins uniques. Laissez-nous vous aider car vos rêves immobiliers - notre réalité. Prenez rendez-vous dès aujourd'hui !"
+      "text": "Gulf Estates est votre partenaire pour trouver la propriété parfaite à Dubaï. Nous sommes spécialisés dans l'achat, la vente et la location de biens immobiliers. Nos services sont adaptés à vos besoins uniques. Laissez-nous vous aider car vos rêves immobiliers - notre réalité. Prenez rendez-vous dès aujourd'hui !"
     },
     "setApart": {
       "heading": "ce qui nous distingue",
@@ -41,14 +41,14 @@
     "ContactPart": {
       "headingOne": "PENSEZ ZÉRO IMPÔT IMMOBILIER.",
       "headingTwo": "PENSEZ DUBAÏ.",
-      "text": "Vous rêvez d'une nouvelle maison ou cherchez le parfait investissement ? Notre équipe est là pour vous aider à chaque étape. Contactez-nous dès aujourd'hui et concrétisons votre projet !"
+      "text": "Vous rêvez d'une nouvelle propriété ou cherchez le parfait investissement ? Notre équipe est là pour vous aider à chaque étape. Contactez-nous dès aujourd'hui et concrétisons votre projet !"
     }
   },
   "Properties": {
     "heroOne": "Parcourez notre vaste",
     "herotwo": "liste de propriétés",
     "semiHero": "NOS PROPRIÉTÉS",
-    "semiText": "Explorez une gamme variée de maisons, des appartements confortables aux vastes domaines.",
+    "semiText": "Explorez une gamme variée de propriété, des appartements confortables aux vastes domaines.",
     "areaHero": "Zones populaires",
     "areaText": "Découvrez les meilleurs quartiers et communautés de notre région."
   },
@@ -60,7 +60,7 @@
     "AboutSection": {
       "headingOne": "NOTRE HISTOIRE",
       "headingTwo": "À PROPOS DE GULF ESTATES",
-      "textOne": "Bienvenue chez Gulf Estates, où votre rêve de trouver une maison à Dubaï devient réalité. Nos services assurent la connexion entre l'acheteur idéal et les meilleures propriétés disponibles sur le marché.",
+      "textOne": "Bienvenue chez Gulf Estates, où votre rêve de trouver une propriété à Dubaï devient réalité. Nos services assurent la connexion entre l'acheteur idéal et les meilleures propriétés disponibles sur le marché.",
       "textTwo": "Notre mission est de fournir des services immobiliers professionnels et sans faille aux personnes recherchant le luxe, le confort et un investissement sûr. Nous croyons en la transparence avec nos clients, avec un engagement sincère.",
       "textThree": "Notre vision ne se limite pas à trouver la bonne propriété pour notre client, mais à laisser une impression durable. Nous les guidons à chaque étape de leur parcours d'achat immobilier. Nous aidons nos clients à prendre des décisions éclairées et confiantes sur le marché.",
       "textFour": "Nos professionnels expérimentés possèdent une compréhension approfondie du marché immobilier de Dubaï. Notre connaissance experte combinée à un service personnalisé offre une expérience d'achat unique. Laissez-nous être votre partenaire de confiance pour trouver la propriété que vous pourrez appeler chez vous !"
@@ -76,17 +76,17 @@
       "Herotext": "CE QUE NOUS FAISONS",
       "Cards": {
         "CardOne": {
-          "heading": "ACHETER UNE NOUVELLE MAISON",
-          "text": "Des milliers de propriétés, Gulf Estates peut vous aider à trouver la maison que vous voudrez appeler chez vous.",
-          "button": "Trouver une Maison"
+          "heading": "ACHETER UNE NOUVELLE propriété",
+          "text": "Des milliers de propriétés, Gulf Estates peut vous aider à trouver la propriété que vous voudrez appeler chez vous.",
+          "button": "Trouver une propriété"
         },
         "CardTwo": {
-          "heading": "VENDRE UNE MAISON",
-          "text": "Avec un soutien rapide, Gulf Estates peut vous aider à vendre votre maison ou appartement facilement et rapidement.",
+          "heading": "VENDRE UNE propriété",
+          "text": "Avec un soutien rapide, Gulf Estates peut vous aider à vendre votre propriété ou appartement facilement et rapidement.",
           "button": "Soumettre une Propriété"
         },
         "CardThree": {
-          "heading": "LOUER UNE MAISON",
+          "heading": "LOUER UNE propriété",
           "text": "Avec des filtres et des recherches personnalisées, Gulf Estates vous aide à trouver facilement une propriété que vous allez adorer.",
           "button": "Trouver une Location"
         }

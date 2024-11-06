@@ -2,7 +2,7 @@ import React from 'react';
 
 const ServiceCard = ({ img, heading, text, button }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg pb-3 transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-2 group">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg pb-3 transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-2 group flex flex-col h-[450px]"> {/* Set fixed height */}
       <div className="overflow-hidden">
         <img
           className="w-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
@@ -10,7 +10,7 @@ const ServiceCard = ({ img, heading, text, button }) => {
           alt="House"
         />
       </div>
-      <div className="px-6 py-4">
+      <div className="px-6 py-4 flex flex-col justify-between flex-grow"> {/* Make sure the content inside flex grows evenly */}
         <div className="text-4xl my-2 text-center font-bebas text-[#024959] transition-colors duration-300 ease-in-out group-hover:text-[#036c82]">
           {heading}
         </div>
