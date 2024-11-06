@@ -46,7 +46,11 @@
   },
   "Properties": {
     "heroOne": "Parcourez notre vaste",
-    "herotwo": "liste de propriétés"
+    "herotwo": "liste de propriétés",
+    "semiHero": "NOS PROPRIÉTÉS",
+    "semiText": "Explorez une gamme variée de maisons, des appartements confortables aux vastes domaines.",
+    "areaHero": "Zones populaires",
+    "areaText": "Découvrez les meilleurs quartiers et communautés de notre région."
   },
   "AboutPage": {
     "AboutHero": {
@@ -174,6 +178,70 @@
       "facebook": "Facebook",
       "instagram": "Instagram",
       "linkedin": "LinkedIn"
+    }
+  },
+  "leader": {
+    "headers": {
+      "leadership": "DIRECTION",
+      "meetOurTeam": "RENCONTREZ NOTRE ÉQUIPE"
+    },
+    "positions": {
+      "salesManager": "Directeur Commercial",
+      "businessDevelopmentManager": "Responsable du Développement Commercial",
+      "propertyAdvisor": "Conseiller Immobilier",
+      "adminCoordinator": "Coordinateur Administratif",
+      "customerServiceExecutive": "Responsable Service Client",
+      "cinematographer": "Cinéaste",
+      "captain": "Capitaine"
+    }
+  },
+  "contact": {
+    "form": {
+      "headers": {
+        "getInTouch": "CONTACTEZ-NOUS"
+      },
+      "placeholders": {
+        "name": "Nom",
+        "email": "Email",
+        "phone": "Numéro de téléphone",
+        "message": "Message"
+      },
+      "buttons": {
+        "sendMessage": "Envoyer le message"
+      },
+      "messages": {
+        "success": "Message envoyé avec succès !",
+        "error": "Échec de l'envoi du message. Veuillez réessayer.",
+        "serverError": "Une erreur s'est produite. Veuillez réessayer plus tard."
+      },
+      "alt": {
+        "contactFormBackground": "Arrière-plan du formulaire de contact"
+      }
+    },
+    "footer": {
+      "headers": {
+        "contactUs": "NOUS CONTACTER",
+        "address": "ADRESSE",
+        "workingHours": "HEURES D'OUVERTURE",
+        "information": "INFORMATIONS",
+        "followUs": "SUIVEZ-NOUS"
+      },
+      "content": {
+        "address": "602, Tour d'affaires Al Habtoor, Dubai Marina, B.P. 74461, Dubaï, Émirats Arabes Unis",
+        "workingHours": "Lundi - Samedi (09h00 - 18h00 GST)"
+      },
+      "ariaLabels": {
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook"
+      },
+      "alt": {
+        "buildingImage": "Immeuble"
+      }
+    },
+    "bottom": {
+      "heroOne": "FAITES DES INVESTISSEMENTS ÉCLAIRÉS",
+      "heroTwo": "AVEC GULF ESTATES."
     }
   }
 }

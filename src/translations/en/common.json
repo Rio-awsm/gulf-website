@@ -46,7 +46,11 @@
   },
   "Properties": {
     "heroOne": "Browse Our Extensive",
-    "herotwo": "Property Listings"
+    "herotwo": "Property Listings",
+    "semiHero" : "OUR PROPERTIES",
+    "semiText" : "Explore a diverse range of homes, from cozy apartments to spacious estates.",
+    "areaHero" : "Popular areas",
+    "areaText" : "Discover the best neighborhoods and communities in our region."
   },
   "AboutPage": {
     "AboutHero": {
@@ -174,6 +178,70 @@
       "facebook": "Facebook",
       "instagram": "Instagram",
       "linkedin": "LinkedIn"
+    }
+  },
+  "leader": {
+    "headers": {
+      "leadership": "LEADERSHIP",
+      "meetOurTeam": "MEET OUR TEAM"
+    },
+    "positions": {
+      "salesManager": "Sales Manager",
+      "businessDevelopmentManager": "Business Development Manager",
+      "propertyAdvisor": "Property Advisor",
+      "adminCoordinator": "Admin Coordinator",
+      "customerServiceExecutive": "Customer Service Executive",
+      "cinematographer": "Cinematographer",
+      "captain": "Captain"
+    }
+  },
+  "contact" : {
+    "form" : {
+      "headers": {
+      "getInTouch": "GET IN TOUCH WITH US"
+    },
+    "placeholders": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone No",
+      "message": "Message"
+    },
+    "buttons": {
+      "sendMessage": "Send Message"
+    },
+    "messages": {
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again.",
+      "serverError": "An error occurred. Please try again later."
+    },
+    "alt": {
+      "contactFormBackground": "Contact Form Background"
+    }
+    },
+    "footer" : {
+      "headers": {
+      "contactUs": "CONTACT US",
+      "address": "ADDRESS",
+      "workingHours": "WORKING HOURS",
+      "information": "INFORMATION",
+      "followUs": "FOLLOW US"
+    },
+    "content": {
+      "address": "602, Al Habtoor Business Tower, Dubai Marina, P.O. Box 74461, Dubai, United Arab Emirates",
+      "workingHours": "Monday - Saturday (09:00 AM - 06:00 PM GST)"
+    },
+    "ariaLabels": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    },
+    "alt": {
+      "buildingImage": "Building"
+    }
+    },
+    "bottom" : {
+      "heroOne" : "MAKE INFORMED INVESTMENTS",
+      "heroTwo" : "WITH GULF ESTATES."
     }
   }
 }

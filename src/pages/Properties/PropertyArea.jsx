@@ -12,16 +12,18 @@ import area10 from "/assets/areas/area10.png";
 import area11 from "/assets/areas/area11.png";
 import area12 from "/assets/areas/area12.png";
 import Cardforproperties from "../../components/Cardforproperties";
+import { useTranslation } from 'react-i18next';
 
 function PropertyArea() {
+  const { t } = useTranslation('common');
   return (
     <>
       <div className="min-h-screen flex flex-col w-full px-6 lg:px-32">
         <div className=" text-center uppercase text-7xl my-4 lg:text-9xl font-bebas text-[#024959]">
-          popular areas
+        {t('Properties.areaHero')}
         </div>
         <div className=" text-center lg:text-lg md:text-4xl text-2xl text-black mb-6">
-          Discover the best neighborhoods and communities in our region.
+        {t('Properties.areaText')}
         </div>
 
         <div className="flex lg:flex-row flex-col justify-center gap-4 ">

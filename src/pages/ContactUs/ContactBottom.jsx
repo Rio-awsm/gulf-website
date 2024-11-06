@@ -8,8 +8,10 @@ import abtImg2 from "/assets/productend2.webp";
 import abtImg3 from "/assets/productend3.webp";
 import abtImg4 from "/assets/productend4.webp";
 import abtImg5 from "/assets/hero.webp";
+import { useTranslation } from 'react-i18next';
 
 const ContactBottom = () => {
+  const { t } = useTranslation('common');
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -34,8 +36,8 @@ const ContactBottom = () => {
       <div>
         <Fade>
           <div className="text-[#024959] lg:text-8xl md:text-6xl text-5xl font-bebas lg:mb-10 lg:mt-8 uppercase text-center">
-          MAKE INFORMED INVESTMENTS
-            <p className="pt-2">WITH GULF ESTATES.</p>
+          {t('contact.bottom.heroOne')}
+            <p className="pt-2">{t('contact.bottom.heroTwo')}</p>
           </div>
         </Fade>
 

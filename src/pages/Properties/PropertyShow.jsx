@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { parseString } from "xml2js";
 import PropertyCard from "../../components/PropertyCard";
+import { useTranslation } from 'react-i18next';
 
 function PropertyShow() {
+  const { t } = useTranslation('common');
   const [properties, setProperties] = useState([]);
   const [visibleProperties, setVisibleProperties] = useState(6);
   const [loading, setLoading] = useState(true);
@@ -61,11 +63,10 @@ function PropertyShow() {
     <main className="min-h-screen p-8">
       <section className="text-center uppercase lg:mb-20 mb-8">
         <h1 className="lg:text-6xl text-4xl text-[#024959] font-bebas">
-          OUR PROPERTIES
+        {t('Properties.semiHero')}
         </h1>
         <p className="text-xs lg:text-xl lg:my-3 my-2">
-          Explore a diverse range of homes, from cozy apartments to spacious
-          estates.
+        {t('Properties.semiText')}
         </p>
       </section>
 
