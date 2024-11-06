@@ -6,6 +6,7 @@ import AboutHero from "./AboutHero";
 import Leadership from "./Leadership";
 import FaqSection from "./FaqSection";
 import AboutSection from "./AboutSection";
+import ContactFooter from "../ContactUs/ContactFooter";
 
 const AboutPage = () => {
   return (
@@ -29,8 +30,12 @@ const AboutPage = () => {
         <Leadership />
       </section>
 
-      <section className="mb-10">
+      {/* <section className="mb-10">
         <FaqSection />
+      </section> */}
+
+      <section className="mb-10">
+        <ContactFooter />
       </section>
 
       <section>

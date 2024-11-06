@@ -51,7 +51,7 @@ function FaqSection({ view }) {
 
   return (
     <section className="py-10">
-      <div className={`relative ${view}`}>
+      {/* <div className={`relative ${view}`}>
         <img src={part} alt={t('hero.image_alt')} className="object-cover w-full" />
         <h1 className="absolute inset-0 flex font-bebas items-center text-center bottom-[20%] justify-center lg:text-8xl text-4xl text-white z-10">
           {t('faqsection.hero.title_line1')}<br />
@@ -73,7 +73,7 @@ function FaqSection({ view }) {
             />
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

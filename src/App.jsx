@@ -18,6 +18,7 @@ import PropertyDetails from "./pages/PropertyDetails";
 import BuyPropertyPage from "./pages/Buy-property/BuyPropertyPage";
 import BlogsPage from "./pages/Blogs/BlogsPage";
 import BlogDetails from "./pages/Blogs/BlogDetails";
+import LanguageSwitcher from "./components/LanguageSwitcher";
 function App() {
   const [screenLoading, setScreenLoading] = useState(false);
 
@@ -42,6 +43,7 @@ function App() {
       ) : (
         <>
           <I18nextProvider i18n={i18n}>
+          <LanguageSwitcher />
             <BrowserRouter>
               <Wrapper>
                 <Routes>

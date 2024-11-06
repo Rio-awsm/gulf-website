@@ -2,26 +2,26 @@
   "HomePage": {
     "heroOne": "TURNING DREAMS",
     "herotwo": "INTO ADDRESSES",
-    "heroSub": "Find your dream property with Gulf Estates, where our expert guidance will connect you with the property of your dreams. Let's embark on the journey to find your ideal home!",
+    "heroSub": "Find your dream property with Gulf Estates, where our expert guidance will connect you with the property of your dreams. Let's embark on the journey to find your ideal property!",
     "aboutHeroOne": "YOUR TRUSTED REAL ESTATE",
     "aboutHeroTwo": "PARTNER IN DUBAI.",
-    "aboutHeroText": "Welcome to Gulf Estates, where your dream of finding a home in Dubai becomes a reality. Our services ensure connecting the investors and end users to the finest of properties available in the market.",
+    "aboutHeroText": "Welcome to Gulf Estates, where your dream of finding a property in Dubai becomes a reality. Our services ensure connecting the investors and end users to the finest of properties available in the market.",
     "lookingHero": "i’m looking to ...",
     "lookingCardOne": {
-      "heading": "buy a home",
+      "heading": "buy a property",
       "text": "Explore the finest properties in Dubai with us that align and suit your budget and style. "
     },
     "lookingCardTwo": {
-      "heading": "Sell a home",
+      "heading": "Sell a property",
       "text": "Ready to sell your property with confidence? Let our expert advice and market insights give you a seamless selling experience! "
     },
     "lookingCardThree": {
-      "heading": "Rent a home",
-      "text": "Find your ideal rent that satisfies all your needs. Contact us for hassle-free home renting."
+      "heading": "Rent a property",
+      "text": "Find your ideal rent that satisfies all your needs. Contact us for hassle-free property renting."
     },
     "lookFooter": {
       "heading": "OWN PROPERTY IN A TAX HAVEN",
-      "text": "Gulf Estates is your partner in finding the perfect home in Dubai. We specialise in helping you buy, sell, and lease properties. Our services are tailored to your unique needs. Let us help you because your property dreams - our reality. Schedule a call today!"
+      "text": "Gulf Estates is your partner in finding the perfect property in Dubai. We specialise in helping you buy, sell, and rent properties. Our services are tailored to your unique needs. Let us help you because your property dreams - our reality. Schedule a call today!"
     },
     "setApart": {
       "heading": "what sets us apart",
@@ -41,7 +41,7 @@
     "ContactPart": {
       "headingOne": "THINK ZERO PROPERTY TAX.",
       "headingTwo": "THINK DUBAI.",
-      "text": "Dreaming of a new home or seeking the perfect investment? Our team is here to help you every step of the way. Reach out today and let's bring your plan to life!"
+      "text": "Dreaming of a new property or seeking the perfect investment? Our team is here to help you every step of the way. Reach out today and let's bring your plan to life!"
     }
   },
   "Properties": {
@@ -56,10 +56,10 @@
     "AboutSection": {
       "headingOne": "OUR STORY",
       "headingTwo": "ABOUT GULF ESTATES",
-      "textOne": "Welcome to the Gulf Estates, where your dream of finding a home in Dubai becomes a reality. Our services ensure connecting the perfect buyer to the finest of properties available in the market.",
+      "textOne": "Welcome to the Gulf Estates, where your dream of finding a property in Dubai becomes a reality. Our services ensure connecting the perfect buyer to the finest of properties available in the market.",
       "textTwo": "Our mission is to provide seamless and professional real estate services to the people who are seeking luxury, comfort, and a sound investment. We believe in transparency with our clients with a sincere commitment.",
       "textThree": "Our vision not only includes finding the right property for our client, but to leave a lasting impression. We guide them through every step of their property buying journey. We help our clients to make informed and confident decisions in the market.",
-      "textFour": "Our seasoned professionals possess a deep understanding of Dubai's real estate market. Our expert knowledge combined with personalised service gives a unique buying experience. Let us be your trusted partner in finding the property you can call home!"
+      "textFour": "Our seasoned professionals possess a deep understanding of Dubai's real estate market. Our expert knowledge combined with personalised service gives a unique buying experience. Let us be your trusted partner in finding the property you can call property!"
     }
   },
   "Services": {
@@ -72,17 +72,17 @@
       "Herotext": "WHAT WE DO?",
       "Cards": {
         "CardOne": {
-          "heading": "BUY A NEW HOME",
-          "text": "Thousands of properties, Gulf Estates can match you with a house you want to call home.",
+          "heading": "BUY A NEW PROPERTY",
+          "text": "Thousands of properties, Gulf Estates can match you with a house you want to call property.",
           "button": "Find A Home"
         },
         "CardTwo": {
-          "heading": "SELL A HOME",
-          "text": "With quick support, Gulf Estates can help you easily sell your home or apartment quickly.",
+          "heading": "SELL A PROPERTY",
+          "text": "With quick support, Gulf Estates can help you easily sell your property or apartment quickly.",
           "button": "Submit Property"
         },
         "CardThree": {
-          "heading": "RENT A HOME",
+          "heading": "RENT A PROPERTY",
           "text": "With filters and custom searches, Gulf Estates helps you easily find a property you'll love.",
           "button": "Find A Rental"
         }

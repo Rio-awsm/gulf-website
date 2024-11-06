@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import LanguageSwitcher from "./LanguageSwitcher";
+// import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navbar = ({ textcolor, font, justify, scrollbg, logo }) => {
   const { t } = useTranslation('common');
@@ -64,7 +64,7 @@ const Navbar = ({ textcolor, font, justify, scrollbg, logo }) => {
             ))}
           </div>
 
-          <LanguageSwitcher />
+          {/* <LanguageSwitcher /> */}
 
           <Link to="/buy-property" className="hidden lg:block">
             <button
@@ -130,7 +130,7 @@ const Navbar = ({ textcolor, font, justify, scrollbg, logo }) => {
                 {t('navbar.find_properties')}
               </button>
             </Link>
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
           </div>
         </div>
       </div>
