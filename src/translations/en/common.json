@@ -154,7 +154,7 @@
     "buy_property": {
       "title": "Buy Property",
       "links": {
-        "properties_for_sale": "Properties for sale"
+        "properties_for_sale": "Properties for Sale"
       }
     },
     "company": {
@@ -171,7 +171,7 @@
         "privacy_policy": "Privacy policy"
       }
     },
-    "brand_name": "Gulf Estates",
+    "brand_name": "Gulf Sea Real Estate LLC",
     "brand_description": "Discover your dream property with our expert guidance and comprehensive property listings.",
     "copyright": "All rights reserved.",
     "social": {

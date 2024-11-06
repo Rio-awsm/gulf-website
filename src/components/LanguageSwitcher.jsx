@@ -36,13 +36,14 @@ const LanguageSwitcher = () => {
     <div className="fixed bottom-4 right-4 z-50" ref={bubbleRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className={`flex items-center justify-center w-12 h-12 rounded-full shadow-lg transition-colors duration-300
+        className={`flex items-center justify-center w-12 h-12 rounded-lg shadow-lg transition-colors duration-300
           ${isOpen 
             ? 'bg-[#F2762E] text-white hover:bg-[#F2762E]/80'
             : 'bg-white text-blue-500 hover:text-[#F2762E]'
           }`}
       >
         <Globe size={20} />
+        <span className="ml-2 text-sm">{getCurrentLanguage().code.toUpperCase()}</span>
       </button>
 
       {isOpen && (
