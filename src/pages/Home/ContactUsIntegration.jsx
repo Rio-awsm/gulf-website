@@ -15,7 +15,7 @@ function ContactUsIntegration() {
           </h1>
         </Slide>
 
-        <p className="lg:text-2xl text-white text-center mt-2 lg:mt-0 px-24">
+        <p className="lg:text-2xl text-white text-center mt-2 lg:mt-0 lg:px-24 px-6">
         {t('HomePage.ContactPart.text')}
         </p>
         <Link to="/contact">

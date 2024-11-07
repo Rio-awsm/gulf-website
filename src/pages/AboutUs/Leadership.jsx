@@ -149,14 +149,14 @@ const Leadership = () => {
         {sortedTeamMembers.map((member) => (
           <div
             key={member.id}
-            className="rounded-lg p-6 flex flex-col items-center justify-between transform transition-transform duration-500 hover:scale-105 hover:shadow-lg"
+            className="rounded-lg p-6 flex flex-col items-center justify-between transform transition-transform duration-500 hover:scale-105 hover:shadow-lg text-center"
           >
             <img
               src={member.image}
               alt={member.name}
               className="w-[90%] h-auto object-cover mb-4"
             />
-            <div className="flex flex-col self-start ml-[5%]">
+            <div className="flex flex-col  ml-[5%]">
               <h3 className="text-4xl font-bebas mb-2">{member.name}</h3>
               <p className="text-gray-600 text-xl">{member.designation}</p>
             </div>
