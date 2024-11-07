@@ -33,7 +33,7 @@ const Leadership = () => {
     {
       id: 5,
       name: "Anna Vreshch",
-      designation: t('positions.propertyAdvisor'),
+      designation: t('leader.positions.propertyAdvisor'),
       image: "/assets/team19.png",
     },
     {
@@ -45,7 +45,7 @@ const Leadership = () => {
     {
       id: 7,
       name: "Eldar Mamedov",
-      designation: t('positions.propertyAdvisor'),
+      designation: t('leader.positions.propertyAdvisor'),
       image: "/assets/team5.png",
     },
     {
@@ -69,7 +69,7 @@ const Leadership = () => {
     {
       id: 11,
       name: "Maximilien Photiou",
-      designation: t('positions.propertyAdvisor'),
+      designation: t('leader.positions.propertyAdvisor'),
       image: "/assets/team2.png",
     },
     {
