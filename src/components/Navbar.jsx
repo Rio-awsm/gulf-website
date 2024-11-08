@@ -41,7 +41,7 @@ const Navbar = ({ textcolor, font, justify, scrollbg, logo }) => {
         <div className="flex items-center lg:space-x-36 justify-between lg:justify-normal h-20">
           <Link to="/" className="flex-shrink-0">
             <img
-              className="h-30 w-30 transition-all duration-300"
+              className="h-28 w-28 transition-all duration-300"
               src={logo}
               alt={t('navbar.logo_alt')}
             />
