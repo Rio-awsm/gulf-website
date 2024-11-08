@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "/assets/logoBlack.svg";
+import Logo from "/assets/LogoBlack.svg";
 import Footer from "../../components/Footer";
 import ShowProperty from "./ShowProperty";
 import Navbar from '../../components/Navbar'
