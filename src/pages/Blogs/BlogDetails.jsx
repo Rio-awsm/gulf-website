@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useParams } from "react-router-dom";
 import { blogData } from "../../constants";
 import Navbar from "../../components/Navbar";
-import Logo from "/assets/logoBlack.svg";
+import Logo from "/assets/black-logo.svg";
 import Footer from "../../components/Footer";
 import { imageConfigs } from "../../constants/imageConfig";
 

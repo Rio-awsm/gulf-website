@@ -15,7 +15,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/zoom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Logo from "/assets/logoBlack.svg";
+import Logo from "/assets/black-logo.svg";
 import SuggestProperty from "../components/SuggestProperty";
 import HighlightCard from "../components/HighlightCard";
 

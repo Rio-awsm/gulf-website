@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
-import Logo from "/assets/logoBlack.svg";
+import Logo from "/assets/black-logo.svg";
 import Footer from "../../components/Footer";
 import ContactHero from "./ContactForm";
 import ContactForm from "./ContactForm";

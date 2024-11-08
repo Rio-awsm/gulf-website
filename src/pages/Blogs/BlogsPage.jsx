@@ -3,7 +3,7 @@ import BlogCard from "../../components/BlogCard";
 import { motion, AnimatePresence } from "framer-motion";
 import { blogData } from "../../constants";
 import Navbar from "../../components/Navbar";
-import Logo from "/assets/logoBlack.svg";
+import Logo from "/assets/black-logo.svg";
 import Footer from "../../components/Footer";
 import { Search, Filter, X } from "lucide-react";
 
