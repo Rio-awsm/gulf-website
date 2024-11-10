@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import heroimg from "/assets/hero.svg";
+import heroimg from "/assets/hero_new.webp";
 import PropertySearchBar from "../../components/PropertiesSearchBar";
 import { useTranslation } from 'react-i18next';
 
