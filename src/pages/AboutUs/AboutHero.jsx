@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import aboutHero from "/assets/aboutHero.svg";
+import aboutHero from "/assets/aboutHero.webp";
 import { Fade, Slide } from "react-awesome-reveal";
 import { useTranslation } from 'react-i18next';
 

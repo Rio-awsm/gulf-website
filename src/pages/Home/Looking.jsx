@@ -1,6 +1,6 @@
 import React from "react";
 import Bcard from "../../components/Bcard";
-import looking from "/assets/looking.svg";
+import looking from "/assets/looking.webp";
 import { Fade, Slide } from "react-awesome-reveal";
 import { useTranslation } from 'react-i18next';
 
