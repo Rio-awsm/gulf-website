@@ -189,13 +189,9 @@ const Leadership = () => {
 
 
       <div className="font-bebas lg:mb-8">
-        <Slide>
-          <h2 className="lg:text-8xl text-7xl tracking-wider text-[#024959] text-center lg:text-left lg:ml-[10%]">
-            {t('leader.headers.leadership')}
-          </h2>
-        </Slide>
+        
         <Slide direction="right">
-          <p className="lg:text-6xl text-4xl tracking-wider text-[#F2762E] mt-2 text-center lg:text-left lg:ml-[25%]">
+          <p className="lg:text-6xl text-4xl tracking-wider text-[#F2762E] mt-2 text-center ">
             {t('leader.headers.meetOurTeam')}
           </p>
         </Slide>
