@@ -15,7 +15,7 @@ const AboutUsSection = () => {
 
         <div className="pt-12">
           <Slide direction="down">
-            <HeadingCapsule text={"About Us"} />
+            <HeadingCapsule text={t('buttons.AboutUs')} />
           </Slide>
           <Slide direction="right">
             <h1 className="text-[#024959] font-bebas text-7xl mb-2">
@@ -38,7 +38,7 @@ const AboutUsSection = () => {
                 className={`py-2 px-8  transition-all duration-300 text-lg font-medium border-2 border-[#F2762E] text-white hover:bg-[#024959] bg-[#F2762E] hover:text-white'
             }`}
               >
-                Read More
+                {t('buttons.Readmore')}
               </button>
             </Link>
           </Slide>

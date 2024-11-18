@@ -152,9 +152,9 @@
   },
   "footer": {
     "buy_property": {
-      "title": "Acheter une propriété",
+      "title": "Nos Propriétés",
       "links": {
-        "properties_for_sale": "Propriétés à vendre"
+        "properties_for_sale": "Trouver des propriétés"
       }
     },
     "company": {
@@ -203,7 +203,7 @@
       "placeholders": {
         "name": "Nom",
         "email": "Email",
-        "phone": "Numéro de téléphone",
+        "phone": "Numéro de téléphone avec indicatif pays",
         "message": "Message"
       },
       "buttons": {
@@ -243,5 +243,22 @@
       "heroOne": "FAITES DES INVESTISSEMENTS ÉCLAIRÉS",
       "heroTwo": "AVEC GULF ESTATES."
     }
+  },
+  "buttons": {
+    "Readmore": "En savoir plus",
+    "ContactUs": "Contactez-nous",
+    "AboutUs": "À propos de nous"
+  },
+  "blogs": {
+    "heading": "Découvrez Nos Dernières Analyses",
+    "subHeading": "Analyses d'experts et guides pour le marché immobilier de Dubaï"
+  },
+  "CEO": {
+    "header": "NOTE DU PDG",
+    "position": "Directeur Général",
+    "text1": "M. Alexandre Aristote Photiou est un entrepreneur expérimenté et propriétaire d’entreprise qui vit et exerce ses activités aux Émirats Arabes Unis depuis plus de 20 ans.",
+    "text2": "Il est le fondateur du Groupe Centaurus. M. Photiou possède Centaurus Luxurious Yachts and Charters à Dubaï. L'entreprise propose des locations et des charters de yachts de luxe pour des clients à la recherche d'une expérience unique et inoubliable sur les eaux de Dubaï. La société dispose d'une flotte de yachts haut de gamme et de membres d'équipage expérimentés pour garantir une expérience sûre et agréable aux clients.",
+    "text3": "M. Photiou possède également Centaurus International, une entreprise leader dans le domaine des boissons, opérant au Moyen-Orient et en Afrique du Nord. L'entreprise propose une gamme de boissons haut de gamme, notamment du vin, des spiritueux et de la bière, et s'est imposée comme un fournisseur de confiance dans la région.",
+    "text4": "Les entreprises de M. Photiou ont prospéré aux Émirats Arabes Unis, et il s'est établi comme un propriétaire d'entreprise respecté et de confiance dans la région. Avec son vaste réseau de clients et son expérience dans le secteur de l'hôtellerie, M. Photiou est bien positionné pour lancer Gulf Estates et élargir son portefeuille d'activités dans la région."
   }
 }

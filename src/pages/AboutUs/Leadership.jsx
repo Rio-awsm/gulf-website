@@ -132,6 +132,62 @@ const Leadership = () => {
 
   return (
     <div className="lg:px-40 px-8 overflow-hidden">
+
+    <div className="mb-20 relative">
+        <Slide>
+          <h2 className="font-bebas lg:text-8xl text-7xl tracking-wider text-[#024959] text-center mb-16">
+            {t('CEO.header')}
+          </h2>
+        </Slide>
+        
+        <div className="relative">
+          
+          <div className="absolute right-0 top-0 w-1/2 h-full bg-gray-50 rounded-l-3xl -z-10" />
+          
+          <div className="lg:flex items-stretch gap-12">
+           
+            <Slide direction="left" className="lg:w-2/5">
+              <div className="relative">
+                <img 
+                  src="/assets/ceo.jpg" 
+                  alt="CEO" 
+                  className="w-full h-auto object-cover rounded-2xl shadow-xl"
+                />
+                <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-[90%] bg-white py-4 px-6 rounded-xl shadow-lg text-center">
+                  <h3 className="font-bebas text-4xl text-[#F2762E]">Alexandre Aristote Photiou</h3>
+                  <p className="text-gray-600 text-xl">{t('CEO.position')}</p>
+                </div>
+              </div>
+            </Slide>
+
+            
+            <Slide direction="right" className="lg:w-3/5 mt-16 lg:mt-0">
+              <div className="relative">
+                <div className="absolute -left-8 top-0 text-[#F2762E] opacity-20 text-9xl font-serif">"</div>
+                <div className="space-y-6 pl-8 pt-8">
+                  <p className="text-xl text-gray-700 leading-relaxed">
+                  {t('CEO.text1')}
+                  </p>
+                  <p className="text-xl text-gray-700 leading-relaxed">
+                  
+                  {t('CEO.text2')}
+                  </p>
+                  <p className="text-xl text-gray-700 leading-relaxed">
+                  {t('CEO.text3')}
+                  </p>
+                  <p className="text-xl text-gray-700 leading-relaxed">
+                  {t('CEO.text4')}
+                  </p>
+                  <div className="text-[#F2762E] text-right text-4xl font-bebas mr-12">Gulf Estate</div>
+                </div>
+                <div className="absolute -right-8 bottom-0 text-[#F2762E] opacity-20 text-9xl font-serif rotate-180">"</div>
+              </div>
+            </Slide>
+          </div>
+        </div>
+      </div>
+
+
       <div className="font-bebas lg:mb-8">
         <Slide>
           <h2 className="lg:text-8xl text-7xl tracking-wider text-[#024959] text-center lg:text-left lg:ml-[10%]">
