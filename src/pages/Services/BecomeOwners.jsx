@@ -24,7 +24,7 @@ const BecomeOwners = () => {
         <Slide direction="up">
           <Link to="/contact">
             <button className="mt-4 lg:mt-8 bg-orange-500 text-white hover:text-black px-6 py-2 lg:px-8 lg:py-3 hover:bg-white duration-150 font-bold rounded-md lg:rounded-none">
-              Contact Us
+            {t('buttons.ContactUs')}
             </button>
           </Link>
         </Slide>

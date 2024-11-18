@@ -77,8 +77,8 @@
       "Cards": {
         "CardOne": {
           "heading": "BUY A NEW PROPERTY",
-          "text": "Thousands of properties, Gulf Estates can match you with a house you want to call property.",
-          "button": "Find A Home"
+          "text": "Thousands of properties, Gulf Estates can match you with a property you want to call home.",
+          "button": "Find A Property"
         },
         "CardTwo": {
           "heading": "SELL A PROPERTY",
@@ -152,9 +152,9 @@
   },
   "footer": {
     "buy_property": {
-      "title": "Buy Property",
+      "title": "Our Properties",
       "links": {
-        "properties_for_sale": "Properties for Sale"
+        "properties_for_sale": "Find Properties"
       }
     },
     "company": {
@@ -203,7 +203,7 @@
     "placeholders": {
       "name": "Name",
       "email": "Email",
-      "phone": "Phone No",
+      "phone": "Phone no with Country code",
       "message": "Message"
     },
     "buttons": {
@@ -243,5 +243,22 @@
       "heroOne" : "MAKE INFORMED INVESTMENTS",
       "heroTwo" : "WITH GULF ESTATES."
     }
+  },
+  "buttons" : {
+    "Readmore" : "Read More",
+    "ContactUs" : "Contact Us",
+    "AboutUs" : "About Us"
+  },
+  "blogs" : {
+    "heading" : "Discover Our Latest Insights",
+    "subHeading" : "Expert analysis and guides for Dubai's real estate market"
+  },
+  "CEO" : {
+    "header" : "NOTE FROM THE CEO",
+    "position" : "Chief Executive Officer",
+    "text1" : "Mr. Alexandre Aristote Photiou is an experienced business owner and entrepreneur who has been living and operating his businesses across the United Arab Emirates for over 20 years now.",
+    "text2" : "He is the founder of Centaurus Group. Mr. Photiou owns Centaurus Luxurious Yachts and Charters in Dubai. The company offers luxury yacht rentals and charters for clients looking for a unique and unforgettable experience in the waters of Dubai. The company has a fleet of high-end yachts and experienced crew members to ensure that clients have a safe and enjoyable experience.",
+    "text3" : "Mr. Photiou also owns Centaurus International, a leading beverage company that operates in the Middle East and North Africa region. The company offers a range of premium beverages, including wine, spirits, and beer, and has established itself as a trusted supplier in the region.",
+    "text4" : "Mr. Photiou's businesses have been successful in the UAE, and he has established himself as a respected and trusted business owner in the region. With his extensive network of clients and experience in the hospitality industry, Mr. Photiou is well-positioned to launch Gulf Estates and expand his business portfolio in the region."
   }
 }

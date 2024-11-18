@@ -6,10 +6,12 @@ import Navbar from "../../components/Navbar";
 import Logo from "/assets/black-logo.svg";
 import Footer from "../../components/Footer";
 import { Search, Filter, X } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const categories = ["All", "Real Estate", "Investment", "Market Analysis", "Property Guide"];
 
 const BlogsPage = () => {
+  const { t } = useTranslation('common');
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredBlogs, setFilteredBlogs] = useState(blogData);
@@ -64,10 +66,10 @@ const BlogsPage = () => {
             className="max-w-2xl mx-auto text-center mb-12"
           >
             <h1 className="text-4xl font-bold text-[#024959] mb-4">
-              Discover Our Latest Insights
+            {t('blogs.heading')}
             </h1>
             <p className="text-gray-600">
-              Expert analysis and guides for Dubai's real estate market
+            {t('blogs.subHeading')}
             </p>
           </motion.div>
 

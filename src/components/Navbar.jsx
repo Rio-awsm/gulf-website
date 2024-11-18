@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 // import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navbar = ({ textcolor, font, justify, scrollbg, logo }) => {
-  const { t } = useTranslation('common');
+  const { t } = useTranslation("common");
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
@@ -24,11 +24,11 @@ const Navbar = ({ textcolor, font, justify, scrollbg, logo }) => {
   }, []);
 
   const navItems = [
-    { path: "/properties", label: t('navbar.properties') },
-    { path: "/about", label: t('navbar.about') },
-    { path: "/services", label: t('navbar.services') },
-    { path: "/contact", label: t('navbar.contact') },
-    { path: "/blogs", label: t('navbar.blogs') },
+    { path: "/properties", label: t("navbar.properties") },
+    { path: "/about", label: t("navbar.about") },
+    { path: "/services", label: t("navbar.services") },
+    { path: "/contact", label: t("navbar.contact") },
+    { path: "/blogs", label: t("navbar.blogs") },
   ];
 
   return (
@@ -43,7 +43,7 @@ const Navbar = ({ textcolor, font, justify, scrollbg, logo }) => {
             <img
               className="h-28 w-28 transition-all duration-300"
               src={logo}
-              alt={t('navbar.logo_alt')}
+              alt={t("navbar.logo_alt")}
             />
           </Link>
           <div
@@ -66,12 +66,12 @@ const Navbar = ({ textcolor, font, justify, scrollbg, logo }) => {
 
           {/* <LanguageSwitcher /> */}
 
-          <Link to="/buy-property" className="hidden lg:block">
+          <Link to="/buy-property" className="hidden lg:block animate-bounce">
             <button
-              className={`py-2 px-8  transition-all duration-300 font-medium border-2 border-black text-black bg-white '
+              className={`py-2 px-8  transition-all duration-300 font-medium border-2 border-black text-black bg-white hover:bg-black hover:text-white '
             }`}
             >
-              {t('navbar.find_properties')}
+              {t("navbar.find_properties")}
             </button>
           </Link>
 
@@ -127,7 +127,7 @@ const Navbar = ({ textcolor, font, justify, scrollbg, logo }) => {
             ))}
             <Link to="/buy-property" className="block py-4">
               <button className="w-full text-black py-2 px-8 rounded-full bg-[#F2762E] hover:bg-opacity-90 transition-all duration-300 text-base font-medium">
-                {t('navbar.find_properties')}
+                {t("navbar.find_properties")}
               </button>
             </Link>
             {/* <LanguageSwitcher /> */}
