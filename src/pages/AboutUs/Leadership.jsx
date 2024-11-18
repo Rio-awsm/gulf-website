@@ -80,7 +80,7 @@ const Leadership = () => {
     },
     {
       id: 13,
-      name: "Olga Ghostyukhina",
+      name: "Olga Gostyukhina",
       designation: t('leader.positions.propertyAdvisor'),
       image: "/assets/team8.png",
     },
