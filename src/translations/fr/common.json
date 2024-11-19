@@ -76,18 +76,18 @@
       "Herotext": "CE QUE NOUS FAISONS",
       "Cards": {
         "CardOne": {
-          "heading": "ACHETER UNE NOUVELLE propriété",
-          "text": "Des milliers de propriétés, Gulf Estates peut vous aider à trouver la propriété que vous voudrez appeler chez vous.",
-          "button": "Trouver une propriété"
+          "heading": "ACHETER UNE NOUVELLE PROPRIÉTÉ",
+          "text": "Avec des milliers de propriétés sur le marché, Gulf Estates peut vous correspondre à une propriété que vous souhaitez appeler chez vous.",
+          "button": "Trouver une Propriété"
         },
         "CardTwo": {
-          "heading": "VENDRE UNE propriété",
-          "text": "Avec un soutien rapide, Gulf Estates peut vous aider à vendre votre propriété ou appartement facilement et rapidement.",
+          "heading": "VENDRE UNE PROPRIÉTÉ",
+          "text": "Avec un support rapide, Gulf Estates vous aidera à vendre sans effort votre propriété ou votre appartement à des acheteurs potentiels.",
           "button": "Soumettre une Propriété"
         },
         "CardThree": {
-          "heading": "LOUER UNE propriété",
-          "text": "Avec des filtres et des recherches personnalisées, Gulf Estates vous aide à trouver facilement une propriété que vous allez adorer.",
+          "heading": "LOUER UNE PROPRIÉTÉ",
+          "text": "Avec des filtres et des recherches personnalisées, Gulf Estates vous aidera à trouver facilement une propriété qui correspondra à votre budget et à vos préférences.",
           "button": "Trouver une Location"
         }
       }
@@ -254,11 +254,11 @@
     "subHeading": "Analyses d'experts et guides pour le marché immobilier de Dubaï"
   },
   "CEO": {
-    "header": "NOTE DU PDG",
+    "header": "MESSAGE DU PDG",
     "position": "Directeur Général",
-    "text1": "M. Alexandre Aristote Photiou est un entrepreneur expérimenté et propriétaire d’entreprise qui vit et exerce ses activités aux Émirats Arabes Unis depuis plus de 20 ans.",
-    "text2": "Il est le fondateur du Groupe Centaurus. M. Photiou possède Centaurus Luxurious Yachts and Charters à Dubaï. L'entreprise propose des locations et des charters de yachts de luxe pour des clients à la recherche d'une expérience unique et inoubliable sur les eaux de Dubaï. La société dispose d'une flotte de yachts haut de gamme et de membres d'équipage expérimentés pour garantir une expérience sûre et agréable aux clients.",
-    "text3": "M. Photiou possède également Centaurus International, une entreprise leader dans le domaine des boissons, opérant au Moyen-Orient et en Afrique du Nord. L'entreprise propose une gamme de boissons haut de gamme, notamment du vin, des spiritueux et de la bière, et s'est imposée comme un fournisseur de confiance dans la région.",
-    "text4": "Les entreprises de M. Photiou ont prospéré aux Émirats Arabes Unis, et il s'est établi comme un propriétaire d'entreprise respecté et de confiance dans la région. Avec son vaste réseau de clients et son expérience dans le secteur de l'hôtellerie, M. Photiou est bien positionné pour lancer Gulf Estates et élargir son portefeuille d'activités dans la région."
+    "text1": "Bienvenue chez Gulf Estates,",
+    "text2": "Avec plus de deux décennies d'expérience à vivre et à bâtir des entreprises aux Émirats Arabes Unis, je suis fier d'apporter cette même dévotion et excellence à Gulf Estates. Mon parcours entrepreneurial, qui inclut la création de Centaurus Luxurious Yachts and Charters et de Centaurus International, a toujours été axé sur la prestation de services haut de gamme et d'expériences exceptionnelles.",
+    "text3": "M. Photiou possède également Centaurus International, une entreprise leader dans le domaine des boissons, opérant au Moyen-Orient et en Afrique du Nord. L'entreprise propose une gamme de boissons haut de gamme, notamment du vin, des spiritueux et de la bière, et s'est imposée comme un fournisseur de confiance dans la région. Chez Gulf Estates, nous visons à redéfinir l'immobilier à Dubaï grâce à des solutions personnalisées basées sur la confiance, l'intégrité et l'innovation. Notre équipe est là pour vous accompagner à chaque étape de votre parcours dans l'un des marchés immobiliers les plus dynamiques au monde.",
+    "text4": "Merci d'avoir choisi Gulf Estates. Ensemble, transformons vos rêves en réalité."
   }
 }
