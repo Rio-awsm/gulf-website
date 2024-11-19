@@ -203,7 +203,7 @@
     "placeholders": {
       "name": "Name",
       "email": "Email",
-      "phone": "Phone no with Country code",
+      "phone": "Phone no",
       "message": "Message"
     },
     "buttons": {
