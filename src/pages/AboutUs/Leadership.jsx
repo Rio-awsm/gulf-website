@@ -178,7 +178,7 @@ const Leadership = () => {
                   <p className="text-xl text-gray-700 leading-relaxed">
                   {t('CEO.text4')}
                   </p>
-                  <div className="text-[#F2762E] text-right text-4xl font-bebas mr-12">Gulf Estate</div>
+                  <div className="text-[#F2762E] text-right text-4xl font-bebas mr-12">Gulf Estates</div>
                 </div>
                 <div className="absolute -right-8 bottom-0 text-[#F2762E] opacity-20 text-9xl font-serif rotate-180">"</div>
               </div>

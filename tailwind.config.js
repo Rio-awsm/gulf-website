@@ -11,6 +11,7 @@ export default {
         'sans': ['Nunito', ...defaultTheme.fontFamily.sans],
         'bebas': ['"Bebas Neue"', 'cursive'],
       },
+      
     },
   },
   plugins: [],

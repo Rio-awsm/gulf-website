@@ -7,6 +7,7 @@ import { FaLinkedin, FaFacebook } from 'react-icons/fa';
 const FloatingSidebar = () => {
   const { i18n, t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [isBlinking, setIsBlinking] = useState(false);
   const bubbleRef = useRef(null);
 
   const languages = [
@@ -30,22 +31,30 @@ const FloatingSidebar = () => {
       }
     };
 
+    const blinkInterval = setInterval(() => {
+      setIsBlinking(prev => !prev);
+    }, 500);
+
     document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      clearInterval(blinkInterval);
+    };
   }, []);
 
   return (
     <div className="fixed right-4 top-1/2 -translate-y-1/2 z-50 flex flex-col items-center gap-4">
-      {/* Main floating container */}
       <div className="bg-white rounded-2xl shadow-lg py-3 px-1 flex flex-col gap-4">
-        {/* Language Switcher */}
         <div className="relative" ref={bubbleRef}>
           <button
             onClick={() => setIsOpen(!isOpen)}
             className={`flex items-center justify-center gap-2 p-1 rounded-lg transition-colors duration-300
               ${isOpen 
                 ? 'text-orange-500' 
-                : 'text-gray-500 hover:text-orange-500'
+                : `${isBlinking 
+                  ? 'bg-orange-500 text-white' 
+                  : 'bg-gray-200 text-gray-700'
+                } hover:text-orange-500`
               }`}
           >
             <Globe className="w-6 h-6" />
@@ -63,7 +72,10 @@ const FloatingSidebar = () => {
                   className={`flex items-center space-x-2 w-full px-2 py-1 text-sm rounded transition-colors duration-200
                     ${i18n.language === language.code 
                       ? 'bg-orange-500 bg-opacity-10 text-orange-500 font-medium' 
-                      : 'text-gray-700 hover:bg-orange-500 hover:bg-opacity-5'
+                      : `${isBlinking 
+                        ? 'bg-orange-500 text-white' 
+                        : 'bg-gray-200 text-gray-700'
+                      } hover:bg-orange-500 hover:bg-opacity-5`
                     }`}
                 >
                   <span>{language.flag}</span>
@@ -77,11 +89,11 @@ const FloatingSidebar = () => {
           )}
         </div>
 
-        {/* Divider */}
+        {/* Rest of the component remains the same */}
         <div className="w-full h-px bg-gray-200" />
 
-        {/* Social Media Icons */}
         <div className="flex flex-col gap-4 items-center">
+          {/* Social media icons */}
           <a
             href="https://www.instagram.com/gulfestates.ae?igsh=bjZ3MGt2NjdpcGtt"
             target="_blank"

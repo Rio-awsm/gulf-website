@@ -82,13 +82,13 @@
         },
         "CardTwo": {
           "heading": "SELL A PROPERTY",
-          "text": "With quick support, Gulf Estates will help you seamlessly sell your property or apartment to potential buyers.",
-          "button": "Submit Property"
+          "text": "With quick support, Gulf Estates will help you seamlessly sell your property to potential buyers.",
+          "button": "Submit A Property"
         },
         "CardThree": {
           "heading": "RENT A PROPERTY",
           "text": "With filters and custom searches, Gulf Estates will help you easily find a property that will match your budget and preference.",
-          "button": "Find A Rental"
+          "button": "Find A Property"
         }
       }
     },
@@ -256,9 +256,9 @@
   "CEO" : {
     "header" : "MESSAGE FROM THE CEO",
     "position" : "Chief Executive Officer",
-    "text1" : "Welcome to Gulf Estates,",
-    "text2" : "Over two decades of experience in living and building businesses in the UAE, I am proud to bring this dedication and excellence to Gulf Estates. My entrepreneurial journey, including setting up Centaurus Luxurious Yachts and Charters, and Centaurus International, has always been centered on delivering premium services and exceptional experiences.",
-    "text3" : "Mr. Photiou also owns Centaurus International, a leading beverage company that operates in the Middle East and North Africa region. The company offers a range of premium beverages, including wine, spirits, and beer, and has established itself as a trusted supplier in the region.At my company, Gulf Estates, we aim to redefine real estate in Dubai through tailored solutions that are built on trust, integrity and innovation. Our team is here to guide you in every step of your journey in one of the most vibrant property markets in the world.",
-    "text4" : "Thank you for choosing Gulf Estates. Together, let's turn your dreams into reality."
+    "text1" : "Being long-standing entrepreneurs in the UAE for over two decades, we have designed ventures that symbolise the dynamism and ambition of this region. Gulf Estates symbolises a reflection of our passion for excellence and an endeavor to readdress client satisfaction in the real estate market of the UAE.",
+    "text2" : "Our mission is simple yet profound: to connect our clients with properties of their dreams, whether it's a luxury residence, a well-planned strategic investment, or a place you can call home. Our experts at Gulf Estates combine extensive market knowledge with a client-first approach to deliver exceptional value and trusted guidance in one of the world's most vibrant real estate markets. ",
+    "text3" : "n an ocean of boundless opportunities, our team is truly delighted to be your partners in unlocking the possibilities. Thank you for placing your trust in Gulf Estates.",
+    "text4" : ""
   }
 }
