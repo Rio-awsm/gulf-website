@@ -47,10 +47,10 @@
   "Properties": {
     "heroOne": "Browse Our Extensive",
     "herotwo": "Property Listings",
-    "semiHero" : "OUR PROPERTIES",
-    "semiText" : "Explore a diverse range of homes, from cozy apartments to spacious estates.",
-    "areaHero" : "Popular areas",
-    "areaText" : "Discover the best neighborhoods and communities in our region."
+    "semiHero": "OUR PROPERTIES",
+    "semiText": "Explore a diverse range of homes, from cozy apartments to spacious estates.",
+    "areaHero": "Popular areas",
+    "areaText": "Discover the best neighborhoods and communities in our region."
   },
   "AboutPage": {
     "AboutHero": {
@@ -77,7 +77,7 @@
       "Cards": {
         "CardOne": {
           "heading": "BUY A NEW PROPERTY",
-          "text": "With thousands of properties on the market, Gulf Estates can match you with a property you want to call home.",
+          "text": "With an extensive selection of properties in Dubai's real estate market, Gulf Estates is dedicated to helping you discover the perfect opportunity for a smart investment.",
           "button": "Find A Property"
         },
         "CardTwo": {
@@ -87,7 +87,7 @@
         },
         "CardThree": {
           "heading": "RENT A PROPERTY",
-          "text": "With filters and custom searches, Gulf Estates will help you easily find a property that will match your budget and preference.",
+          "text": "With tailored searches and advanced filters, Gulf Estates ensures you effortlessly find a property that suits your budget and preferences.",
           "button": "Find A Property"
         }
       }
@@ -195,70 +195,70 @@
       "captain": "Captain"
     }
   },
-  "contact" : {
-    "form" : {
+  "contact": {
+    "form": {
       "headers": {
-      "getInTouch": "GET IN TOUCH WITH US"
+        "getInTouch": "GET IN TOUCH WITH US"
+      },
+      "placeholders": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone no",
+        "message": "Message"
+      },
+      "buttons": {
+        "sendMessage": "Send Message"
+      },
+      "messages": {
+        "success": "Message sent successfully!",
+        "error": "Failed to send message. Please try again.",
+        "serverError": "An error occurred. Please try again later."
+      },
+      "alt": {
+        "contactFormBackground": "Contact Form Background"
+      }
     },
-    "placeholders": {
-      "name": "Name",
-      "email": "Email",
-      "phone": "Phone no",
-      "message": "Message"
-    },
-    "buttons": {
-      "sendMessage": "Send Message"
-    },
-    "messages": {
-      "success": "Message sent successfully!",
-      "error": "Failed to send message. Please try again.",
-      "serverError": "An error occurred. Please try again later."
-    },
-    "alt": {
-      "contactFormBackground": "Contact Form Background"
-    }
-    },
-    "footer" : {
+    "footer": {
       "headers": {
-      "contactUs": "CONTACT US",
-      "address": "ADDRESS",
-      "workingHours": "WORKING HOURS",
-      "information": "INFORMATION",
-      "followUs": "FOLLOW US"
+        "contactUs": "CONTACT US",
+        "address": "ADDRESS",
+        "workingHours": "WORKING HOURS",
+        "information": "INFORMATION",
+        "followUs": "FOLLOW US"
+      },
+      "content": {
+        "address": "602, Al Habtoor Business Tower, Dubai Marina, P.O. Box 74461, Dubai, United Arab Emirates",
+        "workingHours": "Monday - Saturday (09:00 AM - 06:00 PM GST)"
+      },
+      "ariaLabels": {
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook"
+      },
+      "alt": {
+        "buildingImage": "Building"
+      }
     },
-    "content": {
-      "address": "602, Al Habtoor Business Tower, Dubai Marina, P.O. Box 74461, Dubai, United Arab Emirates",
-      "workingHours": "Monday - Saturday (09:00 AM - 06:00 PM GST)"
-    },
-    "ariaLabels": {
-      "instagram": "Instagram",
-      "linkedin": "LinkedIn",
-      "facebook": "Facebook"
-    },
-    "alt": {
-      "buildingImage": "Building"
+    "bottom": {
+      "heroOne": "MAKE INFORMED INVESTMENTS",
+      "heroTwo": "WITH GULF ESTATES."
     }
-    },
-    "bottom" : {
-      "heroOne" : "MAKE INFORMED INVESTMENTS",
-      "heroTwo" : "WITH GULF ESTATES."
-    }
   },
-  "buttons" : {
-    "Readmore" : "Read More",
-    "ContactUs" : "Contact Us",
-    "AboutUs" : "About Us"
+  "buttons": {
+    "Readmore": "Read More",
+    "ContactUs": "Contact Us",
+    "AboutUs": "About Us"
   },
-  "blogs" : {
-    "heading" : "Discover Our Latest Insights",
-    "subHeading" : "Expert analysis and guides for Dubai's real estate market"
+  "blogs": {
+    "heading": "Discover Our Latest Insights",
+    "subHeading": "Expert analysis and guides for Dubai's real estate market"
   },
-  "CEO" : {
-    "header" : "MESSAGE FROM THE CEO",
-    "position" : "Chief Executive Officer",
-    "text1" : "Being long-standing entrepreneurs in the UAE for over two decades, we have designed ventures that symbolise the dynamism and ambition of this region. Gulf Estates symbolises a reflection of our passion for excellence and an endeavor to readdress client satisfaction in the real estate market of the UAE.",
-    "text2" : "Our mission is simple yet profound: to connect our clients with properties of their dreams, whether it's a luxury residence, a well-planned strategic investment, or a place you can call home. Our experts at Gulf Estates combine extensive market knowledge with a client-first approach to deliver exceptional value and trusted guidance in one of the world's most vibrant real estate markets. ",
-    "text3" : "n an ocean of boundless opportunities, our team is truly delighted to be your partners in unlocking the possibilities. Thank you for placing your trust in Gulf Estates.",
-    "text4" : ""
+  "CEO": {
+    "header": "MESSAGE FROM THE CEO",
+    "position": "Chief Executive Officer",
+    "text1": "Being long-standing entrepreneurs in the UAE for over two decades, we have designed ventures that symbolise the dynamism and ambition of this region. Gulf Estates symbolises a reflection of our passion for excellence and an endeavor to readdress client satisfaction in the real estate market of the UAE.",
+    "text2": "Our mission is simple yet profound: to connect our clients with properties of their dreams, whether it's a luxury residence, a well-planned strategic investment, or a place you can call home. Our experts at Gulf Estates combine extensive market knowledge with a client-first approach to deliver exceptional value and trusted guidance in one of the world's most vibrant real estate markets. ",
+    "text3": "n an ocean of boundless opportunities, our team is truly delighted to be your partners in unlocking the possibilities. Thank you for placing your trust in Gulf Estates.",
+    "text4": ""
   }
 }

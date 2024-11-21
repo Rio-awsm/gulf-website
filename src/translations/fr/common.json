@@ -75,22 +75,23 @@
     "section": {
       "Herotext": "CE QUE NOUS FAISONS",
       "Cards": {
-        "CardOne": {
-          "heading": "ACHETER UNE NOUVELLE PROPRIÉTÉ",
-          "text": "Avec des milliers de propriétés sur le marché, Gulf Estates peut vous correspondre à une propriété que vous souhaitez appeler chez vous.",
-          "button": "Trouver une Propriété"
-        },
-        "CardTwo": {
-          "heading": "VENDRE UNE PROPRIÉTÉ",
-          "text": "Avec un support rapide, Gulf Estates vous aidera à vendre sans effort votre propriété ou votre appartement à des acheteurs potentiels.",
-          "button": "Soumettre une Propriété"
-        },
-        "CardThree": {
-          "heading": "LOUER UNE PROPRIÉTÉ",
-          "text": "Avec des filtres et des recherches personnalisées, Gulf Estates vous aidera à trouver facilement une propriété qui correspondra à votre budget et à vos préférences.",
-          "button": "Trouver une Location"
-        }
-      }
+  "CardOne": {
+    "heading": "ACHETER UNE NOUVELLE PROPRIÉTÉ",
+    "text": "Avec une vaste sélection de propriétés sur le marché immobilier de Dubaï, Gulf Estates s'engage à vous aider à découvrir l'opportunité idéale pour un investissement judicieux.",
+    "button": "Trouver Une Propriété"
+  },
+  "CardTwo": {
+    "heading": "VENDRE UNE PROPRIÉTÉ",
+    "text": "Avec un support rapide, Gulf Estates vous aide à vendre facilement votre propriété à des acheteurs potentiels.",
+    "button": "Soumettre Une Propriété"
+  },
+  "CardThree": {
+    "heading": "LOUER UNE PROPRIÉTÉ",
+    "text": "Avec des recherches personnalisées et des filtres avancés, Gulf Estates garantit que vous trouvez sans effort une propriété qui correspond à votre budget et à vos préférences.",
+    "button": "Trouver Une Propriété"
+  }
+}
+
     },
     "Owner": {
       "heading": "DEVENEZ INVESTISSEUR",
