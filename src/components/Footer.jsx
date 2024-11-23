@@ -24,7 +24,7 @@ const Footer = () => {
       title: t('footer.contact.title'),
       links: [
         { name: t('footer.contact.links.general_enquiry'), url: '/contact' },
-        { name: t('footer.contact.links.privacy_policy'), url: '/privacy-policy' },
+        // { name: t('footer.contact.links.privacy_policy'), url: '/privacy-policy' },
       ],
     },
   ];

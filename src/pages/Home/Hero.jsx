@@ -28,7 +28,7 @@ const Hero = () => {
         <div className="text-white/60 lg:w-[900px] lg:text-2xl py-4 text-lg lg:pr-36">
           {t('HomePage.heroSub')}
         </div>
-        <div>
+        <div className="max-w-3xl">
           <PropertySearchBar />
         </div>
       </div>

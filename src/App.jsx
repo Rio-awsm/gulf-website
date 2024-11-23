@@ -19,6 +19,7 @@ import BuyPropertyPage from "./pages/Buy-property/BuyPropertyPage";
 import BlogsPage from "./pages/Blogs/BlogsPage";
 import BlogDetails from "./pages/Blogs/BlogDetails";
 import FloatingSidebar from "./components/LanguageSwitcher";
+import NoPageFound from "./pages/NoPageFound";
 function App() {
   const [screenLoading, setScreenLoading] = useState(false);
 
@@ -56,6 +57,7 @@ function App() {
                   <Route path="/buy-property" element={<BuyPropertyPage />} />
                   <Route path="/blogs" element={<BlogsPage />} />
                   <Route path="/blog/:id" element={<BlogDetails />} />
+                  <Route path="*" element={<NoPageFound />} />
                 </Routes>
               </Wrapper>
             </BrowserRouter>
