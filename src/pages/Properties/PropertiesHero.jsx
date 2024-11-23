@@ -13,7 +13,7 @@ const PropertiesHero = () => {
           {t('Properties.heroOne')} <p>{t('Properties.herotwo')}</p>
         </h1>
       </Slide>
-      <Slide direction="right" className="w-full px-2">
+      <Slide direction="right" className="w-full max-w-4xl">
         <PropertiesSearchBar />
       </Slide>
 
