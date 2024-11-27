@@ -687,7 +687,7 @@
         "author": "Real Estate Expert",
         "date": "November 27, 2024",
         "readTime": "6 min read",
-        "category": "Finance",
+        "category": "Investment",
         "image": "/assets/aboutsectionImg.webp",
         "content": [
           {
@@ -711,38 +711,33 @@
             "text": "When to Consider Remortgaging"
           },
           {
-            "type": "section",
-            "title": "Interest Rate Changes",
-            "text": "Switching to a lower rate can save you money if current rates are better than your existing mortgage rate."
-          },
-          {
-            "type": "section",
-            "title": "Changes in Financial Situation",
-            "text": "Adjust your mortgage terms to align with shifts in income or financial needs."
-          },
-          {
-            "type": "section",
-            "title": "End of Fixed-Rate Period",
-            "text": "Avoid steep increases in payments by locking in a better rate before your fixed-term expires."
+            "type": "list",
+            "items": [
+              "Interest Rate Changes: Switching to a lower rate can save you money if current rates are better than your existing mortgage rate.",
+              "Changes in Financial Situation: Adjust your mortgage terms to align with shifts in income or financial needs.",
+              "End of Fixed-Rate Period: Avoid steep increases in payments by locking in a better rate before your fixed-term expires."
+            ]
           },
           {
             "type": "subheading",
             "text": "Key Considerations Before Remortgaging"
           },
           {
-            "type": "section",
-            "title": "Cost Analysis",
-            "text": "Evaluate fees like mortgage de-registration, property valuation, and re-registration to ensure savings outweigh costs."
-          },
-          {
-            "type": "section",
-            "title": "Exit Penalties",
-            "text": "Be aware of penalties for early repayment, which are capped at 1% of the outstanding loan or AED 10,000."
-          },
-          {
-            "type": "section",
-            "title": "Market Conditions",
-            "text": "Monitor market trends and take advantage of competitive rates offered by Dubai banks."
+            "type": "list",
+            "items": [
+              {
+                "title": "Cost Analysis",
+                "text": "Evaluate fees like mortgage de-registration, property valuation, and re-registration to ensure savings outweigh costs."
+              },
+              {
+                "title": "Exit Penalties",
+                "text": "Be aware of penalties for early repayment, which are capped at 1% of the outstanding loan or AED 10,000."
+              },
+              {
+                "title": "Market Conditions",
+                "text": "Monitor market trends and take advantage of competitive rates offered by Dubai banks."
+              }
+            ]
           },
           {
             "type": "subheading",
@@ -807,6 +802,7 @@
           "lastUpdated": "2024-11-27"
         }
       }
+      
       
       
       
