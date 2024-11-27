@@ -50,15 +50,15 @@ function PropertyArea() {
           <Cardforproperties
             img={area8}
             link={"/"}
-            heading="Dubai Heels Estate"
+            heading="DUBAI HILLS ESTATE"
           />
           <Cardforproperties img={area9} link={"/"} heading="Business Bay" />
         </div>
 
         <div className="flex justify-center lg:flex-row flex-col gap-4 mt-5">
           <Cardforproperties img={area10} link={"/"} heading="Dubai South" />
-          <Cardforproperties img={area11} link={"/"} heading="JBC" />
-          <Cardforproperties img={area12} link={"/"} heading="WORLD ISLANDS" />
+          <Cardforproperties img={area11} link={"/"} heading="JVC" />
+          <Cardforproperties img={area12} link={"/"} heading="DUBAI ISLANDS" />
         </div>
       </div>
     </>
