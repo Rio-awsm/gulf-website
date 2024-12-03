@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useLocation } from 'react-router-dom';
 import { Globe } from 'lucide-react';
 import { AiFillInstagram } from 'react-icons/ai';
 import { FaLinkedin, FaFacebook } from 'react-icons/fa';
@@ -9,11 +10,20 @@ const FloatingSidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isBlinking, setIsBlinking] = useState(false);
   const bubbleRef = useRef(null);
+  const location = useLocation();
 
   const languages = [
     { code: 'en', name: 'English', flag: '🇬🇧' },
     { code: 'fr', name: 'Français', flag: '🇫🇷' }
   ];
+
+  // Check URL for language preference on initial load
+  useEffect(() => {
+    const path = location.pathname;
+    if (path.startsWith('/fr')) {
+      i18n.changeLanguage('fr');
+    }
+  }, []);
 
   const getCurrentLanguage = () => {
     return languages.find(lang => lang.code === i18n.language) || languages[0];
@@ -89,11 +99,9 @@ const FloatingSidebar = () => {
           )}
         </div>
 
-        {/* Rest of the component remains the same */}
         <div className="w-full h-px bg-gray-200" />
 
         <div className="flex flex-col gap-4 items-center">
-          {/* Social media icons */}
           <a
             href="https://www.instagram.com/gulfestates.ae?igsh=bjZ3MGt2NjdpcGtt"
             target="_blank"
