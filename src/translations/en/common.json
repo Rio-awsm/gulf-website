@@ -260,5 +260,40 @@
     "text2": "Our mission is simple yet profound: to connect our clients with properties of their dreams, whether it's a luxury residence, a well-planned strategic investment, or a place you can call home. Our experts at Gulf Estates combine extensive market knowledge with a client-first approach to deliver exceptional value and trusted guidance in one of the world's most vibrant real estate markets. ",
     "text3": "In an ocean of boundless opportunities, our team is truly delighted to be your partners in unlocking the possibilities. Thank you for placing your trust in Gulf Estates.",
     "text4": ""
+  },
+
+  "Privacy": {
+    "heading": "Privacy Policy",
+    "subHeading": "At Gulf Estates, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines the types of information we collect and how we use, protect, and disclose it.",
+    "policies": {
+      "one": {
+        "heading": "Information We Collect",
+        "text": "We collect personal information such as your name, email address, phone number, and other details you provide when you fill out forms, make inquiries, or subscribe to our services."
+      },
+      "two": {
+        "heading": "How We Use Your Information",
+        "text": "We use your information to respond to inquiries, improve our website, and provide services that align with your preferences. We may also use it for marketing purposes or send updates about our offerings."
+      },
+      "three": {
+        "heading": "How We Protect Your Information",
+        "text": "We implement industry-standard security measures to protect your personal information. However, no method of transmission over the internet is 100% secure, so we cannot guarantee its absolute security."
+      },
+      "four": {
+        "heading": "Sharing Your Information",
+        "text": "We do not sell, rent, or trade your personal information to third parties. We may share information with trusted service providers to enhance your experience, subject to confidentiality agreements."
+      },
+      "five": {
+        "heading": "Cookies and Tracking Technologies",
+        "text": "Our website may use cookies to enhance user experience, analyze usage, and gather statistics. You can control cookies through your browser settings."
+      },
+      "six": {
+        "heading": "Your Rights",
+        "text": "You have the right to access, update, or delete your personal information. If you wish to exercise these rights, please contact us at hello@gulfestates.ae."
+      },
+      "seven": {
+        "heading": "Changes to This Privacy Policy",
+        "text": "We may update this Privacy Policy from time to time. We will notify you of significant changes by posting the new policy on our website."
+      }
+    }
   }
 }

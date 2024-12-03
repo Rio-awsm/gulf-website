@@ -75,23 +75,22 @@
     "section": {
       "Herotext": "CE QUE NOUS FAISONS",
       "Cards": {
-  "CardOne": {
-    "heading": "ACHETER UNE NOUVELLE PROPRIÉTÉ",
-    "text": "Avec une vaste sélection de propriétés sur le marché immobilier de Dubaï, Gulf Estates s'engage à vous aider à découvrir l'opportunité idéale pour un investissement judicieux.",
-    "button": "Trouver Une Propriété"
-  },
-  "CardTwo": {
-    "heading": "VENDRE UNE PROPRIÉTÉ",
-    "text": "Avec un support rapide, Gulf Estates vous aide à vendre facilement votre propriété à des acheteurs potentiels.",
-    "button": "Soumettre Une Propriété"
-  },
-  "CardThree": {
-    "heading": "LOUER UNE PROPRIÉTÉ",
-    "text": "Avec des recherches personnalisées et des filtres avancés, Gulf Estates garantit que vous trouvez sans effort une propriété qui correspond à votre budget et à vos préférences.",
-    "button": "Trouver Une Propriété"
-  }
-}
-
+        "CardOne": {
+          "heading": "ACHETER UNE NOUVELLE PROPRIÉTÉ",
+          "text": "Avec une vaste sélection de propriétés sur le marché immobilier de Dubaï, Gulf Estates s'engage à vous aider à découvrir l'opportunité idéale pour un investissement judicieux.",
+          "button": "Trouver Une Propriété"
+        },
+        "CardTwo": {
+          "heading": "VENDRE UNE PROPRIÉTÉ",
+          "text": "Avec un support rapide, Gulf Estates vous aide à vendre facilement votre propriété à des acheteurs potentiels.",
+          "button": "Soumettre Une Propriété"
+        },
+        "CardThree": {
+          "heading": "LOUER UNE PROPRIÉTÉ",
+          "text": "Avec des recherches personnalisées et des filtres avancés, Gulf Estates garantit que vous trouvez sans effort une propriété qui correspond à votre budget et à vos préférences.",
+          "button": "Trouver Une Propriété"
+        }
+      }
     },
     "Owner": {
       "heading": "DEVENEZ INVESTISSEUR",
@@ -255,12 +254,46 @@
     "subHeading": "Analyses d'experts et guides pour le marché immobilier de Dubaï"
   },
   "CEO": {
-  "header": "MESSAGE DU PDG",
-  "position": "Directeur Général",
-  "text1": "En tant qu'entrepreneurs de longue date aux Émirats Arabes Unis depuis plus de deux décennies, nous avons conçu des projets qui symbolisent le dynamisme et l'ambition de cette région. Gulf Estates reflète notre passion pour l'excellence et notre effort pour redéfinir la satisfaction des clients dans le marché immobilier des Émirats Arabes Unis.",
-  "text2": "Notre mission est à la fois simple et profonde : connecter nos clients avec les propriétés de leurs rêves, qu'il s'agisse d'une résidence de luxe, d'un investissement stratégique bien planifié ou d'un lieu à appeler chez soi. Nos experts chez Gulf Estates associent une connaissance approfondie du marché à une approche centrée sur le client pour offrir une valeur exceptionnelle et des conseils de confiance dans l'un des marchés immobiliers les plus dynamiques au monde.",
-  "text3": "Dans un océan d'opportunités infinies, notre équipe est ravie d'être votre partenaire pour libérer ce potentiel. Merci de placer votre confiance en Gulf Estates.",
-  "text4": ""
-}
+    "header": "MESSAGE DU PDG",
+    "position": "Directeur Général",
+    "text1": "En tant qu'entrepreneurs de longue date aux Émirats Arabes Unis depuis plus de deux décennies, nous avons conçu des projets qui symbolisent le dynamisme et l'ambition de cette région. Gulf Estates reflète notre passion pour l'excellence et notre effort pour redéfinir la satisfaction des clients dans le marché immobilier des Émirats Arabes Unis.",
+    "text2": "Notre mission est à la fois simple et profonde : connecter nos clients avec les propriétés de leurs rêves, qu'il s'agisse d'une résidence de luxe, d'un investissement stratégique bien planifié ou d'un lieu à appeler chez soi. Nos experts chez Gulf Estates associent une connaissance approfondie du marché à une approche centrée sur le client pour offrir une valeur exceptionnelle et des conseils de confiance dans l'un des marchés immobiliers les plus dynamiques au monde.",
+    "text3": "Dans un océan d'opportunités infinies, notre équipe est ravie d'être votre partenaire pour libérer ce potentiel. Merci de placer votre confiance en Gulf Estates.",
+    "text4": ""
+  },
 
+  "Privacy": {
+    "heading": "Politique de Confidentialité",
+    "subHeading": "Chez Gulf Estates, nous attachons une grande importance à votre vie privée et nous nous engageons à protéger vos informations personnelles. Cette politique de confidentialité décrit les types d'informations que nous collectons et comment nous les utilisons, les protégeons et les divulguons.",
+    "policies": {
+      "one": {
+        "heading": "Informations Que Nous Collectons",
+        "text": "Nous collectons des informations personnelles telles que votre nom, adresse e-mail, numéro de téléphone et d'autres détails que vous fournissez lorsque vous remplissez des formulaires, faites des demandes ou vous abonnez à nos services."
+      },
+      "two": {
+        "heading": "Comment Nous Utilisons Vos Informations",
+        "text": "Nous utilisons vos informations pour répondre aux demandes, améliorer notre site web et fournir des services adaptés à vos préférences. Nous pouvons également les utiliser à des fins de marketing ou pour envoyer des mises à jour sur nos offres."
+      },
+      "three": {
+        "heading": "Comment Nous Protégeons Vos Informations",
+        "text": "Nous mettons en œuvre des mesures de sécurité conformes aux normes de l'industrie pour protéger vos informations personnelles. Cependant, aucune méthode de transmission sur Internet n'est 100% sécurisée, nous ne pouvons donc pas garantir une sécurité absolue."
+      },
+      "four": {
+        "heading": "Partage de Vos Informations",
+        "text": "Nous ne vendons, louons ou échangeons pas vos informations personnelles avec des tiers. Nous pouvons partager des informations avec des prestataires de services de confiance pour améliorer votre expérience, sous réserve d'accords de confidentialité."
+      },
+      "five": {
+        "heading": "Cookies et Technologies de Suivi",
+        "text": "Notre site web peut utiliser des cookies pour améliorer l'expérience utilisateur, analyser l'utilisation et collecter des statistiques. Vous pouvez contrôler les cookies via les paramètres de votre navigateur."
+      },
+      "six": {
+        "heading": "Vos Droits",
+        "text": "Vous avez le droit d'accéder, de mettre à jour ou de supprimer vos informations personnelles. Si vous souhaitez exercer ces droits, veuillez nous contacter à hello@gulfestates.ae."
+      },
+      "seven": {
+        "heading": "Modifications de Cette Politique de Confidentialité",
+        "text": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous informerons des changements importants en publiant la nouvelle politique sur notre site web."
+      }
+    }
+  }
 }
