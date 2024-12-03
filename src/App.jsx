@@ -45,8 +45,8 @@ function App() {
       ) : (
         <>
           <I18nextProvider i18n={i18n}>
-            <FloatingSidebar />
             <BrowserRouter>
+              <FloatingSidebar />
               <Wrapper>
                 <Routes>
                   <Route path="/" element={<Homepage />} />
@@ -59,6 +59,27 @@ function App() {
                   <Route path="/blogs" element={<BlogsPage />} />
                   <Route path="/blog/:id" element={<BlogDetails />} />
                   <Route path="/privacy-policy" element={<Privacypolicy />} />
+
+                  <Route path="/fr" element={<Homepage />} />
+                  <Route path="/fr/about" element={<AboutPage />} />
+                  <Route path="/fr/contact" element={<ContactUs />} />
+                  <Route path="/fr/services" element={<ServicePage />} />
+                  <Route path="/fr/properties" element={<PropertiesPage />} />
+                  <Route
+                    path="/fr/property/:id"
+                    element={<PropertyDetails />}
+                  />
+                  <Route
+                    path="/fr/buy-property"
+                    element={<BuyPropertyPage />}
+                  />
+                  <Route path="/fr/blogs" element={<BlogsPage />} />
+                  <Route path="/fr/blog/:id" element={<BlogDetails />} />
+                  <Route
+                    path="/fr/privacy-policy"
+                    element={<Privacypolicy />}
+                  />
+
                   <Route path="*" element={<NoPageFound />} />
                 </Routes>
               </Wrapper>
