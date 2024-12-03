@@ -106,13 +106,13 @@ const Privacypolicy = () => {
 
           <div className="text-center space-y-6">
             <p className="text-gray-600">
-              Have questions about our privacy policy?
+            {t('Privacy.question')}
             </p>
             <button
               onClick={() => navigate("/contact")}
               className="inline-flex items-center gap-2 px-8 py-3 bg-[#024959] text-white rounded-full hover:bg-[#024959]/90 transition-colors duration-300 font-medium shadow-lg shadow-[#024959]/20 hover:shadow-xl hover:shadow-[#024959]/30"
             >
-              Contact Us
+              {t('buttons.ContactUs')}
               <ChevronRight className="w-4 h-4" />
             </button>
           </div>
